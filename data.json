@@ -59,16 +59,7 @@
       "periodMonths": 1,
       "paid": false,
       "paidDate": null
-    },
-    {
-      "id": "mjdoycwj3mn3ienqrab",
-      "type": "luz",
-      "amount": 50000,
-      "dueDay": 19,
-      "paid": false,
-      "paidDate": null,
-      "createdAt": "2025-12-20T02:40:48.599Z"
     }
   ],
-  "lastUpdated": "2025-12-20T02:40:48.600Z"
+  "lastUpdated": "2025-12-20T02:50:03.405Z"
 }
