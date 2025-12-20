@@ -54,12 +54,14 @@
       "id": "directv-001",
       "type": "directv",
       "name": "DirecTV",
-      "amount": 0,
-      "dueDay": 22,
+      "amount": 372000,
+      "dueDay": 26,
       "periodMonths": 1,
       "paid": false,
-      "paidDate": null
+      "paidDate": null,
+      "customName": "",
+      "customEmoji": ""
     }
   ],
-  "lastUpdated": "2025-12-20T02:50:03.405Z"
+  "lastUpdated": "2025-12-20T03:39:53.795Z"
 }
