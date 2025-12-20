@@ -1,0 +1,60 @@
+name: Notificar Pagos
+
+on:
+  schedule:
+    # Ejecutar a las 9 AM hora Colombia (14:00 UTC)
+    - cron: '0 14 * * *'
+  workflow_dispatch: # Permite ejecutar manualmente
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Verificar pagos y notificar
+        run: |
+          # Obtener dia actual
+          DIA=$(date +%d)
+          DIA=$((10#$DIA))  # Remover ceros
+          
+          # Servicios pendientes
+          # DirecTV vence el 22
+          # Agua vence el 25 (bimestral)
+          
+          MENSAJE=""
+          ALERTAS=0
+          
+          # DirecTV
+          DIAS_DIRECTV=$((22 - DIA))
+          if [ $DIAS_DIRECTV -ge 0 ] && [ $DIAS_DIRECTV -le 4 ]; then
+            MENSAJE="${MENSAJE}📺 DirecTV - Vence en ${DIAS_DIRECTV} dias%0A"
+            ALERTAS=1
+          fi
+          
+          # Agua (verificar si es mes par para bimestral)
+          MES=$(date +%m)
+          MES=$((10#$MES))
+          # Si es enero (1), marzo (3), etc. el agua vence
+          if [ $((MES % 2)) -eq 1 ]; then
+            DIAS_AGUA=$((25 - DIA))
+            if [ $DIAS_AGUA -ge 0 ] && [ $DIAS_AGUA -le 4 ]; then
+              MENSAJE="${MENSAJE}💧 Agua - Vence en ${DIAS_AGUA} dias%0A"
+              ALERTAS=1
+            fi
+          fi
+          
+          # Si hay alertas, enviar a Telegram
+          if [ $ALERTAS -eq 1 ]; then
+            FULL_MSG="🔔 RECORDATORIO DE PAGOS%0A%0A${MENSAJE}%0A👉 https://banettchi.github.io/gestor-pagos/"
+            
+            curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+              -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+              -d "text=${FULL_MSG}"
+            
+            echo "Alerta enviada!"
+          else
+            echo "Sin alertas para hoy"
+          fi
