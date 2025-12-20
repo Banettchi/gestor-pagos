@@ -50,11 +50,13 @@
       "id": "luz-001",
       "type": "luz",
       "name": "Luz",
-      "amount": 0,
+      "amount": 720000,
       "dueDay": 18,
       "periodMonths": 1,
       "paid": true,
-      "paidDate": "2024-12-18"
+      "paidDate": "2024-12-18",
+      "customName": "",
+      "customEmoji": ""
     },
     {
       "id": "directv-001",
@@ -69,5 +71,5 @@
       "customEmoji": ""
     }
   ],
-  "lastUpdated": "2025-12-20T03:40:41.041Z"
+  "lastUpdated": "2025-12-20T03:40:51.484Z"
 }
