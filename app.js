@@ -92,9 +92,18 @@ async function requestNotificationPermission() {
         const permission = await Notification.requestPermission();
         checkNotificationPermission();
         if (permission === 'granted') {
-            showToast('Notificaciones activadas');
-            // Mostrar notificación de prueba
-            showNotification('Gestor de Pagos', 'Recibirás recordatorios de tus pagos pendientes');
+            showToast('Notificaciones activadas ✓');
+            // Mostrar notificación de prueba inmediata
+            setTimeout(() => {
+                new Notification('🔔 Gestor de Pagos', {
+                    body: '¡Notificaciones activadas! Recibirás alertas de tus pagos.',
+                    icon: 'icon-192.png'
+                });
+            }, 1000);
+            // También verificar pagos pendientes
+            setTimeout(() => {
+                checkPendingPayments();
+            }, 3000);
         } else {
             showToast('Notificaciones bloqueadas');
         }
