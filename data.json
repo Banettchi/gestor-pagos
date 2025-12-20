@@ -19,8 +19,8 @@
       "amount": 1300000,
       "dueDay": 10,
       "periodMonths": 1,
-      "paid": true,
-      "paidDate": "2024-12-07",
+      "paid": false,
+      "paidDate": null,
       "customName": "",
       "customEmoji": ""
     },
@@ -84,5 +84,5 @@
       "createdAt": "2025-12-20T04:26:41.911Z"
     }
   ],
-  "lastUpdated": "2025-12-20T14:23:28.337Z"
+  "lastUpdated": "2025-12-20T14:23:29.706Z"
 }
