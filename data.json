@@ -80,9 +80,20 @@
       "paid": false,
       "paidDate": null,
       "customName": "ETB",
-      "customEmoji": "📞",
+      "customEmoji": "ð",
       "createdAt": "2025-12-20T03:41:35.717Z"
+    },
+    {
+      "id": "mjdret4nva4huy24wqh",
+      "type": "otro",
+      "amount": 130000,
+      "dueDay": 26,
+      "paid": false,
+      "paidDate": null,
+      "customName": "ETB",
+      "customEmoji": "🌐",
+      "createdAt": "2025-12-20T03:49:35.352Z"
     }
   ],
-  "lastUpdated": "2025-12-20T03:41:35.717Z"
+  "lastUpdated": "2025-12-20T03:49:35.353Z"
 }
