@@ -40,11 +40,13 @@
       "id": "agua-001",
       "type": "agua",
       "name": "Agua",
-      "amount": 0,
+      "amount": 480000,
       "dueDay": 25,
       "periodMonths": 2,
       "paid": false,
-      "paidDate": null
+      "paidDate": null,
+      "customName": "",
+      "customEmoji": ""
     },
     {
       "id": "luz-001",
@@ -71,5 +73,5 @@
       "customEmoji": ""
     }
   ],
-  "lastUpdated": "2025-12-20T03:40:51.484Z"
+  "lastUpdated": "2025-12-20T03:41:08.129Z"
 }
