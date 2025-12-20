@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="description" content="Sistema de gestión de pagos de servicios">
+    <title>Gestor de Pagos</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>💰 Gestor de Pagos</h1>
+            <div class="header-actions">
+                <button id="btnNotifications" class="btn btn-icon" title="Activar notificaciones">🔔</button>
+                <button id="btnAdd" class="btn btn-primary">+ Agregar</button>
+            </div>
+        </header>
+
+        <!-- Tabs -->
+        <nav class="tabs">
+            <button class="tab active" data-tab="pending">Pendientes</button>
+            <button class="tab" data-tab="paid">Pagados</button>
+            <button class="tab" data-tab="all">Todos</button>
+        </nav>
+
+        <!-- Lista de servicios -->
+        <main class="services-list" id="servicesList">
+            <!-- Los servicios se cargan dinámicamente -->
+        </main>
+
+        <!-- Mensaje vacío -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <span class="empty-icon">📋</span>
+            <p>No hay servicios registrados</p>
+            <button class="btn btn-primary" onclick="openAddModal()">Agregar servicio</button>
+        </div>
+
+        <!-- FAB para agregar -->
+        <button class="fab" id="fabAdd" onclick="openAddModal()">+</button>
+    </div>
+
+    <!-- Modal Agregar/Editar -->
+    <div class="modal" id="addModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Agregar Servicio</h2>
+                <button class="btn-close" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="serviceForm">
+                <input type="hidden" id="serviceId">
+
+                <div class="form-group">
+                    <label>Tipo de servicio</label>
+                    <select id="serviceType" required>
+                        <option value="luz">💡 Luz</option>
+                        <option value="agua">💧 Agua</option>
+                        <option value="admin">🏢 Administración</option>
+                        <option value="cuota">🏠 Cuota Local</option>
+                        <option value="bodega">📦 Bodega</option>
+                        <option value="directv">📺 DirecTV</option>
+                        <option value="internet">🌐 Internet</option>
+                        <option value="telefono">📱 Teléfono</option>
+                        <option value="sayco">🎵 Sayco</option>
+                        <option value="otro">🔧 Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Monto mensual ($)</label>
+                    <input type="number" id="amount" placeholder="100000" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Día de vencimiento (1-31)</label>
+                    <input type="number" id="dueDay" min="1" max="31" placeholder="15" required>
+                    <small>El servicio vence este día de cada mes</small>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="alreadyPaid">
+                        <span>Ya pagué este mes</span>
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Confirmar Pago -->
+    <div class="modal" id="payModal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>Registrar Pago</h2>
+                <button class="btn-close" onclick="closePayModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="payServiceName"></p>
+                <div class="form-group">
+                    <label>Monto pagado ($)</label>
+                    <input type="number" id="payAmount" placeholder="100000">
+                </div>
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-secondary" onclick="closePayModal()">Cancelar</button>
+                <button class="btn btn-success" onclick="confirmPay()">✓ Confirmar Pago</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
