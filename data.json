@@ -59,16 +59,7 @@
       "periodMonths": 1,
       "paid": false,
       "paidDate": null
-    },
-    {
-      "id": "mjdoumh2y86f9f5n7p",
-      "type": "otro",
-      "amount": 25000,
-      "dueDay": 19,
-      "paid": false,
-      "paidDate": null,
-      "createdAt": "2025-12-20T02:37:54.374Z"
     }
   ],
-  "lastUpdated": "2025-12-20T02:37:54.378Z"
+  "lastUpdated": "2025-12-20T02:38:28.193Z"
 }
