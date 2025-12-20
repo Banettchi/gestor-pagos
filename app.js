@@ -494,12 +494,23 @@ function getDaysUntilDue(service) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    let dueDate = new Date(today.getFullYear(), today.getMonth(), service.dueDay);
     const periodMonths = service.periodMonths || 1;
+    let dueDate = new Date(today.getFullYear(), today.getMonth(), service.dueDay);
 
-    // Si ya pasó este mes, usar el próximo período
+    // Para servicios bimestrales, verificar si este mes corresponde
+    if (periodMonths === 2) {
+        // Si el mes actual es par (dic=12), el próximo vencimiento es en mes impar (ene=1)
+        const currentMonth = today.getMonth(); // 0-11
+        // Agua vence en meses impares (ene, mar, may, jul, sep, nov) = 0, 2, 4, 6, 8, 10
+        if (currentMonth % 2 === 1) { // Meses pares en JS (dic=11)
+            // Próximo vencimiento es el siguiente mes
+            dueDate = new Date(today.getFullYear(), today.getMonth() + 1, service.dueDay);
+        }
+    }
+
+    // Si ya pasó la fecha de este período y no está pagado
     if (dueDate < today && !service.paid) {
-        dueDate = new Date(today.getFullYear(), today.getMonth() + periodMonths, service.dueDay);
+        dueDate = new Date(dueDate.getFullYear(), dueDate.getMonth() + periodMonths, service.dueDay);
     }
 
     // Si está pagado, calcular para el próximo período
