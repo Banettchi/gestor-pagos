@@ -1,11 +1,21 @@
-// ===== App de Gestión de Pagos - PWA =====
+// ===== App de Gestion de Pagos - PWA =====
 
-// Configuración
+// Configuracion
 const CONFIG = {
-    ALERT_DAYS: 4,           // Días antes para empezar alertas
-    NOTIFICATION_HOUR: 9,    // Hora del día para notificar (9 AM)
-    STORAGE_KEY: 'payment_services'
+    ALERT_DAYS: 4,
+    NOTIFICATION_HOUR: 9,
+    STORAGE_KEY: 'payment_services',
+    TOKEN_KEY: 'github_token',
+    // GitHub Sync Config
+    GITHUB_OWNER: 'Banettchi',
+    GITHUB_REPO: 'gestor-pagos',
+    GITHUB_FILE: 'data.json'
 };
+
+// Token se obtiene de localStorage
+function getGitHubToken() {
+    return localStorage.getItem(CONFIG.TOKEN_KEY);
+}
 
 // Tipos de servicio con iconos
 const SERVICE_TYPES = {
@@ -159,93 +169,120 @@ function checkPendingPayments() {
     });
 }
 
-// ===== Storage =====
-function loadServices() {
+// ===== Storage con GitHub Sync =====
+let fileSha = null;
+
+async function loadServices() {
+    const token = getGitHubToken();
+
+    // Si no hay token configurado, pedir al usuario
+    if (!token) {
+        const newToken = prompt('Para sincronizar datos, ingresa tu GitHub Token:\n(Dejalo vacio para usar solo este dispositivo)');
+        if (newToken) {
+            localStorage.setItem(CONFIG.TOKEN_KEY, newToken);
+        }
+    }
+
+    const currentToken = getGitHubToken();
+
+    if (currentToken) {
+        showToast('Sincronizando...');
+        try {
+            const response = await fetch(
+                `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_FILE}`,
+                {
+                    headers: {
+                        'Authorization': `token ${currentToken}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                }
+            );
+
+            if (response.ok) {
+                const data = await response.json();
+                fileSha = data.sha;
+                const content = JSON.parse(atob(data.content));
+                services = content.services || [];
+                localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(services));
+                showToast('Sincronizado OK');
+            } else {
+                loadFromLocalStorage();
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            loadFromLocalStorage();
+        }
+    } else {
+        loadFromLocalStorage();
+    }
+    renderServices();
+}
+
+function loadFromLocalStorage() {
     const stored = localStorage.getItem(CONFIG.STORAGE_KEY);
     if (stored) {
         services = JSON.parse(stored);
+        showToast('Modo local');
     } else {
-        // Cargar datos iniciales del usuario
         loadInitialData();
     }
 }
 
-function loadInitialData() {
-    // Datos iniciales del usuario - Diciembre 2024
-    services = [
-        {
-            id: 'bodega-001',
-            type: 'bodega',
-            name: 'Bodega',
-            amount: 0, // No especificado
-            dueDay: 1,
-            periodMonths: 1, // Mensual
-            paid: true,
-            paidDate: '2024-12-01',
-            createdAt: new Date().toISOString()
-        },
-        {
-            id: 'admin-001',
-            type: 'admin',
-            name: 'Administración',
-            amount: 0,
-            dueDay: 10,
-            periodMonths: 1,
-            paid: true,
-            paidDate: '2024-12-07',
-            createdAt: new Date().toISOString()
-        },
-        {
-            id: 'cuota-001',
-            type: 'cuota',
-            name: 'Cuota Local',
-            amount: 0,
-            dueDay: 5,
-            periodMonths: 1,
-            paid: true,
-            paidDate: '2024-12-04',
-            createdAt: new Date().toISOString()
-        },
-        {
-            id: 'agua-001',
-            type: 'agua',
-            name: 'Agua',
-            amount: 0,
-            dueDay: 25,
-            periodMonths: 2, // Bimestral
-            paid: false,
-            paidDate: null,
-            createdAt: new Date().toISOString()
-        },
-        {
-            id: 'luz-001',
-            type: 'luz',
-            name: 'Luz',
-            amount: 0,
-            dueDay: 18,
-            periodMonths: 1,
-            paid: true,
-            paidDate: '2024-12-18',
-            createdAt: new Date().toISOString()
-        },
-        {
-            id: 'directv-001',
-            type: 'directv',
-            name: 'DirecTV',
-            amount: 0,
-            dueDay: 22,
-            periodMonths: 1,
-            paid: false,
-            paidDate: null,
-            createdAt: new Date().toISOString()
+async function saveServices() {
+    // Guardar localmente primero
+    localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(services));
+
+    // Luego sincronizar con GitHub si hay token
+    const token = getGitHubToken();
+    if (!token || !fileSha) return;
+
+    try {
+        const content = {
+            services: services,
+            lastUpdated: new Date().toISOString()
+        };
+
+        const body = {
+            message: 'Actualizar datos de pagos',
+            content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2)))),
+            sha: fileSha
+        };
+
+        const response = await fetch(
+            `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_FILE}`,
+            {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${token}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            }
+        );
+
+        if (response.ok) {
+            const data = await response.json();
+            fileSha = data.content.sha;
+            showToast('Guardado y sincronizado');
         }
+    } catch (error) {
+        console.error('Error guardando:', error);
+    }
+}
+
+function loadInitialData() {
+    services = [
+        { id: 'bodega-001', type: 'bodega', name: 'Bodega', amount: 0, dueDay: 1, periodMonths: 1, paid: true, paidDate: '2024-12-01' },
+        { id: 'admin-001', type: 'admin', name: 'Administracion', amount: 0, dueDay: 10, periodMonths: 1, paid: true, paidDate: '2024-12-07' },
+        { id: 'cuota-001', type: 'cuota', name: 'Cuota Local', amount: 0, dueDay: 5, periodMonths: 1, paid: true, paidDate: '2024-12-04' },
+        { id: 'agua-001', type: 'agua', name: 'Agua', amount: 0, dueDay: 25, periodMonths: 2, paid: false, paidDate: null },
+        { id: 'luz-001', type: 'luz', name: 'Luz', amount: 0, dueDay: 18, periodMonths: 1, paid: true, paidDate: '2024-12-18' },
+        { id: 'directv-001', type: 'directv', name: 'DirecTV', amount: 0, dueDay: 22, periodMonths: 1, paid: false, paidDate: null }
     ];
     saveServices();
 }
 
-function saveServices() {
-    localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(services));
-}
 
 // ===== Render =====
 function renderServices() {

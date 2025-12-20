@@ -1,0 +1,65 @@
+{
+    "services": [
+        {
+            "id": "bodega-001",
+            "type": "bodega",
+            "name": "Bodega",
+            "amount": 0,
+            "dueDay": 1,
+            "periodMonths": 1,
+            "paid": true,
+            "paidDate": "2024-12-01"
+        },
+        {
+            "id": "admin-001",
+            "type": "admin",
+            "name": "Administracion",
+            "amount": 0,
+            "dueDay": 10,
+            "periodMonths": 1,
+            "paid": true,
+            "paidDate": "2024-12-07"
+        },
+        {
+            "id": "cuota-001",
+            "type": "cuota",
+            "name": "Cuota Local",
+            "amount": 0,
+            "dueDay": 5,
+            "periodMonths": 1,
+            "paid": true,
+            "paidDate": "2024-12-04"
+        },
+        {
+            "id": "agua-001",
+            "type": "agua",
+            "name": "Agua",
+            "amount": 0,
+            "dueDay": 25,
+            "periodMonths": 2,
+            "paid": false,
+            "paidDate": null
+        },
+        {
+            "id": "luz-001",
+            "type": "luz",
+            "name": "Luz",
+            "amount": 0,
+            "dueDay": 18,
+            "periodMonths": 1,
+            "paid": true,
+            "paidDate": "2024-12-18"
+        },
+        {
+            "id": "directv-001",
+            "type": "directv",
+            "name": "DirecTV",
+            "amount": 0,
+            "dueDay": 22,
+            "periodMonths": 1,
+            "paid": false,
+            "paidDate": null
+        }
+    ],
+    "lastUpdated": "2024-12-19"
+}
