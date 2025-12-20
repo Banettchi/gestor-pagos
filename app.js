@@ -312,7 +312,16 @@ function renderServices() {
 }
 
 function createServiceCard(service) {
-    const type = SERVICE_TYPES[service.type] || SERVICE_TYPES.otro;
+    let type = SERVICE_TYPES[service.type] || SERVICE_TYPES.otro;
+
+    // Para servicios personalizados, usar nombre y emoji custom
+    if (service.type === 'otro' && (service.customName || service.customEmoji)) {
+        type = {
+            name: service.customName || 'Otro',
+            icon: service.customEmoji || '🔧'
+        };
+    }
+
     const daysUntilDue = getDaysUntilDue(service);
     const isUrgent = !service.paid && daysUntilDue <= CONFIG.ALERT_DAYS;
 
@@ -366,25 +375,33 @@ function handleFormSubmit(e) {
     e.preventDefault();
 
     const typeValue = document.getElementById('serviceType').value;
-    const amount = parseFloat(document.getElementById('amount').value);
+    const amount = parseFloat(document.getElementById('amount').value) || 0;
     const dueDay = parseInt(document.getElementById('dueDay').value);
     const alreadyPaid = document.getElementById('alreadyPaid').checked;
 
+    // Campos personalizados para tipo "otro"
+    let customName = '';
+    let customEmoji = '';
+    if (typeValue === 'otro') {
+        customName = document.getElementById('customName').value.trim() || 'Otro';
+        customEmoji = document.getElementById('customEmoji').value.trim() || '';
+    }
+
     if (editingId) {
-        // Editar existente
         const index = services.findIndex(s => s.id === editingId);
         if (index !== -1) {
             services[index] = {
                 ...services[index],
                 type: typeValue,
                 amount: amount,
-                dueDay: dueDay
+                dueDay: dueDay,
+                customName: customName,
+                customEmoji: customEmoji
             };
             showToast('Servicio actualizado');
         }
         editingId = null;
     } else {
-        // Crear nuevo
         const newService = {
             id: generateId(),
             type: typeValue,
@@ -392,6 +409,8 @@ function handleFormSubmit(e) {
             dueDay: dueDay,
             paid: alreadyPaid,
             paidDate: alreadyPaid ? new Date().toISOString() : null,
+            customName: customName,
+            customEmoji: customEmoji,
             createdAt: new Date().toISOString()
         };
         services.push(newService);
@@ -401,6 +420,17 @@ function handleFormSubmit(e) {
     saveServices();
     renderServices();
     closeModal();
+}
+
+// Mostrar/ocultar campos personalizados
+function toggleCustomFields() {
+    const type = document.getElementById('serviceType').value;
+    const customFields = document.getElementById('customFields');
+    if (type === 'otro') {
+        customFields.style.display = 'block';
+    } else {
+        customFields.style.display = 'none';
+    }
 }
 
 function openPayModal(id) {

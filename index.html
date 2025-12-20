@@ -59,7 +59,7 @@
 
                 <div class="form-group">
                     <label>Tipo de servicio</label>
-                    <select id="serviceType" required>
+                    <select id="serviceType" required onchange="toggleCustomFields()">
                         <option value="luz">💡 Luz</option>
                         <option value="agua">💧 Agua</option>
                         <option value="admin">🏢 Administración</option>
@@ -69,8 +69,16 @@
                         <option value="internet">🌐 Internet</option>
                         <option value="telefono">📱 Teléfono</option>
                         <option value="sayco">🎵 Sayco</option>
-                        <option value="otro">🔧 Otro</option>
+                        <option value="otro">🔧 Otro (personalizado)</option>
                     </select>
+                </div>
+
+                <div id="customFields" class="form-group" style="display: none;">
+                    <label>Nombre del servicio</label>
+                    <input type="text" id="customName" placeholder="Ej: ETB, Netflix, Gym...">
+                    <label style="margin-top: 10px;">Emoji (opcional)</label>
+                    <input type="text" id="customEmoji" placeholder="📞" maxlength="2">
+                    <small>Deja vacío para usar 🔧</small>
                 </div>
 
                 <div class="form-group">
