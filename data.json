@@ -79,12 +79,13 @@
       "type": "otro",
       "amount": 130000,
       "dueDay": 26,
-      "paid": false,
-      "paidDate": null,
+      "paid": true,
+      "paidDate": "2025-12-26T15:40:23.958Z",
       "customName": "ETB",
-      "customEmoji": "Ã°ÂÂÂ",
-      "createdAt": "2025-12-20T04:26:41.911Z"
+      "customEmoji": "ÃÂ°ÃÂÃÂÃÂ",
+      "createdAt": "2025-12-20T04:26:41.911Z",
+      "paidAmount": 130000
     }
   ],
-  "lastUpdated": "2025-12-23T16:03:07.664Z"
+  "lastUpdated": "2025-12-26T15:40:23.960Z"
 }
