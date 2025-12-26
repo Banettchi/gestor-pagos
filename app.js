@@ -312,7 +312,8 @@ function loadInitialData() {
         { id: 'cuota-001', type: 'cuota', name: 'Cuota Local', amount: 0, dueDay: 5, periodMonths: 1, paid: true, paidDate: '2024-12-04' },
         { id: 'agua-001', type: 'agua', name: 'Agua', amount: 0, dueDay: 25, periodMonths: 2, paid: false, paidDate: null },
         { id: 'luz-001', type: 'luz', name: 'Luz', amount: 0, dueDay: 18, periodMonths: 1, paid: true, paidDate: '2024-12-18' },
-        { id: 'directv-001', type: 'directv', name: 'DirecTV', amount: 0, dueDay: 22, periodMonths: 1, paid: false, paidDate: null }
+        { id: 'directv-001', type: 'directv', name: 'DirecTV', amount: 0, dueDay: 22, periodMonths: 1, paid: false, paidDate: null },
+        { id: 'etb-001', type: 'etb', name: 'ETB', amount: 0, dueDay: 26, periodMonths: 1, paid: false, paidDate: null }
     ];
     saveServices();
 }

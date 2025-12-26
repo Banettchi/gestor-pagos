@@ -88,9 +88,8 @@ jobs:
               fi
             fi
             
-            # Si ya paso pero sigue pendiente, mostrar como vencido
+            # Si ya paso pero sigue pendiente
             if [ $DIAS -lt 0 ]; then
-              DIAS_ABS=${DIAS#-}
               # Determinar nombre e icono
               if [ -n "$customName" ]; then
                 DISPLAY_NAME="$customName"
@@ -108,7 +107,7 @@ jobs:
                 ICONO="🔧"
               fi
               
-              MENSAJE="${MENSAJE}${ICONO} ${DISPLAY_NAME} - VENCIDO hace ${DIAS_ABS} dias!%0A"
+              MENSAJE="${MENSAJE}${ICONO} ${DISPLAY_NAME} - Vence el dia ${dueDay} (URGENTE)%0A"
               ALERTAS=1
             # Si vence en 4 dias o menos
             elif [ $DIAS -ge 0 ] && [ $DIAS -le 4 ]; then
