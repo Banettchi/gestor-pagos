@@ -2,9 +2,9 @@ name: Notificar Pagos
 
 on:
   schedule:
-    # Ejecutar a las 9 AM hora Colombia (14:00 UTC)
+    # 9 AM Colombia = 14:00 UTC
     - cron: '0 14 * * *'
-  workflow_dispatch: # Permite ejecutar manualmente
+  workflow_dispatch:
 
 jobs:
   notificar:
@@ -15,46 +15,140 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Verificar pagos y notificar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          # Obtener dia actual
-          DIA=$(date +%d)
-          DIA=$((10#$DIA))  # Remover ceros
+          # Iconos por tipo de servicio
+          declare -A ICONOS
+          ICONOS[luz]="💡"
+          ICONOS[agua]="💧"
+          ICONOS[admin]="🏢"
+          ICONOS[cuota]="🏠"
+          ICONOS[bodega]="📦"
+          ICONOS[directv]="📺"
+          ICONOS[internet]="🌐"
+          ICONOS[telefono]="📱"
+          ICONOS[etb]="📞"
+          ICONOS[sayco]="🎵"
+          ICONOS[otro]="🔧"
           
-          # Servicios pendientes
-          # DirecTV vence el 22
-          # Agua vence el 25 (bimestral)
+          # Nombres por tipo
+          declare -A NOMBRES
+          NOMBRES[luz]="Luz"
+          NOMBRES[agua]="Agua"
+          NOMBRES[admin]="Administracion"
+          NOMBRES[cuota]="Cuota Local"
+          NOMBRES[bodega]="Bodega"
+          NOMBRES[directv]="DirecTV"
+          NOMBRES[internet]="Internet"
+          NOMBRES[telefono]="Telefono"
+          NOMBRES[etb]="ETB"
+          NOMBRES[sayco]="Sayco"
+          NOMBRES[otro]="Otro"
+          
+          # Fecha actual
+          DIA=$(date +%d)
+          DIA=$((10#$DIA))
+          MES=$(date +%m)
+          MES=$((10#$MES))
+          ANIO=$(date +%Y)
           
           MENSAJE=""
           ALERTAS=0
           
-          # DirecTV
-          DIAS_DIRECTV=$((22 - DIA))
-          if [ $DIAS_DIRECTV -ge 0 ] && [ $DIAS_DIRECTV -le 4 ]; then
-            MENSAJE="${MENSAJE}📺 DirecTV - Vence en ${DIAS_DIRECTV} dias%0A"
-            ALERTAS=1
-          fi
+          # Leer servicios del data.json
+          echo "Leyendo data.json..."
           
-          # Agua (verificar si es mes par para bimestral)
-          MES=$(date +%m)
-          MES=$((10#$MES))
-          # Si es enero (1), marzo (3), etc. el agua vence
-          if [ $((MES % 2)) -eq 1 ]; then
-            DIAS_AGUA=$((25 - DIA))
-            if [ $DIAS_AGUA -ge 0 ] && [ $DIAS_AGUA -le 4 ]; then
-              MENSAJE="${MENSAJE}💧 Agua - Vence en ${DIAS_AGUA} dias%0A"
+          # Procesar cada servicio
+          SERVICIOS=$(cat data.json | jq -c '.services[]')
+          
+          while IFS= read -r servicio; do
+            tipo=$(echo "$servicio" | jq -r '.type')
+            nombre=$(echo "$servicio" | jq -r '.name // empty')
+            customName=$(echo "$servicio" | jq -r '.customName // empty')
+            customEmoji=$(echo "$servicio" | jq -r '.customEmoji // empty')
+            dueDay=$(echo "$servicio" | jq -r '.dueDay')
+            paid=$(echo "$servicio" | jq -r '.paid')
+            periodMonths=$(echo "$servicio" | jq -r '.periodMonths // 1')
+            
+            # Solo procesar si no esta pagado
+            if [ "$paid" = "true" ]; then
+              continue
+            fi
+            
+            # Calcular dias hasta vencimiento
+            DIAS=$((dueDay - DIA))
+            
+            # Para bimestrales, verificar si aplica este mes
+            if [ "$periodMonths" = "2" ]; then
+              # Si el mes actual es par, el vencimiento es el siguiente mes
+              if [ $((MES % 2)) -eq 0 ]; then
+                DIAS=$((dueDay + 30 - DIA))
+              fi
+            fi
+            
+            # Si ya paso pero sigue pendiente, mostrar como vencido
+            if [ $DIAS -lt 0 ]; then
+              DIAS_ABS=${DIAS#-}
+              # Determinar nombre e icono
+              if [ -n "$customName" ]; then
+                DISPLAY_NAME="$customName"
+              elif [ -n "${NOMBRES[$tipo]}" ]; then
+                DISPLAY_NAME="${NOMBRES[$tipo]}"
+              else
+                DISPLAY_NAME="$nombre"
+              fi
+              
+              if [ -n "$customEmoji" ]; then
+                ICONO="$customEmoji"
+              elif [ -n "${ICONOS[$tipo]}" ]; then
+                ICONO="${ICONOS[$tipo]}"
+              else
+                ICONO="🔧"
+              fi
+              
+              MENSAJE="${MENSAJE}${ICONO} ${DISPLAY_NAME} - VENCIDO hace ${DIAS_ABS} dias!%0A"
+              ALERTAS=1
+            # Si vence en 4 dias o menos
+            elif [ $DIAS -ge 0 ] && [ $DIAS -le 4 ]; then
+              # Determinar nombre e icono
+              if [ -n "$customName" ]; then
+                DISPLAY_NAME="$customName"
+              elif [ -n "${NOMBRES[$tipo]}" ]; then
+                DISPLAY_NAME="${NOMBRES[$tipo]}"
+              else
+                DISPLAY_NAME="$nombre"
+              fi
+              
+              if [ -n "$customEmoji" ]; then
+                ICONO="$customEmoji"
+              elif [ -n "${ICONOS[$tipo]}" ]; then
+                ICONO="${ICONOS[$tipo]}"
+              else
+                ICONO="🔧"
+              fi
+              
+              if [ $DIAS -eq 0 ]; then
+                MENSAJE="${MENSAJE}${ICONO} ${DISPLAY_NAME} - Vence HOY!%0A"
+              elif [ $DIAS -eq 1 ]; then
+                MENSAJE="${MENSAJE}${ICONO} ${DISPLAY_NAME} - Vence MANANA!%0A"
+              else
+                MENSAJE="${MENSAJE}${ICONO} ${DISPLAY_NAME} - Vence en ${DIAS} dias%0A"
+              fi
               ALERTAS=1
             fi
-          fi
+          done <<< "$SERVICIOS"
           
-          # Si hay alertas, enviar a Telegram
+          # Enviar mensaje si hay alertas
           if [ $ALERTAS -eq 1 ]; then
             FULL_MSG="🔔 RECORDATORIO DE PAGOS%0A%0A${MENSAJE}%0A👉 https://banettchi.github.io/gestor-pagos/"
             
-            curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
-              -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d "chat_id=${TELEGRAM_CHAT_ID}" \
               -d "text=${FULL_MSG}"
             
-            echo "Alerta enviada!"
+            echo "✓ Alerta enviada con $ALERTAS servicio(s)"
           else
-            echo "Sin alertas para hoy"
+            echo "Sin alertas - todos los servicios estan al dia"
           fi

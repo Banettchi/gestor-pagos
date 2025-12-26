@@ -27,6 +27,7 @@ const SERVICE_TYPES = {
     directv: { name: 'DirecTV', icon: '📺' },
     internet: { name: 'Internet', icon: '🌐' },
     telefono: { name: 'Teléfono', icon: '📱' },
+    etb: { name: 'ETB', icon: '📞' },
     sayco: { name: 'Sayco', icon: '🎵' },
     otro: { name: 'Otro', icon: '🔧' }
 };
