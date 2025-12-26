@@ -73,19 +73,7 @@
       "customName": "",
       "customEmoji": "",
       "paidAmount": 372000
-    },
-    {
-      "id": "mjdsqj5i9g6nyowr3ih",
-      "type": "otro",
-      "amount": 130000,
-      "dueDay": 26,
-      "paid": false,
-      "paidDate": null,
-      "customName": "ETB",
-      "customEmoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
-      "createdAt": "2025-12-20T04:26:41.911Z",
-      "paidAmount": 130000
     }
   ],
-  "lastUpdated": "2025-12-26T16:01:27.185Z"
+  "lastUpdated": "2025-12-26T16:02:22.836Z"
 }
