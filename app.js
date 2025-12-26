@@ -235,7 +235,31 @@ async function saveServices() {
 
     // Luego sincronizar con GitHub si hay token
     const token = getGitHubToken();
-    if (!token || !fileSha) return;
+    if (!token) {
+        console.log('Sin token - guardado solo local');
+        return;
+    }
+
+    // Si no tenemos el SHA, intentar obtenerlo
+    if (!fileSha) {
+        try {
+            const getResponse = await fetch(
+                `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_FILE}`,
+                {
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                }
+            );
+            if (getResponse.ok) {
+                const getData = await getResponse.json();
+                fileSha = getData.sha;
+            }
+        } catch (e) {
+            console.log('No se pudo obtener SHA:', e);
+        }
+    }
 
     try {
         const content = {
@@ -245,9 +269,13 @@ async function saveServices() {
 
         const body = {
             message: 'Actualizar datos de pagos',
-            content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2)))),
-            sha: fileSha
+            content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2))))
         };
+
+        // Solo incluir sha si existe (para crear nuevo archivo si no existe)
+        if (fileSha) {
+            body.sha = fileSha;
+        }
 
         const response = await fetch(
             `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_FILE}`,
@@ -265,10 +293,15 @@ async function saveServices() {
         if (response.ok) {
             const data = await response.json();
             fileSha = data.content.sha;
-            showToast('Guardado y sincronizado');
+            showToast('Sincronizado ✓');
+        } else {
+            const error = await response.json();
+            console.error('Error GitHub:', error);
+            showToast('Error al sincronizar');
         }
     } catch (error) {
         console.error('Error guardando:', error);
+        showToast('Error de conexion');
     }
 }
 
