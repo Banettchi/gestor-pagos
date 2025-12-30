@@ -11,7 +11,8 @@ const CONFIG = {
     // GitHub Sync Config
     GITHUB_OWNER: 'Banettchi',
     GITHUB_REPO: 'gestor-pagos',
-    GITHUB_FILE: 'data.json'
+    GITHUB_FILE: 'data.json',
+    GITHUB_PRODUCTS_FILE: 'products.json'
 };
 
 // Token se obtiene de localStorage
@@ -45,6 +46,7 @@ let storageHistory = [];
 let currentStorageTab = 'nevera';
 let editingProductId = null;
 let movingProductId = null;
+let productsSha = null; // SHA para sincronización con GitHub
 
 // ===== Inicialización =====
 document.addEventListener('DOMContentLoaded', () => {
@@ -708,11 +710,45 @@ function showScreen(screen) {
     }
 }
 
-// ===== Cargar productos =====
-function loadProducts() {
+// ===== Cargar productos (con sincronización GitHub) =====
+async function loadProducts() {
+    const token = getGitHubToken();
+
+    if (token) {
+        showToast('Sincronizando inventario...');
+        try {
+            const response = await fetch(
+                `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_PRODUCTS_FILE}`,
+                {
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                }
+            );
+
+            if (response.ok) {
+                const data = await response.json();
+                productsSha = data.sha;
+                const content = JSON.parse(atob(data.content));
+                products = content.products || [];
+                storageHistory = content.history || [];
+                localStorage.setItem(CONFIG.PRODUCTS_KEY, JSON.stringify(products));
+                localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(storageHistory));
+                showToast('Inventario sincronizado');
+                renderProducts();
+                return;
+            }
+        } catch (error) {
+            console.error('Error cargando productos:', error);
+        }
+    }
+
+    // Fallback a localStorage o datos iniciales
     const stored = localStorage.getItem(CONFIG.PRODUCTS_KEY);
     if (stored) {
         products = JSON.parse(stored);
+        showToast('Modo local');
     } else {
         // Cargar datos iniciales
         products = [];
@@ -735,21 +771,95 @@ function loadProducts() {
         saveProducts();
     }
 
-    // Cargar historial
+    // Cargar historial local
     const storedHistory = localStorage.getItem(CONFIG.HISTORY_KEY);
     if (storedHistory) {
         storageHistory = JSON.parse(storedHistory);
     }
+
+    renderProducts();
 }
 
-// ===== Guardar productos =====
-function saveProducts() {
+// ===== Guardar productos (con sincronización GitHub) =====
+async function saveProducts() {
+    // Guardar localmente primero
     localStorage.setItem(CONFIG.PRODUCTS_KEY, JSON.stringify(products));
+    localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(storageHistory));
+
+    // Sincronizar con GitHub si hay token
+    const token = getGitHubToken();
+    if (!token) {
+        console.log('Sin token - guardado solo local');
+        return;
+    }
+
+    // Si no tenemos el SHA, intentar obtenerlo
+    if (!productsSha) {
+        try {
+            const getResponse = await fetch(
+                `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_PRODUCTS_FILE}`,
+                {
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                }
+            );
+            if (getResponse.ok) {
+                const getData = await getResponse.json();
+                productsSha = getData.sha;
+            }
+        } catch (e) {
+            console.log('No se pudo obtener SHA productos:', e);
+        }
+    }
+
+    try {
+        const content = {
+            products: products,
+            history: storageHistory.slice(0, 50),
+            lastUpdated: new Date().toISOString()
+        };
+
+        const body = {
+            message: 'Actualizar inventario',
+            content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2))))
+        };
+
+        if (productsSha) {
+            body.sha = productsSha;
+        }
+
+        const response = await fetch(
+            `https://api.github.com/repos/${CONFIG.GITHUB_OWNER}/${CONFIG.GITHUB_REPO}/contents/${CONFIG.GITHUB_PRODUCTS_FILE}`,
+            {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${token}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            }
+        );
+
+        if (response.ok) {
+            const data = await response.json();
+            productsSha = data.content.sha;
+            console.log('Inventario sincronizado con GitHub');
+        } else {
+            const error = await response.json();
+            console.error('Error GitHub productos:', error);
+        }
+    } catch (error) {
+        console.error('Error guardando productos:', error);
+    }
 }
 
 // ===== Guardar historial =====
 function saveHistory() {
     localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(storageHistory));
+    // El historial se sincroniza junto con los productos
 }
 
 // ===== Agregar al historial =====
