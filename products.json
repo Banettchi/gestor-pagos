@@ -1,0 +1,280 @@
+{
+  "products": [
+    {
+      "id": "mjs0kkpit643dtl88oh",
+      "name": "Corona 0.0",
+      "location": "nevera",
+      "qty": 6
+    },
+    {
+      "id": "mjs0kkpiyols2097dy",
+      "name": "Sol",
+      "location": "nevera",
+      "qty": 5
+    },
+    {
+      "id": "mjs0kkpi992zyyjqvp",
+      "name": "Coca Cola",
+      "location": "nevera",
+      "qty": 1
+    },
+    {
+      "id": "mjs0kkpiif5bdt7dxjk",
+      "name": "Agua",
+      "location": "nevera",
+      "qty": 1
+    },
+    {
+      "id": "mjs0kkpi0hpx1vsi8q1g",
+      "name": "RedBull",
+      "location": "nevera",
+      "qty": 0
+    },
+    {
+      "id": "mjs0kkpi8yxr726t9fs",
+      "name": "Heineken",
+      "location": "nevera",
+      "qty": 6
+    },
+    {
+      "id": "mjs0kkpiqys4irlu98",
+      "name": "Stella",
+      "location": "nevera",
+      "qty": 14
+    },
+    {
+      "id": "mjs0kkpikcfuub9rcjk",
+      "name": "Bretaña",
+      "location": "nevera",
+      "qty": 0
+    },
+    {
+      "id": "mjs0kkpip1fx6q3zzn",
+      "name": "Tonica",
+      "location": "nevera",
+      "qty": 0
+    },
+    {
+      "id": "mjs0kkpidt0mjz53kbt",
+      "name": "Corona",
+      "location": "nevera",
+      "qty": 23
+    },
+    {
+      "id": "mjs0kkpi1m9fqgp0w02j",
+      "name": "Poker",
+      "location": "nevera",
+      "qty": 8
+    },
+    {
+      "id": "mjs0kkpilcq69ol8srd",
+      "name": "Aguila",
+      "location": "nevera",
+      "qty": 22
+    },
+    {
+      "id": "mjs0kkpiaunlzvbivvk",
+      "name": "Aguila Light",
+      "location": "nevera",
+      "qty": 6
+    },
+    {
+      "id": "mjs0kkpifnd10v6n5a5",
+      "name": "Club Roja",
+      "location": "nevera",
+      "qty": 10
+    },
+    {
+      "id": "mjs0kkpi3mtr2uvq2a6",
+      "name": "Club Trigo",
+      "location": "nevera",
+      "qty": 0
+    },
+    {
+      "id": "mjs0kkpiwvgjf5af9a",
+      "name": "Club Dorada",
+      "location": "nevera",
+      "qty": 25
+    },
+    {
+      "id": "mjs0kkpilpykhvn24i",
+      "name": "Cordillera Rosada",
+      "location": "nevera",
+      "qty": 5
+    },
+    {
+      "id": "mjs0kkpiui65rf9oozb",
+      "name": "Cordillera Roja",
+      "location": "nevera",
+      "qty": 5
+    },
+    {
+      "id": "mjs0kkpi7binonhtsm",
+      "name": "Cordillera Negra",
+      "location": "nevera",
+      "qty": 5
+    },
+    {
+      "id": "mjs0kkpieanmlf50e5p",
+      "name": "Cordillera Mestiza",
+      "location": "nevera",
+      "qty": 5
+    },
+    {
+      "id": "mjs0kkpiaj6avefddsc",
+      "name": "BBC Rose",
+      "location": "nevera",
+      "qty": 10
+    },
+    {
+      "id": "mjs0kkpisjrzpk5ay6m",
+      "name": "Corona 0.0",
+      "location": "bodega",
+      "qty": 14
+    },
+    {
+      "id": "mjs0kkpicm1u2gefph",
+      "name": "Sol",
+      "location": "bodega",
+      "qty": 32
+    },
+    {
+      "id": "mjs0kkpi3dxhxr472di",
+      "name": "Coca Cola",
+      "location": "bodega",
+      "qty": 4
+    },
+    {
+      "id": "mjs0kkpicoo1jni6gqs",
+      "name": "Agua",
+      "location": "bodega",
+      "qty": 23
+    },
+    {
+      "id": "mjs0kkpi5r0kvumr6ki",
+      "name": "RedBull",
+      "location": "bodega",
+      "qty": 3
+    },
+    {
+      "id": "mjs0kkpi3vdf09hd6up",
+      "name": "Heineken",
+      "location": "bodega",
+      "qty": 24
+    },
+    {
+      "id": "mjs0kkpipubuzqgijz",
+      "name": "Stella",
+      "location": "bodega",
+      "qty": 54
+    },
+    {
+      "id": "mjs0kkpipjpne1ktub",
+      "name": "Bretaña",
+      "location": "bodega",
+      "qty": 11
+    },
+    {
+      "id": "mjs0kkpibprzzkgtwti",
+      "name": "Tonica",
+      "location": "bodega",
+      "qty": 12
+    },
+    {
+      "id": "mjs0kkpi2rftjmk6msr",
+      "name": "Corona",
+      "location": "bodega",
+      "qty": 60
+    },
+    {
+      "id": "mjs0kkpiaoj4w0iclq",
+      "name": "Poker",
+      "location": "bodega",
+      "qty": 32
+    },
+    {
+      "id": "mjs0kkpimrbj7vl4x0o",
+      "name": "Aguila",
+      "location": "bodega",
+      "qty": 60
+    },
+    {
+      "id": "mjs0kkpidtu8m30s7ye",
+      "name": "Aguila Light",
+      "location": "bodega",
+      "qty": 12
+    },
+    {
+      "id": "mjs0kkpi9mxq8dzomnu",
+      "name": "Club Roja",
+      "location": "bodega",
+      "qty": 60
+    },
+    {
+      "id": "mjs0kkpigpccnv2txa4",
+      "name": "Club Trigo",
+      "location": "bodega",
+      "qty": 0
+    },
+    {
+      "id": "mjs0kkpijqqkus0dtm",
+      "name": "Club Dorada",
+      "location": "bodega",
+      "qty": 91
+    },
+    {
+      "id": "mjs0kkpi52ld2qi3m9p",
+      "name": "Cordillera Rosada",
+      "location": "bodega",
+      "qty": 33
+    },
+    {
+      "id": "mjs0kkpi5w638ghwbk6",
+      "name": "Cordillera Roja",
+      "location": "bodega",
+      "qty": 13
+    },
+    {
+      "id": "mjs0kkpigojailqk54",
+      "name": "Cordillera Negra",
+      "location": "bodega",
+      "qty": 21
+    },
+    {
+      "id": "mjs0kkpirn4vqmqfuo",
+      "name": "Cordillera Mestiza",
+      "location": "bodega",
+      "qty": 29
+    },
+    {
+      "id": "mjs0kkpiggdq9809yxm",
+      "name": "BBC Rose",
+      "location": "bodega",
+      "qty": 16
+    }
+  ],
+  "history": [
+    {
+      "id": "mjs0zqg3y1cb6wgfyoe",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2025-12-30T03:26:34.659Z"
+    },
+    {
+      "id": "mjs0pw94tmdh71ezwi",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2025-12-30T03:18:55.624Z"
+    },
+    {
+      "id": "mjs0pquwtlahzelhvji",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2025-12-30T03:18:48.632Z"
+    }
+  ],
+  "lastUpdated": "2025-12-30T03:26:34.797Z"
+}
