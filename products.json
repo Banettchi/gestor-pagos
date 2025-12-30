@@ -22,7 +22,7 @@
       "id": "mjs0kkpiif5bdt7dxjk",
       "name": "Agua",
       "location": "nevera",
-      "qty": 1
+      "qty": 0
     },
     {
       "id": "mjs0kkpi0hpx1vsi8q1g",
@@ -255,6 +255,13 @@
   ],
   "history": [
     {
+      "id": "mjs0zttpyz2pf4ug1l",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2025-12-30T03:26:39.037Z"
+    },
+    {
       "id": "mjs0zqg3y1cb6wgfyoe",
       "action": "Entrada",
       "product": "Agua",
@@ -276,5 +283,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2025-12-30T03:26:34.797Z"
+  "lastUpdated": "2025-12-30T03:26:39.037Z"
 }
