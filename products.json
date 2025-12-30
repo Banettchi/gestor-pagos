@@ -22,7 +22,7 @@
       "id": "mjs0kkpiif5bdt7dxjk",
       "name": "Agua",
       "location": "nevera",
-      "qty": 1
+      "qty": 0
     },
     {
       "id": "mjs0kkpi0hpx1vsi8q1g",
@@ -44,7 +44,7 @@
     },
     {
       "id": "mjs0kkpikcfuub9rcjk",
-      "name": "BretaÃ±a",
+      "name": "BretaÃÂ±a",
       "location": "nevera",
       "qty": 0
     },
@@ -170,7 +170,7 @@
     },
     {
       "id": "mjs0kkpipjpne1ktub",
-      "name": "BretaÃ±a",
+      "name": "BretaÃÂ±a",
       "location": "bodega",
       "qty": 11
     },
@@ -255,6 +255,13 @@
   ],
   "history": [
     {
+      "id": "mjs114d6ucfu53piihb",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2025-12-30T03:27:39.356Z"
+    },
+    {
       "id": "mjs10c0sgv4aq1jkvq",
       "action": "Entrada",
       "product": "Agua",
@@ -290,5 +297,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2025-12-30T03:27:02.620Z"
+  "lastUpdated": "2025-12-30T03:27:39.360Z"
 }
