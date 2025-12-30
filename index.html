@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2c3e50">
-    <meta name="description" content="Sistema de gestión de pagos de servicios">
-    <title>Gestor de Pagos</title>
+    <meta name="theme-color" content="#1a472a">
+    <meta name="description" content="Sistema de gestión de pagos y almacenamiento">
+    <title>Song & Beer</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
@@ -15,39 +15,96 @@
 
 <body>
     <div class="app-container">
-        <!-- Header -->
-        <header class="header">
-            <h1>💰 Gestor de Pagos</h1>
-            <div class="header-actions">
-                <button id="btnNotifications" class="btn btn-icon" title="Activar notificaciones">🔔</button>
-                <button id="btnAdd" class="btn btn-primary">+ Agregar</button>
+
+        <!-- ========== PANTALLA DE INICIO ========== -->
+        <section id="homeScreen" class="screen active">
+            <div class="home-container">
+                <img src="logo-sb.png" alt="Song & Beer" class="home-logo">
+                <h1 class="home-title">Gestión del Local</h1>
+                <div class="home-buttons">
+                    <button class="home-btn" onclick="showScreen('storage')">
+                        <span class="home-btn-icon">📦</span>
+                        <span class="home-btn-text">Almacenamiento</span>
+                        <span class="home-btn-sub">Inventario de productos</span>
+                    </button>
+                    <button class="home-btn" onclick="showScreen('payments')">
+                        <span class="home-btn-icon">💰</span>
+                        <span class="home-btn-text">Gestor Pagos</span>
+                        <span class="home-btn-sub">Servicios mensuales</span>
+                    </button>
+                </div>
             </div>
-        </header>
+        </section>
 
-        <!-- Tabs -->
-        <nav class="tabs">
-            <button class="tab active" data-tab="pending">Pendientes</button>
-            <button class="tab" data-tab="paid">Pagados</button>
-            <button class="tab" data-tab="all">Todos</button>
-        </nav>
+        <!-- ========== MÓDULO DE ALMACENAMIENTO ========== -->
+        <section id="storageScreen" class="screen">
+            <header class="header">
+                <button class="btn-back" onclick="showScreen('home')">←</button>
+                <h1>📦 Almacenamiento</h1>
+                <div class="header-actions">
+                    <button class="btn btn-icon" onclick="showHistoryModal()">📋</button>
+                    <button class="btn btn-primary" onclick="openAddProductModal()">+ Agregar</button>
+                </div>
+            </header>
 
-        <!-- Lista de servicios -->
-        <main class="services-list" id="servicesList">
-            <!-- Los servicios se cargan dinámicamente -->
-        </main>
+            <!-- Tabs de ubicación -->
+            <nav class="tabs">
+                <button class="tab active" data-storage-tab="nevera" onclick="switchStorageTab('nevera')">🧊
+                    Nevera</button>
+                <button class="tab" data-storage-tab="bodega" onclick="switchStorageTab('bodega')">📦 Bodega</button>
+            </nav>
 
-        <!-- Mensaje vacío -->
-        <div class="empty-state" id="emptyState" style="display: none;">
-            <span class="empty-icon">📋</span>
-            <p>No hay servicios registrados</p>
-            <button class="btn btn-primary" onclick="openAddModal()">Agregar servicio</button>
-        </div>
+            <!-- Lista de productos -->
+            <main class="products-list" id="productsList">
+                <!-- Productos se cargan dinámicamente -->
+            </main>
 
-        <!-- FAB para agregar -->
-        <button class="fab" id="fabAdd" onclick="openAddModal()">+</button>
+            <!-- Mensaje vacío -->
+            <div class="empty-state" id="emptyProducts" style="display: none;">
+                <span class="empty-icon">📦</span>
+                <p>No hay productos en esta ubicación</p>
+            </div>
+
+            <!-- FAB -->
+            <button class="fab" onclick="openAddProductModal()">+</button>
+        </section>
+
+        <!-- ========== MÓDULO DE PAGOS ========== -->
+        <section id="paymentsScreen" class="screen">
+            <header class="header">
+                <button class="btn-back" onclick="showScreen('home')">←</button>
+                <h1>💰 Gestor de Pagos</h1>
+                <div class="header-actions">
+                    <button id="btnNotifications" class="btn btn-icon" title="Activar notificaciones">🔔</button>
+                    <button id="btnAdd" class="btn btn-primary">+ Agregar</button>
+                </div>
+            </header>
+
+            <!-- Tabs -->
+            <nav class="tabs">
+                <button class="tab active" data-tab="pending">Pendientes</button>
+                <button class="tab" data-tab="paid">Pagados</button>
+                <button class="tab" data-tab="all">Todos</button>
+            </nav>
+
+            <!-- Lista de servicios -->
+            <main class="services-list" id="servicesList">
+            </main>
+
+            <!-- Mensaje vacío -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <span class="empty-icon">📋</span>
+                <p>No hay servicios registrados</p>
+                <button class="btn btn-primary" onclick="openAddModal()">Agregar servicio</button>
+            </div>
+
+            <!-- FAB para agregar -->
+            <button class="fab" id="fabAdd" onclick="openAddModal()">+</button>
+        </section>
     </div>
 
-    <!-- Modal Agregar/Editar -->
+    <!-- ========== MODALES DE PAGOS ========== -->
+    <!-- Modal Agregar/Editar Servicio -->
     <div class="modal" id="addModal">
         <div class="modal-content">
             <div class="modal-header">
@@ -125,6 +182,84 @@
             <div class="form-actions">
                 <button class="btn btn-secondary" onclick="closePayModal()">Cancelar</button>
                 <button class="btn btn-success" onclick="confirmPay()">✓ Confirmar Pago</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== MODALES DE ALMACENAMIENTO ========== -->
+    <!-- Modal Agregar Producto -->
+    <div class="modal" id="addProductModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="productModalTitle">Agregar Producto</h2>
+                <button class="btn-close" onclick="closeProductModal()">&times;</button>
+            </div>
+            <form id="productForm" onsubmit="saveProduct(event)">
+                <input type="hidden" id="productId">
+
+                <div class="form-group">
+                    <label>Nombre del producto</label>
+                    <input type="text" id="productName" placeholder="Ej: Corona, Coca Cola..." required>
+                </div>
+
+                <div class="form-group">
+                    <label>Ubicación</label>
+                    <select id="productLocation" required>
+                        <option value="nevera">🧊 Nevera</option>
+                        <option value="bodega">📦 Bodega</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Cantidad inicial</label>
+                    <input type="number" id="productQty" min="0" placeholder="0" required>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeProductModal()">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Mover Producto -->
+    <div class="modal" id="moveProductModal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>Mover Producto</h2>
+                <button class="btn-close" onclick="closeMoveModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="moveProductName" style="font-size: 1.2em; margin-bottom: 15px;"></p>
+                <div class="form-group">
+                    <label>Cantidad a mover</label>
+                    <input type="number" id="moveQty" min="1" placeholder="1">
+                </div>
+                <div class="form-group">
+                    <label>Destino</label>
+                    <select id="moveDestination">
+                        <option value="nevera">🧊 Nevera</option>
+                        <option value="bodega">📦 Bodega</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-secondary" onclick="closeMoveModal()">Cancelar</button>
+                <button class="btn btn-primary" onclick="confirmMove()">📦 Mover</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Historial -->
+    <div class="modal" id="historyModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📋 Historial de Movimientos</h2>
+                <button class="btn-close" onclick="closeHistoryModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="historyList" style="max-height: 400px; overflow-y: auto;">
+                <!-- Historial se carga dinámicamente -->
             </div>
         </div>
     </div>

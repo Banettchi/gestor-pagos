@@ -1,11 +1,11 @@
 {
-    "name": "Gestor de Pagos",
-    "short_name": "Pagos",
-    "description": "Sistema de gestión de pagos de servicios con recordatorios automáticos",
+    "name": "Song & Beer",
+    "short_name": "S&B",
+    "description": "Sistema de gestión para Song & Beer - Pagos y Almacenamiento",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#2c3e50",
-    "theme_color": "#2c3e50",
+    "background_color": "#1a472a",
+    "theme_color": "#1a472a",
     "orientation": "portrait-primary",
     "icons": [
         {
@@ -22,7 +22,7 @@
         }
     ],
     "categories": [
-        "finance",
+        "business",
         "utilities"
     ],
     "lang": "es",

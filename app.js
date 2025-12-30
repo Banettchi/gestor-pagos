@@ -1,10 +1,12 @@
-// ===== App de Gestion de Pagos - PWA =====
+// ===== App de Gestion de Pagos y Almacenamiento - PWA =====
 
 // Configuracion
 const CONFIG = {
     ALERT_DAYS: 4,
     NOTIFICATION_HOUR: 9,
     STORAGE_KEY: 'payment_services',
+    PRODUCTS_KEY: 'storage_products',
+    HISTORY_KEY: 'storage_history',
     TOKEN_KEY: 'github_token',
     // GitHub Sync Config
     GITHUB_OWNER: 'Banettchi',
@@ -32,10 +34,17 @@ const SERVICE_TYPES = {
     otro: { name: 'Otro', icon: '🔧' }
 };
 
-// Estado de la aplicación
+// Estado de la aplicación - Pagos
 let services = [];
 let currentTab = 'pending';
 let editingId = null;
+
+// Estado de la aplicación - Almacenamiento
+let products = [];
+let storageHistory = [];
+let currentStorageTab = 'nevera';
+let editingProductId = null;
+let movingProductId = null;
 
 // ===== Inicialización =====
 document.addEventListener('DOMContentLoaded', () => {
@@ -627,3 +636,377 @@ document.querySelectorAll('.modal').forEach(modal => {
         }
     });
 });
+
+// =====================================================
+// ===== MÓDULO DE ALMACENAMIENTO =====
+// =====================================================
+
+// Datos iniciales de productos
+const INITIAL_PRODUCTS = {
+    nevera: [
+        { name: 'Corona 0.0', qty: 6 },
+        { name: 'Sol', qty: 5 },
+        { name: 'Coca Cola', qty: 1 },
+        { name: 'Agua', qty: 0 },
+        { name: 'RedBull', qty: 0 },
+        { name: 'Heineken', qty: 6 },
+        { name: 'Stella', qty: 14 },
+        { name: 'Bretaña', qty: 0 },
+        { name: 'Tonica', qty: 0 },
+        { name: 'Corona', qty: 23 },
+        { name: 'Poker', qty: 8 },
+        { name: 'Aguila', qty: 22 },
+        { name: 'Aguila Light', qty: 6 },
+        { name: 'Club Roja', qty: 10 },
+        { name: 'Club Trigo', qty: 0 },
+        { name: 'Club Dorada', qty: 25 },
+        { name: 'Cordillera Rosada', qty: 5 },
+        { name: 'Cordillera Roja', qty: 5 },
+        { name: 'Cordillera Negra', qty: 5 },
+        { name: 'Cordillera Mestiza', qty: 5 },
+        { name: 'BBC Rose', qty: 10 }
+    ],
+    bodega: [
+        { name: 'Corona 0.0', qty: 14 },
+        { name: 'Sol', qty: 32 },
+        { name: 'Coca Cola', qty: 4 },
+        { name: 'Agua', qty: 23 },
+        { name: 'RedBull', qty: 3 },
+        { name: 'Heineken', qty: 24 },
+        { name: 'Stella', qty: 54 },
+        { name: 'Bretaña', qty: 11 },
+        { name: 'Tonica', qty: 12 },
+        { name: 'Corona', qty: 60 },
+        { name: 'Poker', qty: 32 },
+        { name: 'Aguila', qty: 60 },
+        { name: 'Aguila Light', qty: 12 },
+        { name: 'Club Roja', qty: 60 },
+        { name: 'Club Trigo', qty: 0 },
+        { name: 'Club Dorada', qty: 91 },
+        { name: 'Cordillera Rosada', qty: 33 },
+        { name: 'Cordillera Roja', qty: 13 },
+        { name: 'Cordillera Negra', qty: 21 },
+        { name: 'Cordillera Mestiza', qty: 29 },
+        { name: 'BBC Rose', qty: 16 }
+    ]
+};
+
+// ===== Navegación entre pantallas =====
+function showScreen(screen) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+
+    if (screen === 'home') {
+        document.getElementById('homeScreen').classList.add('active');
+    } else if (screen === 'storage') {
+        document.getElementById('storageScreen').classList.add('active');
+        loadProducts();
+        renderProducts();
+    } else if (screen === 'payments') {
+        document.getElementById('paymentsScreen').classList.add('active');
+        loadServices();
+        renderServices();
+    }
+}
+
+// ===== Cargar productos =====
+function loadProducts() {
+    const stored = localStorage.getItem(CONFIG.PRODUCTS_KEY);
+    if (stored) {
+        products = JSON.parse(stored);
+    } else {
+        // Cargar datos iniciales
+        products = [];
+        INITIAL_PRODUCTS.nevera.forEach(p => {
+            products.push({
+                id: generateId(),
+                name: p.name,
+                location: 'nevera',
+                qty: p.qty
+            });
+        });
+        INITIAL_PRODUCTS.bodega.forEach(p => {
+            products.push({
+                id: generateId(),
+                name: p.name,
+                location: 'bodega',
+                qty: p.qty
+            });
+        });
+        saveProducts();
+    }
+
+    // Cargar historial
+    const storedHistory = localStorage.getItem(CONFIG.HISTORY_KEY);
+    if (storedHistory) {
+        storageHistory = JSON.parse(storedHistory);
+    }
+}
+
+// ===== Guardar productos =====
+function saveProducts() {
+    localStorage.setItem(CONFIG.PRODUCTS_KEY, JSON.stringify(products));
+}
+
+// ===== Guardar historial =====
+function saveHistory() {
+    localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(storageHistory));
+}
+
+// ===== Agregar al historial =====
+function addToHistory(action, productName, details) {
+    storageHistory.unshift({
+        id: generateId(),
+        action: action,
+        product: productName,
+        details: details,
+        timestamp: new Date().toISOString()
+    });
+    // Mantener solo últimos 100 registros
+    if (storageHistory.length > 100) {
+        storageHistory = storageHistory.slice(0, 100);
+    }
+    saveHistory();
+}
+
+// ===== Cambiar pestaña de almacenamiento =====
+function switchStorageTab(tab) {
+    currentStorageTab = tab;
+    document.querySelectorAll('[data-storage-tab]').forEach(t => t.classList.remove('active'));
+    document.querySelector(`[data-storage-tab="${tab}"]`).classList.add('active');
+    renderProducts();
+}
+
+// ===== Renderizar productos =====
+function renderProducts() {
+    const container = document.getElementById('productsList');
+    const emptyState = document.getElementById('emptyProducts');
+
+    const filtered = products.filter(p => p.location === currentStorageTab);
+
+    // Ordenar: sin stock primero, luego por nombre
+    filtered.sort((a, b) => {
+        if (a.qty === 0 && b.qty !== 0) return -1;
+        if (a.qty !== 0 && b.qty === 0) return 1;
+        return a.name.localeCompare(b.name);
+    });
+
+    if (filtered.length === 0) {
+        container.innerHTML = '';
+        emptyState.style.display = 'block';
+        return;
+    }
+
+    emptyState.style.display = 'none';
+    container.innerHTML = filtered.map(product => createProductCard(product)).join('');
+}
+
+// ===== Crear tarjeta de producto =====
+function createProductCard(product) {
+    let cardClass = '';
+    let qtyClass = '';
+
+    if (product.qty === 0) {
+        cardClass = 'no-stock';
+        qtyClass = 'zero';
+    } else if (product.qty <= 3) {
+        cardClass = 'low-stock';
+    }
+
+    const otherLocation = product.location === 'nevera' ? 'bodega' : 'nevera';
+    const otherIcon = product.location === 'nevera' ? '📦' : '🧊';
+
+    return `
+        <div class="product-card ${cardClass}" data-id="${product.id}">
+            <div class="product-info">
+                <div class="product-name">${product.name}</div>
+                <div class="product-qty ${qtyClass}">Stock: <span>${product.qty}</span></div>
+            </div>
+            <div class="qty-controls">
+                <button class="qty-btn minus" onclick="adjustQty('${product.id}', -1)">−</button>
+                <button class="qty-btn plus" onclick="adjustQty('${product.id}', 1)">+</button>
+            </div>
+            <div class="product-actions">
+                <button class="btn-move" onclick="openMoveModal('${product.id}')">${otherIcon}</button>
+            </div>
+        </div>
+    `;
+}
+
+// ===== Ajustar cantidad =====
+function adjustQty(id, delta) {
+    const index = products.findIndex(p => p.id === id);
+    if (index !== -1) {
+        const product = products[index];
+        const oldQty = product.qty;
+        product.qty = Math.max(0, product.qty + delta);
+
+        if (product.qty !== oldQty) {
+            const action = delta > 0 ? 'Entrada' : 'Salida';
+            addToHistory(action, product.name, `${Math.abs(delta)} unidad(es) en ${product.location}`);
+            saveProducts();
+            renderProducts();
+        }
+    }
+}
+
+// ===== Abrir modal agregar producto =====
+function openAddProductModal() {
+    editingProductId = null;
+    document.getElementById('productModalTitle').textContent = 'Agregar Producto';
+    document.getElementById('productForm').reset();
+    document.getElementById('productLocation').value = currentStorageTab;
+    document.getElementById('addProductModal').classList.add('open');
+}
+
+// ===== Cerrar modal producto =====
+function closeProductModal() {
+    document.getElementById('addProductModal').classList.remove('open');
+    editingProductId = null;
+}
+
+// ===== Guardar producto =====
+function saveProduct(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('productName').value.trim();
+    const location = document.getElementById('productLocation').value;
+    const qty = parseInt(document.getElementById('productQty').value) || 0;
+
+    if (!name) return;
+
+    if (editingProductId) {
+        const index = products.findIndex(p => p.id === editingProductId);
+        if (index !== -1) {
+            products[index].name = name;
+            products[index].location = location;
+            products[index].qty = qty;
+        }
+        showToast('Producto actualizado');
+    } else {
+        products.push({
+            id: generateId(),
+            name: name,
+            location: location,
+            qty: qty
+        });
+        addToHistory('Agregado', name, `${qty} unidad(es) en ${location}`);
+        showToast('Producto agregado');
+    }
+
+    saveProducts();
+    renderProducts();
+    closeProductModal();
+}
+
+// ===== Abrir modal mover producto =====
+function openMoveModal(id) {
+    movingProductId = id;
+    const product = products.find(p => p.id === id);
+    if (product) {
+        document.getElementById('moveProductName').textContent = `📦 ${product.name} (${product.qty} disponibles)`;
+        document.getElementById('moveQty').value = 1;
+        document.getElementById('moveQty').max = product.qty;
+
+        // Establecer destino al contrario de la ubicación actual
+        const destination = product.location === 'nevera' ? 'bodega' : 'nevera';
+        document.getElementById('moveDestination').value = destination;
+
+        document.getElementById('moveProductModal').classList.add('open');
+    }
+}
+
+// ===== Cerrar modal mover =====
+function closeMoveModal() {
+    document.getElementById('moveProductModal').classList.remove('open');
+    movingProductId = null;
+}
+
+// ===== Confirmar movimiento =====
+function confirmMove() {
+    const qty = parseInt(document.getElementById('moveQty').value) || 0;
+    const destination = document.getElementById('moveDestination').value;
+
+    if (qty <= 0 || !movingProductId) {
+        closeMoveModal();
+        return;
+    }
+
+    const sourceIndex = products.findIndex(p => p.id === movingProductId);
+    if (sourceIndex === -1) {
+        closeMoveModal();
+        return;
+    }
+
+    const sourceProduct = products[sourceIndex];
+
+    if (qty > sourceProduct.qty) {
+        showToast('No hay suficiente stock');
+        return;
+    }
+
+    if (sourceProduct.location === destination) {
+        showToast('Ya está en esa ubicación');
+        closeMoveModal();
+        return;
+    }
+
+    // Reducir del origen
+    sourceProduct.qty -= qty;
+
+    // Buscar o crear en destino
+    let destProduct = products.find(p => p.name === sourceProduct.name && p.location === destination);
+    if (destProduct) {
+        destProduct.qty += qty;
+    } else {
+        products.push({
+            id: generateId(),
+            name: sourceProduct.name,
+            location: destination,
+            qty: qty
+        });
+    }
+
+    const fromLabel = sourceProduct.location === 'nevera' ? 'Nevera' : 'Bodega';
+    const toLabel = destination === 'nevera' ? 'Nevera' : 'Bodega';
+    addToHistory('Movido', sourceProduct.name, `${qty} de ${fromLabel} a ${toLabel}`);
+
+    saveProducts();
+    renderProducts();
+    closeMoveModal();
+    showToast(`Movido ${qty} unidades a ${toLabel}`);
+}
+
+// ===== Modal Historial =====
+function showHistoryModal() {
+    const container = document.getElementById('historyList');
+
+    if (storageHistory.length === 0) {
+        container.innerHTML = '<p style="text-align: center; color: var(--gray); padding: 40px;">Sin movimientos registrados</p>';
+    } else {
+        container.innerHTML = storageHistory.slice(0, 50).map(item => {
+            const date = new Date(item.timestamp);
+            const timeStr = date.toLocaleDateString('es-CO', {
+                day: 'numeric',
+                month: 'short',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            return `
+                <div class="history-item">
+                    <div class="history-info">
+                        <div class="history-action">${item.action} <span class="history-product">${item.product}</span></div>
+                        <div class="history-details">${item.details}</div>
+                    </div>
+                    <div class="history-time">${timeStr}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    document.getElementById('historyModal').classList.add('open');
+}
+
+function closeHistoryModal() {
+    document.getElementById('historyModal').classList.remove('open');
+}
