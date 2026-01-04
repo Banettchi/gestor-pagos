@@ -106,7 +106,7 @@
       "id": "mjs0kkpiui65rf9oozb",
       "name": "Cordillera Roja",
       "location": "nevera",
-      "qty": 5
+      "qty": 6
     },
     {
       "id": "mjs0kkpi7binonhtsm",
@@ -118,7 +118,7 @@
       "id": "mjs0kkpieanmlf50e5p",
       "name": "Cordillera Mestiza",
       "location": "nevera",
-      "qty": 7
+      "qty": 9
     },
     {
       "id": "mjs0kkpiaj6avefddsc",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cy0s6tm2s1jrg53",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:23:19.542Z"
+    },
+    {
+      "id": "mk0cwmmq4etkje3xbzz",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:22:14.546Z"
+    },
+    {
+      "id": "mk0cwmgtfkdvi5s0g6",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:22:14.333Z"
+    },
     {
       "id": "mk0cwm9sm43y4ew2dgk",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "RedBull",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:18:38.648Z"
-    },
-    {
-      "id": "mk0crth12e03e183tof",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:30.133Z"
-    },
-    {
-      "id": "mk0crorefvczgasu9tg",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:24.026Z"
-    },
-    {
-      "id": "mk0crob00fz8e1ph2gf5",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:23.436Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:22:14.081Z"
+  "lastUpdated": "2026-01-04T23:23:19.543Z"
 }
