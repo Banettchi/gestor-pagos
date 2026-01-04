@@ -106,7 +106,7 @@
       "id": "mjs0kkpiui65rf9oozb",
       "name": "Cordillera Roja",
       "location": "nevera",
-      "qty": 6
+      "qty": 10
     },
     {
       "id": "mjs0kkpi7binonhtsm",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cy1fyh32j0v09kgs",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:23:20.398Z"
+    },
+    {
+      "id": "mk0cy168wtg8k7lx7f",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:23:20.048Z"
+    },
+    {
+      "id": "mk0cy134crdycg9gb4b",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:23:19.936Z"
+    },
+    {
+      "id": "mk0cy0ybp65iul231k",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:23:19.763Z"
+    },
     {
       "id": "mk0cy0s6tm2s1jrg53",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:19:14.561Z"
-    },
-    {
-      "id": "mk0csrb5zon5vyyxdq",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:13.985Z"
-    },
-    {
-      "id": "mk0cs0p6nukcrfd9i9",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:39.498Z"
-    },
-    {
-      "id": "mk0cs0bf594uxyv385x",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:39.003Z"
-    },
-    {
-      "id": "mk0cs01kbbhuvwp5ln",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:38.648Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:23:19.543Z"
+  "lastUpdated": "2026-01-04T23:23:20.398Z"
 }
