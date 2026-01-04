@@ -112,7 +112,7 @@
       "id": "mjs0kkpi7binonhtsm",
       "name": "Cordillera Negra",
       "location": "nevera",
-      "qty": 6
+      "qty": 9
     },
     {
       "id": "mjs0kkpieanmlf50e5p",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cyz8hk7u1six7r6l",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:24:04.193Z"
+    },
+    {
+      "id": "mk0cyyq7t5kw9vi8gf",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:24:03.535Z"
+    },
+    {
+      "id": "mk0cyyjk8632q90e5hc",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:24:03.296Z"
+    },
     {
       "id": "mk0cyydinoaxu98t5ra",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:19:35.036Z"
-    },
-    {
-      "id": "mk0ct7ewlf19ltnwgh",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:34.856Z"
-    },
-    {
-      "id": "mk0ct78bysgbeaakrql",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:34.619Z"
-    },
-    {
-      "id": "mk0css4umlj8kj32yn",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:15.054Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:24:03.079Z"
+  "lastUpdated": "2026-01-04T23:24:04.193Z"
 }
