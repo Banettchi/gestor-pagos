@@ -76,7 +76,7 @@
       "id": "mjs0kkpiaunlzvbivvk",
       "name": "Aguila Light",
       "location": "nevera",
-      "qty": 16
+      "qty": 18
     },
     {
       "id": "mjs0kkpifnd10v6n5a5",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0ct97llyw3ro2cl6",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:19:37.185Z"
+    },
+    {
+      "id": "mk0ct8y8r1809upwsl",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:19:36.848Z"
+    },
     {
       "id": "mk0ct8ob4zk1xdu76vf",
       "action": "Entrada",
@@ -591,5 +605,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:19:36.492Z"
+  "lastUpdated": "2026-01-04T23:19:37.188Z"
 }
