@@ -82,7 +82,7 @@
       "id": "mjs0kkpifnd10v6n5a5",
       "name": "Club Roja",
       "location": "nevera",
-      "qty": 17
+      "qty": 20
     },
     {
       "id": "mjs0kkpi3mtr2uvq2a6",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cutl7ek1celraofl",
+      "action": "Entrada",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:20:50.251Z"
+    },
+    {
+      "id": "mk0cutggd9pd3km8h1",
+      "action": "Entrada",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:20:50.080Z"
+    },
+    {
+      "id": "mk0cutb78vzzuj8bri3",
+      "action": "Entrada",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:20:49.891Z"
+    },
     {
       "id": "mk0cut6xhsh3ke1v9fi",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:18:21.555Z"
-    },
-    {
-      "id": "mk0crml7r2yl1dyodo",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:21.211Z"
-    },
-    {
-      "id": "mk0crmf8c9qjvm1hx04",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:20.996Z"
-    },
-    {
-      "id": "mk0crm9v3ool6tpuery",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:20.803Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:20:49.738Z"
+  "lastUpdated": "2026-01-04T23:20:50.251Z"
 }
