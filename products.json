@@ -106,7 +106,7 @@
       "id": "mjs0kkpiui65rf9oozb",
       "name": "Cordillera Roja",
       "location": "nevera",
-      "qty": 10
+      "qty": 9
     },
     {
       "id": "mjs0kkpi7binonhtsm",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cy2u0u1attlzwms",
+      "action": "Salida",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:23:22.200Z"
+    },
     {
       "id": "mk0cy1fyh32j0v09kgs",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:19:14.846Z"
-    },
-    {
-      "id": "mk0csrr5p1ep6zk7o9b",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:14.561Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:23:20.398Z"
+  "lastUpdated": "2026-01-04T23:23:22.201Z"
 }
