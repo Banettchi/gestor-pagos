@@ -58,7 +58,7 @@
       "id": "mjs0kkpidt0mjz53kbt",
       "name": "Corona",
       "location": "nevera",
-      "qty": 24
+      "qty": 28
     },
     {
       "id": "mjs0kkpi1m9fqgp0w02j",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0d0e4ctjvtqd96lrc",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:25:10.140Z"
+    },
+    {
+      "id": "mk0d0dvv4jm3cjbbbi",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:25:09.835Z"
+    },
+    {
+      "id": "mk0d0donxmlcy9mqnw9",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:25:09.575Z"
+    },
+    {
+      "id": "mk0d0dir8l415mkppm6",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:25:09.363Z"
+    },
     {
       "id": "mk0d0dd159pml4kwxbk",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:19:36.030Z"
-    },
-    {
-      "id": "mk0ct8542pr2072y9s2",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:35.800Z"
-    },
-    {
-      "id": "mk0ct7zwebxxcnt1ys4",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:35.612Z"
-    },
-    {
-      "id": "mk0ct7u8xgwcky3iesq",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:35.408Z"
-    },
-    {
-      "id": "mk0ct7ovdkduuendmjs",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:35.215Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:25:09.157Z"
+  "lastUpdated": "2026-01-04T23:25:10.140Z"
 }
