@@ -118,7 +118,7 @@
       "id": "mjs0kkpieanmlf50e5p",
       "name": "Cordillera Mestiza",
       "location": "nevera",
-      "qty": 6
+      "qty": 7
     },
     {
       "id": "mjs0kkpiaj6avefddsc",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cwm9sm43y4ew2dgk",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:22:14.080Z"
+    },
     {
       "id": "mk0cwlil6io0h893ct3",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:18:23.436Z"
-    },
-    {
-      "id": "mk0cro3v3a3goy9j9xd",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:18:23.179Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:22:13.101Z"
+  "lastUpdated": "2026-01-04T23:22:14.081Z"
 }
