@@ -28,7 +28,7 @@
       "id": "mjs0kkpi0hpx1vsi8q1g",
       "name": "RedBull",
       "location": "nevera",
-      "qty": 2
+      "qty": 4
     },
     {
       "id": "mjs0kkpi8yxr726t9fs",
@@ -255,6 +255,20 @@
   ],
   "history": [
     {
+      "id": "mk0cs0p6nukcrfd9i9",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:18:39.498Z"
+    },
+    {
+      "id": "mk0cs0bf594uxyv385x",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:18:39.003Z"
+    },
+    {
       "id": "mk0cs01kbbhuvwp5ln",
       "action": "Entrada",
       "product": "RedBull",
@@ -479,5 +493,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:18:38.648Z"
+  "lastUpdated": "2026-01-04T23:18:39.498Z"
 }
