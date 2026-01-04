@@ -4,7 +4,7 @@
       "id": "mjs0kkpit643dtl88oh",
       "name": "Corona 0.0",
       "location": "nevera",
-      "qty": 6
+      "qty": 7
     },
     {
       "id": "mjs0kkpiyols2097dy",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0d147gdbkrqv5tcah",
+      "action": "Entrada",
+      "product": "Corona 0.0",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:25:43.948Z"
+    },
     {
       "id": "mk0d0e4ctjvtqd96lrc",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:19:36.218Z"
-    },
-    {
-      "id": "mk0ct8bizst6eaw1xd9",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:36.030Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:25:10.140Z"
+  "lastUpdated": "2026-01-04T23:25:43.949Z"
 }
