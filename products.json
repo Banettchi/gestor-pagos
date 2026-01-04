@@ -88,7 +88,7 @@
       "id": "mjs0kkpi3mtr2uvq2a6",
       "name": "Club Trigo",
       "location": "nevera",
-      "qty": 4
+      "qty": 7
     },
     {
       "id": "mjs0kkpiwvgjf5af9a",
@@ -255,6 +255,27 @@
   ],
   "history": [
     {
+      "id": "mk0crlynij9voat3uj",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:18:20.399Z"
+    },
+    {
+      "id": "mk0crltinugu6je2bs7",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:18:20.214Z"
+    },
+    {
+      "id": "mk0crlnio24srfn7kqp",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:18:19.998Z"
+    },
+    {
       "id": "mk0crlhdoi9ihuryua",
       "action": "Entrada",
       "product": "Club Trigo",
@@ -346,5 +367,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:18:19.777Z"
+  "lastUpdated": "2026-01-04T23:18:20.399Z"
 }
