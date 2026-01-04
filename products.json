@@ -28,7 +28,7 @@
       "id": "mjs0kkpi0hpx1vsi8q1g",
       "name": "RedBull",
       "location": "nevera",
-      "qty": 0
+      "qty": 1
     },
     {
       "id": "mjs0kkpi8yxr726t9fs",
@@ -255,6 +255,13 @@
   ],
   "history": [
     {
+      "id": "mk0crth12e03e183tof",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:18:30.133Z"
+    },
+    {
       "id": "mk0crorefvczgasu9tg",
       "action": "Entrada",
       "product": "Club Trigo",
@@ -465,5 +472,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:18:24.026Z"
+  "lastUpdated": "2026-01-04T23:18:30.133Z"
 }
