@@ -94,7 +94,7 @@
       "id": "mjs0kkpiwvgjf5af9a",
       "name": "Club Dorada",
       "location": "nevera",
-      "qty": 24
+      "qty": 21
     },
     {
       "id": "mjs0kkpilpykhvn24i",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0cup05eyb7iwsbxr9",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:20:44.309Z"
+    },
+    {
+      "id": "mk0cuoue4ctp5gush0q",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:20:44.102Z"
+    },
+    {
+      "id": "mk0cuooh8357it4fsf",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:20:43.889Z"
+    },
     {
       "id": "mk0cuogqp8s3t5oufyq",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2025-12-30T03:27:39.356Z"
-    },
-    {
-      "id": "mjs10c0sgv4aq1jkvq",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2025-12-30T03:27:02.620Z"
-    },
-    {
-      "id": "mjs0zttpyz2pf4ug1l",
-      "action": "Salida",
-      "product": "Agua",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2025-12-30T03:26:39.037Z"
-    },
-    {
-      "id": "mjs0zqg3y1cb6wgfyoe",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2025-12-30T03:26:34.659Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:20:43.611Z"
+  "lastUpdated": "2026-01-04T23:20:44.310Z"
 }
