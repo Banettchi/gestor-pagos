@@ -70,7 +70,7 @@
       "id": "mjs0kkpilcq69ol8srd",
       "name": "Aguila",
       "location": "nevera",
-      "qty": 22
+      "qty": 21
     },
     {
       "id": "mjs0kkpiaunlzvbivvk",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk0csrb5zon5vyyxdq",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-04T23:19:13.985Z"
+    },
     {
       "id": "mk0cs0p6nukcrfd9i9",
       "action": "Entrada",
@@ -493,5 +500,5 @@
       "timestamp": "2025-12-30T03:18:48.632Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:18:39.498Z"
+  "lastUpdated": "2026-01-04T23:19:13.987Z"
 }
