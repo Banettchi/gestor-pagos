@@ -208,7 +208,7 @@
       "id": "mjs0kkpi9mxq8dzomnu",
       "name": "Club Roja",
       "location": "bodega",
-      "qty": 32
+      "qty": 30
     },
     {
       "id": "mjs0kkpigpccnv2txa4",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rjdfzsocu4oxuzt",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:36.527Z"
+    },
+    {
+      "id": "mk1rjd1z8fo8dvq7vc5",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:36.023Z"
+    },
     {
       "id": "mk1rjcmugpudit9kyag",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:59:09.457Z"
-    },
-    {
-      "id": "mk1risexs0lcnwxy26e",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:09.273Z"
-    },
-    {
-      "id": "mk1ris93f4zmwrj3pw6",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:09.063Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:35.479Z"
+  "lastUpdated": "2026-01-05T22:59:36.527Z"
 }
