@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 51
+      "qty": 48
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1risqf5tsyzpyf1ee",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:09.687Z"
+    },
+    {
+      "id": "mk1risk1hii56rvk8e",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:09.457Z"
+    },
+    {
+      "id": "mk1risexs0lcnwxy26e",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:09.273Z"
+    },
     {
       "id": "mk1ris93f4zmwrj3pw6",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:58:40.124Z"
-    },
-    {
-      "id": "mk1ri3i1kzyv4d9m68",
-      "action": "Salida",
-      "product": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:58:36.985Z"
-    },
-    {
-      "id": "mk1ri380fajyw8rcqi8",
-      "action": "Salida",
-      "product": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:58:36.624Z"
-    },
-    {
-      "id": "mk1rht5rgydtz0ydws7",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:58:23.583Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:09.064Z"
+  "lastUpdated": "2026-01-05T22:59:09.687Z"
 }
