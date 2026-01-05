@@ -172,7 +172,7 @@
       "id": "mjs0kkpipjpne1ktub",
       "name": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
       "location": "bodega",
-      "qty": 3
+      "qty": 2
     },
     {
       "id": "mjs0kkpibprzzkgtwti",
@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 91
+      "qty": 90
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rilp6srf2fotcmoe",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:00.570Z"
+    },
+    {
+      "id": "mk1ria3dtvdowvgenwe",
+      "action": "Salida",
+      "product": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:58:45.529Z"
+    },
     {
       "id": "mk1ri9ogpbqorqw8zjl",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:51.918Z"
-    },
-    {
-      "id": "mk1rh4l2dxa4qfummml",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:51.734Z"
-    },
-    {
-      "id": "mk1rh4g6u8st2i2ypdf",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:51.558Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:58:44.992Z"
+  "lastUpdated": "2026-01-05T22:59:00.571Z"
 }
