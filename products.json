@@ -10,7 +10,7 @@
       "id": "mjs0kkpiyols2097dy",
       "name": "Sol",
       "location": "nevera",
-      "qty": 12
+      "qty": 14
     },
     {
       "id": "mjs0kkpi992zyyjqvp",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rco7xrwl52jbe7ml",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:23.901Z"
+    },
+    {
+      "id": "mk1rcntu20fb9vf6ner",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:23.394Z"
+    },
     {
       "id": "mk1rcnhdwibvbdbo5jh",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:50:06.803Z"
-    },
-    {
-      "id": "mk1r75mykoziupgccqs",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:06.538Z"
-    },
-    {
-      "id": "mk1r6vtye7hw49asre9",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:49:53.830Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:22.946Z"
+  "lastUpdated": "2026-01-05T22:54:23.902Z"
 }
