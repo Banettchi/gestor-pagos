@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 55
+      "qty": 58
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rzco6gimob7xsf66",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:02.022Z"
+    },
+    {
+      "id": "mk1rzcgvz0a3m5jqkwr",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:01.759Z"
+    },
+    {
+      "id": "mk1rzcae2m71olwdgg",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:01.526Z"
+    },
     {
       "id": "mk1rzc10sbbp0j09mq",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Stella",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:37.400Z"
-    },
-    {
-      "id": "mk1rlykmmqbx167toig",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:37.222Z"
-    },
-    {
-      "id": "mk1rlyfo6gjgnj1yga9",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:37.044Z"
-    },
-    {
-      "id": "mk1rlyapsh5grxp7cgs",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:36.865Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:12:01.188Z"
+  "lastUpdated": "2026-01-05T23:12:02.023Z"
 }
