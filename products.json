@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 36
+      "qty": 32
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rgaplnf2yfp249e",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:13.017Z"
+    },
+    {
+      "id": "mk1rgak6r7brpivc9l",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:12.822Z"
+    },
+    {
+      "id": "mk1rgafd0f2gq8ta6bfl",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:12.649Z"
+    },
+    {
+      "id": "mk1rgaa58lvvfqkg62p",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:12.461Z"
+    },
     {
       "id": "mk1rga5wqg3rzotnrdl",
       "action": "Salida",
@@ -575,35 +603,7 @@
       "product": "Stella",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:54:33.226Z"
-    },
-    {
-      "id": "mk1rcuz4vvll5zxsbx",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:32.656Z"
-    },
-    {
-      "id": "mk1rcut6r309kiljrv",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:32.442Z"
-    },
-    {
-      "id": "mk1rcuoebjkk3ypk3m",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:32.270Z"
-    },
-    {
-      "id": "mk1rcuiiapnu0syhjl",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:32.058Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:57:12.308Z"
+  "lastUpdated": "2026-01-05T22:57:13.019Z"
 }
