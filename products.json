@@ -88,7 +88,7 @@
       "id": "mjs0kkpi3mtr2uvq2a6",
       "name": "Club Trigo",
       "location": "nevera",
-      "qty": 20
+      "qty": 16
     },
     {
       "id": "mjs0kkpiwvgjf5af9a",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1r7ludsz36747izzh",
+      "action": "Salida",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:27.541Z"
+    },
+    {
+      "id": "mk1r7lpt0uj1wb20jw0j",
+      "action": "Salida",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:27.377Z"
+    },
+    {
+      "id": "mk1r7ll4ndnl3sol4co",
+      "action": "Salida",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:27.208Z"
+    },
+    {
+      "id": "mk1r7lgdzhkuw6wmyae",
+      "action": "Salida",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:27.037Z"
+    },
     {
       "id": "mk1r7lb5g0dnnz96zht",
       "action": "Salida",
@@ -575,35 +603,7 @@
       "product": "Club Roja",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:20:49.570Z"
-    },
-    {
-      "id": "mk0cusxpkmx6pzp8rq",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:49.405Z"
-    },
-    {
-      "id": "mk0cust3yui6wwjbn2k",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:49.239Z"
-    },
-    {
-      "id": "mk0cusnzq1vxxthas7",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:49.055Z"
-    },
-    {
-      "id": "mk0cusj7lg0afpc73en",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:48.883Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:50:26.850Z"
+  "lastUpdated": "2026-01-05T22:50:27.542Z"
 }
