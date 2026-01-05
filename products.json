@@ -88,13 +88,13 @@
       "id": "mjs0kkpi3mtr2uvq2a6",
       "name": "Club Trigo",
       "location": "nevera",
-      "qty": 21
+      "qty": 20
     },
     {
       "id": "mjs0kkpiwvgjf5af9a",
       "name": "Club Dorada",
       "location": "nevera",
-      "qty": 20
+      "qty": 21
     },
     {
       "id": "mjs0kkpilpykhvn24i",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1r7lb5g0dnnz96zht",
+      "action": "Salida",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:26.849Z"
+    },
+    {
+      "id": "mk1r76tmkujhzbaj18",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:08.074Z"
+    },
     {
       "id": "mk1r76hw4t70f2nyszo",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Club Roja",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:20:48.883Z"
-    },
-    {
-      "id": "mk0cusd34unx1ze4xzj",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:48.663Z"
-    },
-    {
-      "id": "mk0cupvjdyel5rvckq",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:45.439Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:50:07.653Z"
+  "lastUpdated": "2026-01-05T22:50:26.850Z"
 }
