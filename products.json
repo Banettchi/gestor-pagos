@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 15
+      "qty": 12
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rl8xreutmufvany",
+      "action": "Salida",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:03.999Z"
+    },
+    {
+      "id": "mk1rl8sauy32ctc7bte",
+      "action": "Salida",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:03.802Z"
+    },
+    {
+      "id": "mk1rl8mkta6gek4097",
+      "action": "Salida",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:03.596Z"
+    },
     {
       "id": "mk1rl8h0ch5xm5rdyj",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:00:29.385Z"
-    },
-    {
-      "id": "mk1rki34xnviwxn7pq",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:29.200Z"
-    },
-    {
-      "id": "mk1rkhxrj70xx05cs3",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:29.007Z"
-    },
-    {
-      "id": "mk1rkhsq26jztnj7u52",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:28.826Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:01:03.396Z"
+  "lastUpdated": "2026-01-05T23:01:04.000Z"
 }
