@@ -166,7 +166,7 @@
       "id": "mjs0kkpipubuzqgijz",
       "name": "Stella",
       "location": "bodega",
-      "qty": 47
+      "qty": 44
     },
     {
       "id": "mjs0kkpipjpne1ktub",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rlyz6a2t9uf7grtq",
+      "action": "Salida",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:37.746Z"
+    },
+    {
+      "id": "mk1rlyuaoqtasegp3m",
+      "action": "Salida",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:37.570Z"
+    },
+    {
+      "id": "mk1rlypk91aa8ldrjnw",
+      "action": "Salida",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:37.400Z"
+    },
     {
       "id": "mk1rlykmmqbx167toig",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Heineken",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:00:48.642Z"
-    },
-    {
-      "id": "mk1rkwtd9xuoih78dx",
-      "action": "Salida",
-      "product": "Heineken",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:48.289Z"
-    },
-    {
-      "id": "mk1rkwewnk621bdobvg",
-      "action": "Salida",
-      "product": "Heineken",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:47.768Z"
-    },
-    {
-      "id": "mk1rkw9rrv4pvzuvu3",
-      "action": "Salida",
-      "product": "Heineken",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:47.583Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:01:37.223Z"
+  "lastUpdated": "2026-01-05T23:01:37.746Z"
 }
