@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 33
+      "qty": 34
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rh5rzjcrn7jexdcn",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:53.279Z"
+    },
     {
       "id": "mk1rh5bvbrrbm2fzh2n",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:12.308Z"
-    },
-    {
-      "id": "mk1rga0wuj65vfw5stc",
-      "action": "Salida",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:12.128Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:57:52.700Z"
+  "lastUpdated": "2026-01-05T22:57:53.279Z"
 }
