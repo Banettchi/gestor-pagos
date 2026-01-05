@@ -178,7 +178,7 @@
       "id": "mjs0kkpibprzzkgtwti",
       "name": "Tonica",
       "location": "bodega",
-      "qty": 12
+      "qty": 13
     },
     {
       "id": "mjs0kkpi2rftjmk6msr",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rmel5ddg78r11nk7",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:57.977Z"
+    },
     {
       "id": "mk1rm25i1xm6vwlxdfu",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:04.940Z"
-    },
-    {
-      "id": "mk1rl8xreutmufvany",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:03.999Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:01:41.863Z"
+  "lastUpdated": "2026-01-05T23:01:57.977Z"
 }
