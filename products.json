@@ -202,7 +202,7 @@
       "id": "mjs0kkpidtu8m30s7ye",
       "name": "Aguila Light",
       "location": "bodega",
-      "qty": 3
+      "qty": 2
     },
     {
       "id": "mjs0kkpi9mxq8dzomnu",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rhbgijtkh7q4trbt",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:58:00.642Z"
+    },
     {
       "id": "mk1rhayn2y5912utswc",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:15.016Z"
-    },
-    {
-      "id": "mk1rgc47v9lkol42jzn",
-      "action": "Salida",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:14.839Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:58:00.000Z"
+  "lastUpdated": "2026-01-05T22:58:00.643Z"
 }
