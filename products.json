@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 81
+      "qty": 78
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rinyz3iv7vl4c9gz",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:03.515Z"
+    },
+    {
+      "id": "mk1rint4ejs449dy3z",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:03.304Z"
+    },
+    {
+      "id": "mk1rinmbcatrxhyovgs",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:03.059Z"
+    },
     {
       "id": "mk1rinfl9yj8lj3lhzo",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:58.580Z"
-    },
-    {
-      "id": "mk1rh9qaa1ntidxntss",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:58.402Z"
-    },
-    {
-      "id": "mk1rh9kxtxb99gpc4g",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:58.209Z"
-    },
-    {
-      "id": "mk1rh75lvhj455cgml",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:55.065Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:02.820Z"
+  "lastUpdated": "2026-01-05T22:59:03.516Z"
 }
