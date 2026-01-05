@@ -34,7 +34,7 @@
       "id": "mjs0kkpi8yxr726t9fs",
       "name": "Heineken",
       "location": "nevera",
-      "qty": 14
+      "qty": 15
     },
     {
       "id": "mjs0kkpiqys4irlu98",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rboc8sd87w3kfu4",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:37.400Z"
+    },
     {
       "id": "mk1rbnvjsfe7lsyaau",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Cordillera Roja",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:23:19.542Z"
-    },
-    {
-      "id": "mk0cwmmq4etkje3xbzz",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:22:14.546Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:36.800Z"
+  "lastUpdated": "2026-01-05T22:53:37.401Z"
 }
