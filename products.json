@@ -160,7 +160,7 @@
       "id": "mjs0kkpi3vdf09hd6up",
       "name": "Heineken",
       "location": "bodega",
-      "qty": 23
+      "qty": 20
     },
     {
       "id": "mjs0kkpipubuzqgijz",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rkvj4tqcyli4rf5",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:46.624Z"
+    },
+    {
+      "id": "mk1rkvdzw6m3uslxs4",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:46.439Z"
+    },
+    {
+      "id": "mk1rkv9b6712kcvoqq8",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:46.271Z"
+    },
     {
       "id": "mk1rkv3tnty8x0n7mul",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:59:57.315Z"
-    },
-    {
-      "id": "mk1rjtc9ng2aw0881da",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:57.129Z"
-    },
-    {
-      "id": "mk1rjt78dsy1m41mrzi",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:56.948Z"
-    },
-    {
-      "id": "mk1rjt1wqxbhnxdoryn",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:56.756Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:00:46.074Z"
+  "lastUpdated": "2026-01-05T23:00:46.625Z"
 }
