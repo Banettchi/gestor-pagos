@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 48
+      "qty": 45
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rg8v6g1r6wdle77s",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:10.626Z"
+    },
+    {
+      "id": "mk1rg8pstqt29w516br",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:10.432Z"
+    },
+    {
+      "id": "mk1rg8ke9bjf3ngk2xk",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:10.238Z"
+    },
     {
       "id": "mk1re8e2o5nruqbtf0a",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:54:24.647Z"
-    },
-    {
-      "id": "mk1rco7xrwl52jbe7ml",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:23.901Z"
-    },
-    {
-      "id": "mk1rcntu20fb9vf6ner",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:23.394Z"
-    },
-    {
-      "id": "mk1rcnhdwibvbdbo5jh",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:22.945Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:55:36.699Z"
+  "lastUpdated": "2026-01-05T22:57:10.627Z"
 }
