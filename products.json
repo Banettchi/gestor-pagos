@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 26
+      "qty": 23
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rkk85hotnc6pz53",
+      "action": "Salida",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:31.973Z"
+    },
+    {
+      "id": "mk1rkk2t1li3q0ubqj1",
+      "action": "Salida",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:31.781Z"
+    },
+    {
+      "id": "mk1rkjxhslvuzoz69s",
+      "action": "Salida",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:31.589Z"
+    },
     {
       "id": "mk1rkjshlg5ami4fj1k",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:59:56.007Z"
-    },
-    {
-      "id": "mk1rjsclvs76yhrn8j",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:55.845Z"
-    },
-    {
-      "id": "mk1rjs5yq2mo9ie1bca",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:55.606Z"
-    },
-    {
-      "id": "mk1rjs0je7x5fgp02bg",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:55.411Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:00:31.409Z"
+  "lastUpdated": "2026-01-05T23:00:31.974Z"
 }
