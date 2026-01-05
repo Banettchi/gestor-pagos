@@ -28,7 +28,7 @@
       "id": "mjs0kkpi0hpx1vsi8q1g",
       "name": "RedBull",
       "location": "nevera",
-      "qty": 5
+      "qty": 6
     },
     {
       "id": "mjs0kkpi8yxr726t9fs",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rc54ozcy17wcb25h",
+      "action": "Salida",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:59.160Z"
+    },
+    {
+      "id": "mk1rc4b5rjc5tykjj2",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:58.097Z"
+    },
+    {
+      "id": "mk1rc46lmmq7k5122p",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:57.933Z"
+    },
     {
       "id": "mk1rc40gov4m5n6pwxq",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:48:51.995Z"
-    },
-    {
-      "id": "mk1r5grym91e7s5x34",
-      "action": "Salida",
-      "product": "Agua",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:48:47.662Z"
-    },
-    {
-      "id": "mk0d147gdbkrqv5tcah",
-      "action": "Entrada",
-      "product": "Corona 0.0",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:25:43.948Z"
-    },
-    {
-      "id": "mk0d0e4ctjvtqd96lrc",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:25:10.140Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:57.713Z"
+  "lastUpdated": "2026-01-05T22:53:59.161Z"
 }
