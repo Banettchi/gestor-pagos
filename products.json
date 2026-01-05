@@ -82,7 +82,7 @@
       "id": "mjs0kkpifnd10v6n5a5",
       "name": "Club Roja",
       "location": "nevera",
-      "qty": 24
+      "qty": 22
     },
     {
       "id": "mjs0kkpi3mtr2uvq2a6",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1r7t0shy3nz0zekx",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:36.844Z"
+    },
+    {
+      "id": "mk1r7stjwa4wu16nhe",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:36.583Z"
+    },
     {
       "id": "mk1r7sid5gbihsfrbqg",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Club Roja",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:20:50.251Z"
-    },
-    {
-      "id": "mk0cutggd9pd3km8h1",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:50.080Z"
-    },
-    {
-      "id": "mk0cutb78vzzuj8bri3",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:49.891Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:50:36.182Z"
+  "lastUpdated": "2026-01-05T22:50:36.844Z"
 }
