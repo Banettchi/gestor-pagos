@@ -232,7 +232,7 @@
       "id": "mjs0kkpi5w638ghwbk6",
       "name": "Cordillera Roja",
       "location": "bodega",
-      "qty": 17
+      "qty": 20
     },
     {
       "id": "mjs0kkpigojailqk54",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1s0fxb2peulvzqolv",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:52.895Z"
+    },
+    {
+      "id": "mk1s0fs223tgnpvylbq",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:52.706Z"
+    },
+    {
+      "id": "mk1s0fmz1md2pbvflte",
+      "action": "Entrada",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:52.523Z"
+    },
     {
       "id": "mk1s0fhi6nm3gj7ssyw",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Tonica",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:58.245Z"
-    },
-    {
-      "id": "mk1rmel5ddg78r11nk7",
-      "action": "Entrada",
-      "product": "Tonica",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:57.977Z"
-    },
-    {
-      "id": "mk1rm25i1xm6vwlxdfu",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:41.862Z"
-    },
-    {
-      "id": "mk1rm20m61i47vxje3",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:41.686Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:12:52.326Z"
+  "lastUpdated": "2026-01-05T23:12:52.896Z"
 }
