@@ -22,7 +22,7 @@
       "id": "mjs0kkpiif5bdt7dxjk",
       "name": "Agua",
       "location": "nevera",
-      "qty": 1
+      "qty": 0
     },
     {
       "id": "mjs0kkpi0hpx1vsi8q1g",
@@ -44,7 +44,7 @@
     },
     {
       "id": "mjs0kkpikcfuub9rcjk",
-      "name": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
+      "name": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
       "location": "nevera",
       "qty": 0
     },
@@ -170,7 +170,7 @@
     },
     {
       "id": "mjs0kkpipjpne1ktub",
-      "name": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
+      "name": "BretaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
       "location": "bodega",
       "qty": 11
     },
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1r5grym91e7s5x34",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:48:47.662Z"
+    },
     {
       "id": "mk0d147gdbkrqv5tcah",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:19:36.491Z"
-    },
-    {
-      "id": "mk0ct8gqjqwuu5iqyd",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:19:36.218Z"
     }
   ],
-  "lastUpdated": "2026-01-04T23:25:43.949Z"
+  "lastUpdated": "2026-01-05T22:48:47.663Z"
 }
