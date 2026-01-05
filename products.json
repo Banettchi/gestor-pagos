@@ -160,7 +160,7 @@
       "id": "mjs0kkpi3vdf09hd6up",
       "name": "Heineken",
       "location": "bodega",
-      "qty": 17
+      "qty": 14
     },
     {
       "id": "mjs0kkpipubuzqgijz",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rkwewnk621bdobvg",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:47.768Z"
+    },
+    {
+      "id": "mk1rkw9rrv4pvzuvu3",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:47.583Z"
+    },
+    {
+      "id": "mk1rkw4bce5azisntib",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:47.387Z"
+    },
     {
       "id": "mk1rkvyxgg89qphnl96",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:00:25.330Z"
-    },
-    {
-      "id": "mk1rk56iy5vgalso4cd",
-      "action": "Salida",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:12.474Z"
-    },
-    {
-      "id": "mk1rk4i4hk9ahiypwaq",
-      "action": "Salida",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:11.596Z"
-    },
-    {
-      "id": "mk1rk49nafkg7ss8cj",
-      "action": "Salida",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:11.291Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:00:47.193Z"
+  "lastUpdated": "2026-01-05T23:00:47.768Z"
 }
