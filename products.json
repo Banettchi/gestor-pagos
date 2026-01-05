@@ -142,7 +142,7 @@
       "id": "mjs0kkpi3dxhxr472di",
       "name": "Coca Cola",
       "location": "bodega",
-      "qty": 1
+      "qty": 0
     },
     {
       "id": "mjs0kkpicoo1jni6gqs",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1s3orjocgyenah5mb",
+      "action": "Salida",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:15:24.319Z"
+    },
     {
       "id": "mk1s3lwsd38plxqt64",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:12:01.526Z"
-    },
-    {
-      "id": "mk1rzc10sbbp0j09mq",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:12:01.188Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:15:20.620Z"
+  "lastUpdated": "2026-01-05T23:15:24.319Z"
 }
