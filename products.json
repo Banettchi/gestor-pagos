@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 39
+      "qty": 42
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1re6f6ijkv9zthopm",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:34.146Z"
+    },
+    {
+      "id": "mk1re6a3c9s6wx8k4tq",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:33.963Z"
+    },
+    {
+      "id": "mk1re64dm36x5wwprt",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:33.757Z"
+    },
     {
       "id": "mk1re5z9gomzbbdf4h5",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:54:21.797Z"
-    },
-    {
-      "id": "mk1rc54ozcy17wcb25h",
-      "action": "Salida",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:59.160Z"
-    },
-    {
-      "id": "mk1rc4b5rjc5tykjj2",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:58.097Z"
-    },
-    {
-      "id": "mk1rc46lmmq7k5122p",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:57.933Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:55:33.573Z"
+  "lastUpdated": "2026-01-05T22:55:34.147Z"
 }
