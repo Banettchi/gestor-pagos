@@ -142,7 +142,7 @@
       "id": "mjs0kkpi3dxhxr472di",
       "name": "Coca Cola",
       "location": "bodega",
-      "qty": 1
+      "qty": 0
     },
     {
       "id": "mjs0kkpicoo1jni6gqs",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rk56iy5vgalso4cd",
+      "action": "Salida",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:12.474Z"
+    },
     {
       "id": "mk1rk4i4hk9ahiypwaq",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:59:48.199Z"
-    },
-    {
-      "id": "mk1rjmah8swz7foyf0q",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:47.993Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:00:11.596Z"
+  "lastUpdated": "2026-01-05T23:00:12.475Z"
 }
