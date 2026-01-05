@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 29
+      "qty": 32
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1re4or56wmxv4t6xx",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:31.899Z"
+    },
+    {
+      "id": "mk1re4imp0xumhbi3vi",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:31.678Z"
+    },
+    {
+      "id": "mk1re4dx8sucucm6sc",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:31.509Z"
+    },
     {
       "id": "mk1re48wyt4ot6sd51",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:53:48.888Z"
-    },
-    {
-      "id": "mk1rbx2ko4vuh6xa2fb",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:48.716Z"
-    },
-    {
-      "id": "mk1rbwxikykiqmv083",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:48.534Z"
-    },
-    {
-      "id": "mk1rbwrr8elq2x7mfes",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:48.327Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:55:31.329Z"
+  "lastUpdated": "2026-01-05T22:55:31.900Z"
 }
