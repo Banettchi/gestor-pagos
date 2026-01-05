@@ -40,7 +40,7 @@
       "id": "mjs0kkpiqys4irlu98",
       "name": "Stella",
       "location": "nevera",
-      "qty": 19
+      "qty": 22
     },
     {
       "id": "mjs0kkpikcfuub9rcjk",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rcubmes3htw4gzii",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:31.810Z"
+    },
+    {
+      "id": "mk1rcu6oy37jx4z9oc",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:31.632Z"
+    },
+    {
+      "id": "mk1rcu19nc19s341pxh",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:31.437Z"
+    },
     {
       "id": "mk1rctvb1ewypk4i2i",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:50:28.032Z"
-    },
-    {
-      "id": "mk1r7ludsz36747izzh",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:27.541Z"
-    },
-    {
-      "id": "mk1r7lpt0uj1wb20jw0j",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:27.377Z"
-    },
-    {
-      "id": "mk1r7ll4ndnl3sol4co",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:27.208Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:31.224Z"
+  "lastUpdated": "2026-01-05T22:54:31.811Z"
 }
