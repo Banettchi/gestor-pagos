@@ -160,7 +160,7 @@
       "id": "mjs0kkpi3vdf09hd6up",
       "name": "Heineken",
       "location": "bodega",
-      "qty": 14
+      "qty": 12
     },
     {
       "id": "mjs0kkpipubuzqgijz",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rkx36w7gd7lgaytj",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:48.642Z"
+    },
+    {
+      "id": "mk1rkwtd9xuoih78dx",
+      "action": "Salida",
+      "product": "Heineken",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:00:48.289Z"
+    },
     {
       "id": "mk1rkwewnk621bdobvg",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:00:25.725Z"
-    },
-    {
-      "id": "mk1rkf9f5npixt9s3rk",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:25.539Z"
-    },
-    {
-      "id": "mk1rkf3m0yoi00jltxhl",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:25.330Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:00:47.768Z"
+  "lastUpdated": "2026-01-05T23:00:48.643Z"
 }
