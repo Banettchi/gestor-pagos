@@ -142,7 +142,7 @@
       "id": "mjs0kkpi3dxhxr472di",
       "name": "Coca Cola",
       "location": "bodega",
-      "qty": 0
+      "qty": 1
     },
     {
       "id": "mjs0kkpicoo1jni6gqs",
@@ -250,10 +250,24 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 1
+      "qty": 2
     }
   ],
   "history": [
+    {
+      "id": "mk1s3l7whppmg36lzke",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:15:19.724Z"
+    },
+    {
+      "id": "mk1s3i9px1041vc6bn",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:15:15.901Z"
+    },
     {
       "id": "mk1s3hy1z7d6wmi1fum",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:11:48.726Z"
-    },
-    {
-      "id": "mk1rz2142iqhubkof2u",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:11:48.232Z"
-    },
-    {
-      "id": "mk1rz1ov20iciy58sg5",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:11:47.791Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:15:15.491Z"
+  "lastUpdated": "2026-01-05T23:15:19.724Z"
 }
