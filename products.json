@@ -94,7 +94,7 @@
       "id": "mjs0kkpiwvgjf5af9a",
       "name": "Club Dorada",
       "location": "nevera",
-      "qty": 16
+      "qty": 17
     },
     {
       "id": "mjs0kkpilpykhvn24i",
@@ -124,7 +124,7 @@
       "id": "mjs0kkpiaj6avefddsc",
       "name": "BBC Rose",
       "location": "nevera",
-      "qty": 11
+      "qty": 13
     },
     {
       "id": "mjs0kkpisjrzpk5ay6m",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1r75mykoziupgccqs",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:50:06.538Z"
+    },
+    {
+      "id": "mk1r6vtye7hw49asre9",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:49:53.830Z"
+    },
+    {
+      "id": "mk1r6voxlq317ecg9mp",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:49:53.649Z"
+    },
     {
       "id": "mk1r6vh2r6h3bdavvcp",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:20:44.719Z"
-    },
-    {
-      "id": "mk0cup6680ol1bij24s",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:44.526Z"
-    },
-    {
-      "id": "mk0cup05eyb7iwsbxr9",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:44.309Z"
-    },
-    {
-      "id": "mk0cuoue4ctp5gush0q",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:44.102Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:49:53.367Z"
+  "lastUpdated": "2026-01-05T22:50:06.539Z"
 }
