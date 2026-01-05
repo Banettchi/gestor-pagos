@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 29
+      "qty": 27
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rgbjd27kcyudw0yj",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:14.089Z"
+    },
+    {
+      "id": "mk1rgbbelh71nbv9igm",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:13.802Z"
+    },
     {
       "id": "mk1rgb5qrtdtw2jyz7e",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:55:26.054Z"
-    },
-    {
-      "id": "mk1re018yfzb44g7tfr",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:55:25.868Z"
-    },
-    {
-      "id": "mk1rcw61h01so06d1xt",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:34.201Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:57:13.598Z"
+  "lastUpdated": "2026-01-05T22:57:14.090Z"
 }
