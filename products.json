@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 18
+      "qty": 16
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rgdefmjr9op630m",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:16.503Z"
+    },
+    {
+      "id": "mk1rgd1fb2plgayl87j",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:16.035Z"
+    },
     {
       "id": "mk1rgcv0hd154fs7qcb",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:55:31.678Z"
-    },
-    {
-      "id": "mk1re4dx8sucucm6sc",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:55:31.509Z"
-    },
-    {
-      "id": "mk1re48wyt4ot6sd51",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:55:31.328Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:57:15.805Z"
+  "lastUpdated": "2026-01-05T22:57:16.504Z"
 }
