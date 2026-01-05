@@ -214,7 +214,7 @@
       "id": "mjs0kkpigpccnv2txa4",
       "name": "Club Trigo",
       "location": "bodega",
-      "qty": 5
+      "qty": 8
     },
     {
       "id": "mjs0kkpijqqkus0dtm",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rjn6pfez79w3j51q",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:49.153Z"
+    },
+    {
+      "id": "mk1rjn180h9wid3e1jop",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:48.956Z"
+    },
+    {
+      "id": "mk1rjmvybr77lj94dsn",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:48.766Z"
+    },
     {
       "id": "mk1rjmqy3xlxz2l2ll6",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:59:10.955Z"
-    },
-    {
-      "id": "mk1ritjmzdl87j8iq6",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:10.738Z"
-    },
-    {
-      "id": "mk1rite49wye02jga96",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:10.540Z"
-    },
-    {
-      "id": "mk1rit81ercj51umbr",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:10.321Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:48.587Z"
+  "lastUpdated": "2026-01-05T22:59:49.154Z"
 }
