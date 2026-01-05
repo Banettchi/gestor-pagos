@@ -64,7 +64,7 @@
       "id": "mjs0kkpi1m9fqgp0w02j",
       "name": "Poker",
       "location": "nevera",
-      "qty": 9
+      "qty": 13
     },
     {
       "id": "mjs0kkpilcq69ol8srd",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rbwxikykiqmv083",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:48.534Z"
+    },
+    {
+      "id": "mk1rbwrr8elq2x7mfes",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:48.327Z"
+    },
+    {
+      "id": "mk1rbwmxhzz1kplgln",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:48.153Z"
+    },
+    {
+      "id": "mk1rbwi9juiexobzsyd",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:47.985Z"
+    },
     {
       "id": "mk1rbwdpvm0mu8c9od",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Cordillera Negra",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:24:03.078Z"
-    },
-    {
-      "id": "mk0cy2u0u1attlzwms",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:23:22.200Z"
-    },
-    {
-      "id": "mk0cy1fyh32j0v09kgs",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:23:20.398Z"
-    },
-    {
-      "id": "mk0cy168wtg8k7lx7f",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:23:20.048Z"
-    },
-    {
-      "id": "mk0cy134crdycg9gb4b",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:23:19.936Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:47.822Z"
+  "lastUpdated": "2026-01-05T22:53:48.534Z"
 }
