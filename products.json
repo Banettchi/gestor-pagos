@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 84
+      "qty": 82
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rimy94qtg8syyg1l",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:02.193Z"
+    },
+    {
+      "id": "mk1rimqsxsqn9alph87",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:01.924Z"
+    },
     {
       "id": "mk1rimkl3bqpxa6fw1v",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:54.680Z"
-    },
-    {
-      "id": "mk1rh634fo5tdgnbwrn",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:53.680Z"
-    },
-    {
-      "id": "mk1rh5xohef3dpymk28",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:53.484Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:01.702Z"
+  "lastUpdated": "2026-01-05T22:59:02.195Z"
 }
