@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 23
+      "qty": 25
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -214,7 +214,7 @@
       "id": "mjs0kkpigpccnv2txa4",
       "name": "Club Trigo",
       "location": "bodega",
-      "qty": 0
+      "qty": 1
     },
     {
       "id": "mjs0kkpijqqkus0dtm",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1re0bdt6f3hn15yfi",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:26.233Z"
+    },
+    {
+      "id": "mk1re06egbf7ugpjl15",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:26.054Z"
+    },
+    {
+      "id": "mk1re018yfzb44g7tfr",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:25.868Z"
+    },
     {
       "id": "mk1rcw61h01so06d1xt",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Heineken",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:53:36.136Z"
-    },
-    {
-      "id": "mk1rbn7ovh4d0mxnaa8",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:35.940Z"
-    },
-    {
-      "id": "mk1rbn2n2ymdqziza16",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:35.759Z"
-    },
-    {
-      "id": "mk1rbmxta59p7oc4r",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:35.585Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:34.202Z"
+  "lastUpdated": "2026-01-05T22:55:26.234Z"
 }
