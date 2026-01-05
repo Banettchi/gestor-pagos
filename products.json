@@ -40,7 +40,7 @@
       "id": "mjs0kkpiqys4irlu98",
       "name": "Stella",
       "location": "nevera",
-      "qty": 25
+      "qty": 27
     },
     {
       "id": "mjs0kkpikcfuub9rcjk",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rcveymle8gqxdg3c",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:33.226Z"
+    },
+    {
+      "id": "mk1rcuz4vvll5zxsbx",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:32.656Z"
+    },
     {
       "id": "mk1rcut6r309kiljrv",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:51:40.121Z"
-    },
-    {
-      "id": "mk1r7t7sn3taqg3h4sc",
-      "action": "Salida",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:37.096Z"
-    },
-    {
-      "id": "mk1r7t0shy3nz0zekx",
-      "action": "Salida",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:36.844Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:32.443Z"
+  "lastUpdated": "2026-01-05T22:54:33.226Z"
 }
