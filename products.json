@@ -166,7 +166,7 @@
       "id": "mjs0kkpipubuzqgijz",
       "name": "Stella",
       "location": "bodega",
-      "qty": 38
+      "qty": 35
     },
     {
       "id": "mjs0kkpipjpne1ktub",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rm0f1jsrlrj4bhio",
+      "action": "Salida",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:39.613Z"
+    },
+    {
+      "id": "mk1rm095g6tfy02mbkl",
+      "action": "Salida",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:39.401Z"
+    },
+    {
+      "id": "mk1rm04kj88qzw810zh",
+      "action": "Salida",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:39.236Z"
+    },
     {
       "id": "mk1rlzz2wdbnl9jhtf",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:01.699Z"
-    },
-    {
-      "id": "mk1rl707losf429f6j",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:01.495Z"
-    },
-    {
-      "id": "mk1rl6uvi302a2mldzj",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:01.303Z"
-    },
-    {
-      "id": "mk1rl6q53akdlt19xvi",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:01.133Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:01:39.038Z"
+  "lastUpdated": "2026-01-05T23:01:39.613Z"
 }
