@@ -40,7 +40,7 @@
       "id": "mjs0kkpiqys4irlu98",
       "name": "Stella",
       "location": "nevera",
-      "qty": 27
+      "qty": 30
     },
     {
       "id": "mjs0kkpikcfuub9rcjk",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rcw61h01so06d1xt",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:34.201Z"
+    },
+    {
+      "id": "mk1rcvreg78t3sin0vp",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:33.674Z"
+    },
+    {
+      "id": "mk1rcvl14efc8yiihv2",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:33.445Z"
+    },
     {
       "id": "mk1rcveymle8gqxdg3c",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Heineken",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:53:35.585Z"
-    },
-    {
-      "id": "mk1rbmsw4r8ks9kmrdn",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:35.408Z"
-    },
-    {
-      "id": "mk1rbmns3h0p4oelr4m",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:35.224Z"
-    },
-    {
-      "id": "mk1r95uhbgk95uxq1p",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:51:40.121Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:33.226Z"
+  "lastUpdated": "2026-01-05T22:54:34.202Z"
 }
