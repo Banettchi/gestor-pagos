@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 64
+      "qty": 62
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1riqhldzzoik1kuo",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:06.777Z"
+    },
+    {
+      "id": "mk1riqbvokzuy8y2ah",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:06.571Z"
+    },
     {
       "id": "mk1riq5yuv48jav0pzn",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "BBC Rose",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:58:05.429Z"
-    },
-    {
-      "id": "mk1rhf0wygph68cs4oa",
-      "action": "Salida",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:58:05.264Z"
-    },
-    {
-      "id": "mk1rhevo1brc6djcxir",
-      "action": "Salida",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:58:05.076Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:06.359Z"
+  "lastUpdated": "2026-01-05T22:59:06.777Z"
 }
