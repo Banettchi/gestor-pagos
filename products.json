@@ -34,7 +34,7 @@
       "id": "mjs0kkpi8yxr726t9fs",
       "name": "Heineken",
       "location": "nevera",
-      "qty": 12
+      "qty": 14
     },
     {
       "id": "mjs0kkpiqys4irlu98",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rbnvjsfe7lsyaau",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:36.799Z"
+    },
+    {
+      "id": "mk1rbnq2ns31nib0vof",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:36.602Z"
+    },
     {
       "id": "mk1rbnd40lbe4c6mbad9",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:22:14.546Z"
-    },
-    {
-      "id": "mk0cwmgtfkdvi5s0g6",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:22:14.333Z"
-    },
-    {
-      "id": "mk0cwm9sm43y4ew2dgk",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:22:14.080Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:36.137Z"
+  "lastUpdated": "2026-01-05T22:53:36.800Z"
 }
