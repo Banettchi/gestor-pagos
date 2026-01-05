@@ -238,7 +238,7 @@
       "id": "mjs0kkpigojailqk54",
       "name": "Cordillera Negra",
       "location": "bodega",
-      "qty": 16
+      "qty": 13
     },
     {
       "id": "mjs0kkpirn4vqmqfuo",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1s06v12g08v078lyi",
+      "action": "Salida",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:41.149Z"
+    },
+    {
+      "id": "mk1s06paqmm0067u70r",
+      "action": "Salida",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:40.942Z"
+    },
+    {
+      "id": "mk1s06k7perql1qwova",
+      "action": "Salida",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:12:40.759Z"
+    },
     {
       "id": "mk1s06f1wrlipseuvj",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Stella",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:40.146Z"
-    },
-    {
-      "id": "mk1rm0p5wn7b34sii5i",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:39.977Z"
-    },
-    {
-      "id": "mk1rm0k15rhsguu42po",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:39.793Z"
-    },
-    {
-      "id": "mk1rm0f1jsrlrj4bhio",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:39.613Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:12:40.574Z"
+  "lastUpdated": "2026-01-05T23:12:41.150Z"
 }
