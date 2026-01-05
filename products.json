@@ -214,7 +214,7 @@
       "id": "mjs0kkpigpccnv2txa4",
       "name": "Club Trigo",
       "location": "bodega",
-      "qty": 20
+      "qty": 23
     },
     {
       "id": "mjs0kkpijqqkus0dtm",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rjpf1yar9e5itvy",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:52.045Z"
+    },
+    {
+      "id": "mk1rjp9t77ki8t4kvkc",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:51.857Z"
+    },
+    {
+      "id": "mk1rjp3sbgwap4s7ui",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:59:51.640Z"
+    },
     {
       "id": "mk1rjoynhpmvupumlog",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:59:29.554Z"
-    },
-    {
-      "id": "mk1rj7xhuzy2eogbr1",
-      "action": "Salida",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:29.381Z"
-    },
-    {
-      "id": "mk1rj7qoayf92hwyo3o",
-      "action": "Salida",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:29.136Z"
-    },
-    {
-      "id": "mk1riw1ffcaxbnry32",
-      "action": "Salida",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:59:13.971Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:59:51.457Z"
+  "lastUpdated": "2026-01-05T22:59:52.045Z"
 }
