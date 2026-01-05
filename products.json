@@ -64,7 +64,7 @@
       "id": "mjs0kkpi1m9fqgp0w02j",
       "name": "Poker",
       "location": "nevera",
-      "qty": 13
+      "qty": 16
     },
     {
       "id": "mjs0kkpilcq69ol8srd",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rbxc5evk6bqxa2wk",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:49.061Z"
+    },
+    {
+      "id": "mk1rbx7co69xmga6luj",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:48.888Z"
+    },
+    {
+      "id": "mk1rbx2ko4vuh6xa2fb",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:48.716Z"
+    },
     {
       "id": "mk1rbwxikykiqmv083",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Cordillera Negra",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:24:04.193Z"
-    },
-    {
-      "id": "mk0cyyq7t5kw9vi8gf",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:24:03.535Z"
-    },
-    {
-      "id": "mk0cyyjk8632q90e5hc",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:24:03.296Z"
-    },
-    {
-      "id": "mk0cyydinoaxu98t5ra",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:24:03.078Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:48.534Z"
+  "lastUpdated": "2026-01-05T22:53:49.062Z"
 }
