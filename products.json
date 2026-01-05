@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 25
+      "qty": 24
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1re21aluw8rktu51d",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:28.462Z"
+    },
     {
       "id": "mk1re0yxb90tt927hhp",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Heineken",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:53:37.400Z"
-    },
-    {
-      "id": "mk1rbnvjsfe7lsyaau",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:36.799Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:55:27.081Z"
+  "lastUpdated": "2026-01-05T22:55:28.464Z"
 }
