@@ -10,7 +10,7 @@
       "id": "mjs0kkpiyols2097dy",
       "name": "Sol",
       "location": "nevera",
-      "qty": 9
+      "qty": 12
     },
     {
       "id": "mjs0kkpi992zyyjqvp",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rcnhdwibvbdbo5jh",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:22.945Z"
+    },
+    {
+      "id": "mk1rcncdvxwxta0eu1h",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:22.765Z"
+    },
+    {
+      "id": "mk1rcn701j3u5iucqg",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:22.572Z"
+    },
     {
       "id": "mk1rcn1fc44kacrlhdv",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "BBC Rose",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:49:53.830Z"
-    },
-    {
-      "id": "mk1r6voxlq317ecg9mp",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:49:53.649Z"
-    },
-    {
-      "id": "mk1r6vh2r6h3bdavvcp",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:49:53.366Z"
-    },
-    {
-      "id": "mk1r663mc60oqlqlqof",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:49:20.482Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:22.372Z"
+  "lastUpdated": "2026-01-05T22:54:22.946Z"
 }
