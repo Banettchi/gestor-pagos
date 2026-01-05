@@ -10,7 +10,7 @@
       "id": "mjs0kkpiyols2097dy",
       "name": "Sol",
       "location": "nevera",
-      "qty": 14
+      "qty": 13
     },
     {
       "id": "mjs0kkpi992zyyjqvp",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rcosnp6yru0syklt",
+      "action": "Salida",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:24.647Z"
+    },
     {
       "id": "mk1rco7xrwl52jbe7ml",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:50:06.992Z"
-    },
-    {
-      "id": "mk1r75ubn6balrwl4jr",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:50:06.803Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:23.902Z"
+  "lastUpdated": "2026-01-05T22:54:24.647Z"
 }
