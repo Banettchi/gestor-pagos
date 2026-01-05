@@ -64,7 +64,7 @@
       "id": "mjs0kkpi1m9fqgp0w02j",
       "name": "Poker",
       "location": "nevera",
-      "qty": 18
+      "qty": 20
     },
     {
       "id": "mjs0kkpilcq69ol8srd",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rbyqh6gh0ybn6fbg",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:50.873Z"
+    },
+    {
+      "id": "mk1rbybb0a12tt2cvdax",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:50.327Z"
+    },
     {
       "id": "mk1rby3rlgarfth3gxh",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:25:09.835Z"
-    },
-    {
-      "id": "mk0d0donxmlcy9mqnw9",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:25:09.575Z"
-    },
-    {
-      "id": "mk0d0dir8l415mkppm6",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:25:09.363Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:50.055Z"
+  "lastUpdated": "2026-01-05T22:53:50.875Z"
 }
