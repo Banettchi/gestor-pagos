@@ -28,7 +28,7 @@
       "id": "mjs0kkpi0hpx1vsi8q1g",
       "name": "RedBull",
       "location": "nevera",
-      "qty": 4
+      "qty": 5
     },
     {
       "id": "mjs0kkpi8yxr726t9fs",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rc40gov4m5n6pwxq",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:57.712Z"
+    },
     {
       "id": "mk1rbyqh6gh0ybn6fbg",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:25:10.140Z"
-    },
-    {
-      "id": "mk0d0dvv4jm3cjbbbi",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:25:09.835Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:50.875Z"
+  "lastUpdated": "2026-01-05T22:53:57.713Z"
 }
