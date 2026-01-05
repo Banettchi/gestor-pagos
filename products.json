@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 38
+      "qty": 41
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1ry7grt36v0al0v9",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:08.619Z"
+    },
+    {
+      "id": "mk1ry7bu4hi1t4v4xse",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:08.442Z"
+    },
+    {
+      "id": "mk1ry763ol0sw8uve3d",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:08.235Z"
+    },
     {
       "id": "mk1ry70209z05faqddzb",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:30.355Z"
-    },
-    {
-      "id": "mk1rlczio5n5whkv0hb",
-      "action": "Salida",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:09.246Z"
-    },
-    {
-      "id": "mk1rlcu6x3qkdcgzrdo",
-      "action": "Salida",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:09.054Z"
-    },
-    {
-      "id": "mk1rlcntujeb182jnmj",
-      "action": "Salida",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:08.825Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:11:08.019Z"
+  "lastUpdated": "2026-01-05T23:11:08.619Z"
 }
