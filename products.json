@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 45
+      "qty": 42
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rg9af8irx8ymwcjv",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:11.175Z"
+    },
+    {
+      "id": "mk1rg95ag3fe93gp85i",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:10.990Z"
+    },
+    {
+      "id": "mk1rg8zzfo5jeg6fjkb",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:57:10.799Z"
+    },
     {
       "id": "mk1rg8v6g1r6wdle77s",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Stella",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:54:30.846Z"
-    },
-    {
-      "id": "mk1rctf62ahpt68c9op",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:30.642Z"
-    },
-    {
-      "id": "mk1rcta5iuvbpp66wbh",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:30.461Z"
-    },
-    {
-      "id": "mk1rcosnp6yru0syklt",
-      "action": "Salida",
-      "product": "Sol",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:54:24.647Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:57:10.627Z"
+  "lastUpdated": "2026-01-05T22:57:11.176Z"
 }
