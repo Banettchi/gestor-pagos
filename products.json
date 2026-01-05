@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 37
+      "qty": 39
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1re5z9gomzbbdf4h5",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:33.573Z"
+    },
+    {
+      "id": "mk1re5u0vkc3g7pryp9",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:33.384Z"
+    },
     {
       "id": "mk1re5mf6iqb2hykurc",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "RedBull",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:53:57.933Z"
-    },
-    {
-      "id": "mk1rc40gov4m5n6pwxq",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:57.712Z"
-    },
-    {
-      "id": "mk1rbyqh6gh0ybn6fbg",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:50.873Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:55:33.112Z"
+  "lastUpdated": "2026-01-05T22:55:33.573Z"
 }
