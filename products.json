@@ -10,7 +10,7 @@
       "id": "mjs0kkpiyols2097dy",
       "name": "Sol",
       "location": "nevera",
-      "qty": 6
+      "qty": 9
     },
     {
       "id": "mjs0kkpi992zyyjqvp",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rcn1fc44kacrlhdv",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:22.371Z"
+    },
+    {
+      "id": "mk1rcmwbdflqae8ocm",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:22.187Z"
+    },
+    {
+      "id": "mk1rcmr2ywnud294ch",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:54:21.998Z"
+    },
     {
       "id": "mk1rcmlhbnydxyt4g0p",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:49:20.482Z"
-    },
-    {
-      "id": "mk1r618i1pa7180nfbc",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:49:14.178Z"
-    },
-    {
-      "id": "mk1r5ky9tvaql40hbl",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:48:53.073Z"
-    },
-    {
-      "id": "mk1r5ki4a77tpvv0vrj",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:48:52.492Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:54:21.798Z"
+  "lastUpdated": "2026-01-05T22:54:22.372Z"
 }
