@@ -34,7 +34,7 @@
       "id": "mjs0kkpi8yxr726t9fs",
       "name": "Heineken",
       "location": "nevera",
-      "qty": 7
+      "qty": 12
     },
     {
       "id": "mjs0kkpiqys4irlu98",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rbnd40lbe4c6mbad9",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:36.136Z"
+    },
+    {
+      "id": "mk1rbn7ovh4d0mxnaa8",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:35.940Z"
+    },
+    {
+      "id": "mk1rbn2n2ymdqziza16",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:35.759Z"
+    },
+    {
+      "id": "mk1rbmxta59p7oc4r",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:35.585Z"
+    },
+    {
+      "id": "mk1rbmsw4r8ks9kmrdn",
+      "action": "Entrada",
+      "product": "Heineken",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:35.408Z"
+    },
     {
       "id": "mk1rbmns3h0p4oelr4m",
       "action": "Entrada",
@@ -568,42 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:22:14.080Z"
-    },
-    {
-      "id": "mk0cwlil6io0h893ct3",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:22:13.101Z"
-    },
-    {
-      "id": "mk0cuzqjko0ko8qvk6b",
-      "action": "Salida",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:58.219Z"
-    },
-    {
-      "id": "mk0cuv36yqgtwgibfpn",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:52.194Z"
-    },
-    {
-      "id": "mk0cuuj9zat2d71k3cg",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:51.477Z"
-    },
-    {
-      "id": "mk0cuu5y9tza6zvjejg",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:20:50.998Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:35.225Z"
+  "lastUpdated": "2026-01-05T22:53:36.137Z"
 }
