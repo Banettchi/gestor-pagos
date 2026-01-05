@@ -255,6 +255,20 @@
   ],
   "history": [
     {
+      "id": "mk1re0yxb90tt927hhp",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:27.081Z"
+    },
+    {
+      "id": "mk1re0gyh8162ik39ud",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:55:26.434Z"
+    },
+    {
       "id": "mk1re0bdt6f3hn15yfi",
       "action": "Entrada",
       "product": "Agua",
@@ -589,21 +603,7 @@
       "product": "Heineken",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-05T22:53:36.799Z"
-    },
-    {
-      "id": "mk1rbnq2ns31nib0vof",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:36.602Z"
-    },
-    {
-      "id": "mk1rbnd40lbe4c6mbad9",
-      "action": "Entrada",
-      "product": "Heineken",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-05T22:53:36.136Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:55:26.234Z"
+  "lastUpdated": "2026-01-05T22:55:27.081Z"
 }
