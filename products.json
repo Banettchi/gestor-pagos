@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 34
+      "qty": 38
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1ry70209z05faqddzb",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:08.018Z"
+    },
+    {
+      "id": "mk1ry6s5itcgyromn",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:07.733Z"
+    },
+    {
+      "id": "mk1ry6mucr8ual889u6",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:07.542Z"
+    },
+    {
+      "id": "mk1ry6guj3evfrkial",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:07.326Z"
+    },
     {
       "id": "mk1ry6arvdqsdhyfv8n",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "RedBull",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:08.825Z"
-    },
-    {
-      "id": "mk1rlalqx8u5x36hkge",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:06.158Z"
-    },
-    {
-      "id": "mk1rlaef532wlj2yrsj",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:05.895Z"
-    },
-    {
-      "id": "mk1rla72m6lh4jydy6",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:05.630Z"
-    },
-    {
-      "id": "mk1rla0xbmhqpakhw7",
-      "action": "Salida",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:05.409Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:11:07.108Z"
+  "lastUpdated": "2026-01-05T23:11:08.019Z"
 }
