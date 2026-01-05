@@ -136,7 +136,7 @@
       "id": "mjs0kkpicm1u2gefph",
       "name": "Sol",
       "location": "bodega",
-      "qty": 25
+      "qty": 23
     },
     {
       "id": "mjs0kkpi3dxhxr472di",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rluoun2n8zff42tk",
+      "action": "Salida",
+      "product": "Sol",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:32.190Z"
+    },
+    {
+      "id": "mk1rluidkoqq67f9f6",
+      "action": "Salida",
+      "product": "Sol",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:31.957Z"
+    },
     {
       "id": "mk1rlub26rlhfqxjlh3",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Heineken",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:00:46.073Z"
-    },
-    {
-      "id": "mk1rksqiau5v5q18bwt",
-      "action": "Salida",
-      "product": "Corona 0.0",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:43.002Z"
-    },
-    {
-      "id": "mk1rksl1rkss7mnq7w",
-      "action": "Salida",
-      "product": "Corona 0.0",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:42.805Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:01:31.695Z"
+  "lastUpdated": "2026-01-05T23:01:32.191Z"
 }
