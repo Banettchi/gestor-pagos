@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 19
+      "qty": 18
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1s4229ktdknwjmyr",
+      "action": "Salida",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:15:41.553Z"
+    },
     {
       "id": "mk1s3orjocgyenah5mb",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:12:01.759Z"
-    },
-    {
-      "id": "mk1rzcae2m71olwdgg",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:12:01.526Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:15:24.319Z"
+  "lastUpdated": "2026-01-05T23:15:41.553Z"
 }
