@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 47
+      "qty": 48
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1ryadiz5nbpzac1qh",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:11:12.390Z"
+    },
     {
       "id": "mk1ry9bd0hqhjim7k6t9",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:01:31.957Z"
-    },
-    {
-      "id": "mk1rlub26rlhfqxjlh3",
-      "action": "Salida",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:01:31.694Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:11:11.018Z"
+  "lastUpdated": "2026-01-05T23:11:12.391Z"
 }
