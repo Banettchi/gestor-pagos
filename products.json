@@ -250,10 +250,24 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 2
+      "qty": 0
     }
   ],
   "history": [
+    {
+      "id": "mk1rhhf428v4ajmzzqi",
+      "action": "Salida",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:58:08.368Z"
+    },
+    {
+      "id": "mk1rhh1zjslrwc3dqba",
+      "action": "Salida",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:58:07.895Z"
+    },
     {
       "id": "mk1rhgphytpy8h3e3zq",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:49.724Z"
-    },
-    {
-      "id": "mk1rh2wvk20kobqo55",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:49.567Z"
-    },
-    {
-      "id": "mk1rh2sv59lv2i4i3v5",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:49.423Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:58:07.446Z"
+  "lastUpdated": "2026-01-05T22:58:08.369Z"
 }
