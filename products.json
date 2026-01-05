@@ -250,10 +250,17 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 16
+      "qty": 15
     }
   ],
   "history": [
+    {
+      "id": "mk1rheb56mf91czfw3j",
+      "action": "Salida",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T22:58:04.337Z"
+    },
     {
       "id": "mk1rhc5cn6j69e4sbch",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T22:57:15.578Z"
-    },
-    {
-      "id": "mk1rgcjh28x1jhygmndg",
-      "action": "Salida",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T22:57:15.389Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:58:01.537Z"
+  "lastUpdated": "2026-01-05T22:58:04.337Z"
 }
