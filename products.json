@@ -136,7 +136,7 @@
       "id": "mjs0kkpicm1u2gefph",
       "name": "Sol",
       "location": "bodega",
-      "qty": 28
+      "qty": 25
     },
     {
       "id": "mjs0kkpi3dxhxr472di",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rlub26rlhfqxjlh3",
+      "action": "Salida",
+      "product": "Sol",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:31.694Z"
+    },
+    {
+      "id": "mk1rlu1efdx7zgnuhha",
+      "action": "Salida",
+      "product": "Sol",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:31.346Z"
+    },
+    {
+      "id": "mk1rltuajzj69qabtd",
+      "action": "Salida",
+      "product": "Sol",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-01-05T23:01:31.090Z"
+    },
     {
       "id": "mk1rltq0dyanvi0q06l",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Corona 0.0",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:00:42.805Z"
-    },
-    {
-      "id": "mk1rkkvpp5ijzykrzt",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:32.821Z"
-    },
-    {
-      "id": "mk1rkk85hotnc6pz53",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:31.973Z"
-    },
-    {
-      "id": "mk1rkk2t1li3q0ubqj1",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:00:31.781Z"
     }
   ],
-  "lastUpdated": "2026-01-05T23:01:30.938Z"
+  "lastUpdated": "2026-01-05T23:01:31.695Z"
 }
