@@ -64,7 +64,7 @@
       "id": "mjs0kkpi1m9fqgp0w02j",
       "name": "Poker",
       "location": "nevera",
-      "qty": 16
+      "qty": 18
     },
     {
       "id": "mjs0kkpilcq69ol8srd",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "mk1rby3rlgarfth3gxh",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:50.055Z"
+    },
+    {
+      "id": "mk1rbxhgasytvjz8rc6",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-01-05T22:53:49.252Z"
+    },
     {
       "id": "mk1rbxc5evk6bqxa2wk",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-01-04T23:25:09.363Z"
-    },
-    {
-      "id": "mk0d0dd159pml4kwxbk",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:25:09.157Z"
-    },
-    {
-      "id": "mk0cyz8hk7u1six7r6l",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-01-04T23:24:04.193Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:53:49.062Z"
+  "lastUpdated": "2026-01-05T22:53:50.055Z"
 }
