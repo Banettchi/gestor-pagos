@@ -20,10 +20,11 @@
       "amount": 1477099,
       "dueDay": 10,
       "periodMonths": 1,
-      "paid": false,
-      "paidDate": null,
+      "paid": true,
+      "paidDate": "2026-01-10T18:42:54.801Z",
       "customName": "",
-      "customEmoji": ""
+      "customEmoji": "",
+      "paidAmount": 1477099
     },
     {
       "id": "cuota-001",
@@ -88,5 +89,5 @@
       "createdAt": "2025-12-26T16:02:53.639Z"
     }
   ],
-  "lastUpdated": "2026-01-10T18:42:49.787Z"
+  "lastUpdated": "2026-01-10T18:42:54.801Z"
 }
