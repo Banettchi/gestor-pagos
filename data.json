@@ -17,7 +17,7 @@
       "id": "admin-001",
       "type": "admin",
       "name": "Administracion",
-      "amount": 1300000,
+      "amount": 1477099,
       "dueDay": 10,
       "periodMonths": 1,
       "paid": false,
@@ -88,5 +88,5 @@
       "createdAt": "2025-12-26T16:02:53.639Z"
     }
   ],
-  "lastUpdated": "2026-01-05T22:49:53.105Z"
+  "lastUpdated": "2026-01-10T18:42:49.787Z"
 }
