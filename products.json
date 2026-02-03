@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 47
+      "qty": 48
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78d9s1614o3t3f9hh",
+      "action": "Salida",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:18.529Z"
+    },
+    {
+      "id": "ml78d97zfyk6rjofve5",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:17.807Z"
+    },
+    {
+      "id": "ml78d93uscgaitntoi",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:17.658Z"
+    },
     {
       "id": "ml78d8ytwrfiewz8w6",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:28:42.319Z"
-    },
-    {
-      "id": "ml78c7uyh2rjr0jykmg",
-      "action": "Salida",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:29.386Z"
-    },
-    {
-      "id": "ml78c7d58ma4f9h1txa",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:28.745Z"
-    },
-    {
-      "id": "ml78c70e2419xkbd2cf",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:28.286Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:17.478Z"
+  "lastUpdated": "2026-02-03T23:29:18.530Z"
 }
