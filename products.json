@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 43
+      "qty": 49
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,48 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78hm2fb6i3oeeph46",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:41.079Z"
+    },
+    {
+      "id": "ml78hlikk34o54yba3",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:40.364Z"
+    },
+    {
+      "id": "ml78hlefm5y354q2n2",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:40.215Z"
+    },
+    {
+      "id": "ml78hl9j6amx3p2fkkj",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:40.039Z"
+    },
+    {
+      "id": "ml78hl4pdnt78jxmqb4",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:39.865Z"
+    },
+    {
+      "id": "ml78hkzscr2qp51u98",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:39.688Z"
+    },
     {
       "id": "ml78hkuvox8rbzjquh",
       "action": "Entrada",
@@ -561,49 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:30:54.549Z"
-    },
-    {
-      "id": "ml78fbs3tpk6l5amzdf",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:54.435Z"
-    },
-    {
-      "id": "ml78fbmyo1up2n8f8m",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:54.250Z"
-    },
-    {
-      "id": "ml78fbg6wh92zzybskh",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:54.006Z"
-    },
-    {
-      "id": "ml78fbbekxzdae0f0l",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:53.834Z"
-    },
-    {
-      "id": "ml78fb5xd4vsgq80fqu",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:53.637Z"
-    },
-    {
-      "id": "ml78fb1kwj6clznbvfm",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:53.480Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:32:39.512Z"
+  "lastUpdated": "2026-02-03T23:32:41.079Z"
 }
