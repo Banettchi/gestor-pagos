@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 44
+      "qty": 42
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77mvkzgjjgjew27d7",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:47.075Z"
+    },
+    {
+      "id": "ml77mlk1qqkwniua4k",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:34.081Z"
+    },
     {
       "id": "ml77ml7vnwcmo7h76bb",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Cordillera Negra",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T22:53:20.182Z"
-    },
-    {
-      "id": "ml773089qcdhdblm2va",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:53:19.977Z"
-    },
-    {
-      "id": "ml77300zehd2tejudq",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:53:19.715Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:08:33.644Z"
+  "lastUpdated": "2026-02-03T23:08:47.076Z"
 }
