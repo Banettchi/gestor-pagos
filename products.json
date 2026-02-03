@@ -255,6 +255,20 @@
   ],
   "history": [
     {
+      "id": "ml78yj7jtspwpoej6o8",
+      "action": "Salida",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:45:50.527Z"
+    },
+    {
+      "id": "ml78y662sy0fz7ov0lj",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:45:33.626Z"
+    },
+    {
       "id": "ml78y5p9nps97p9vk4",
       "action": "Entrada",
       "product": "Cordillera Negra",
@@ -589,21 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-02-03T23:35:55.687Z"
-    },
-    {
-      "id": "ml78ls2yc7iiv4jvop4",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-02-03T23:35:55.498Z"
-    },
-    {
-      "id": "ml78lrxgeyelg017d2d",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-02-03T23:35:55.300Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:45:33.022Z"
+  "lastUpdated": "2026-02-03T23:45:50.529Z"
 }
