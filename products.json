@@ -202,7 +202,7 @@
       "id": "mjs0kkpidtu8m30s7ye",
       "name": "Aguila Light",
       "location": "bodega",
-      "qty": 8
+      "qty": 12
     },
     {
       "id": "mjs0kkpi9mxq8dzomnu",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77n8njv1mu0fdu6fr",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:04.015Z"
+    },
+    {
+      "id": "ml77n87lr2bj7g7j4ug",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:03.441Z"
+    },
+    {
+      "id": "ml77n7v3omj36k4iwuj",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:02.991Z"
+    },
+    {
+      "id": "ml77n7ko3iag2h0euwh",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:02.616Z"
+    },
     {
       "id": "ml77n7firsmd740tt4",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Cordillera Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:08:06.620Z"
-    },
-    {
-      "id": "ml77m0403rie11nfvqd",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:06.288Z"
-    },
-    {
-      "id": "ml77lzy7uso4x9if2x",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:06.079Z"
-    },
-    {
-      "id": "ml77lzsn0ro2qzwa2oe",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:05.879Z"
-    },
-    {
-      "id": "ml77lzoaeruvai2z9nh",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:05.722Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:09:02.430Z"
+  "lastUpdated": "2026-02-03T23:09:04.016Z"
 }
