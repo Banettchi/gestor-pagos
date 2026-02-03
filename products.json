@@ -166,7 +166,7 @@
       "id": "mjs0kkpipubuzqgijz",
       "name": "Stella",
       "location": "bodega",
-      "qty": 24
+      "qty": 25
     },
     {
       "id": "mjs0kkpipjpne1ktub",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78djlldowbpj8m2me",
+      "action": "Entrada",
+      "product": "Stella",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:31.257Z"
+    },
     {
       "id": "ml78dh0765bz78p7i2v",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:09.881Z"
-    },
-    {
-      "id": "ml78cint9t2jxwiu81k",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:43.385Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:27.896Z"
+  "lastUpdated": "2026-02-03T23:29:31.258Z"
 }
