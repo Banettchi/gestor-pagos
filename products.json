@@ -154,7 +154,7 @@
       "id": "mjs0kkpi5r0kvumr6ki",
       "name": "RedBull",
       "location": "bodega",
-      "qty": 2
+      "qty": 4
     },
     {
       "id": "mjs0kkpi3vdf09hd6up",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78dh0765bz78p7i2v",
+      "action": "Salida",
+      "product": "RedBull",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:27.895Z"
+    },
+    {
+      "id": "ml78dgitoro1qnwxtx",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:27.269Z"
+    },
+    {
+      "id": "ml78dgdgnh330dtxy9",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:27.076Z"
+    },
+    {
+      "id": "ml78dg7xlhcnue5yux",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:26.877Z"
+    },
     {
       "id": "ml78dg20kifws6bxxom",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:28:43.385Z"
-    },
-    {
-      "id": "ml78cif4mnaoow19mzb",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:43.072Z"
-    },
-    {
-      "id": "ml78cia03xx7a21rgkk",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:42.888Z"
-    },
-    {
-      "id": "ml78ci53pdx1622zmqd",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:42.711Z"
-    },
-    {
-      "id": "ml78ci06zbztmmzw9qb",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:42.534Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:26.664Z"
+  "lastUpdated": "2026-02-03T23:29:27.896Z"
 }
