@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 54
+      "qty": 57
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78e44d95mkw18vous",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:57.853Z"
+    },
+    {
+      "id": "ml78e3ugjz0h10k6kq",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:57.496Z"
+    },
+    {
+      "id": "ml78e3m2o93m2k207q8",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:57.194Z"
+    },
     {
       "id": "ml78e3ea1shqqw7x1wt",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:16.907Z"
-    },
-    {
-      "id": "ml78d8dvo13ajk3aros",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:16.723Z"
-    },
-    {
-      "id": "ml78d88hbacf10y0s5l",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:16.529Z"
-    },
-    {
-      "id": "ml78d7x1oq5epf63aj",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:16.117Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:56.915Z"
+  "lastUpdated": "2026-02-03T23:29:57.854Z"
 }
