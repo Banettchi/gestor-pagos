@@ -250,10 +250,59 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 6
+      "qty": 13
     }
   ],
   "history": [
+    {
+      "id": "ml77nq6hnje2n4sl8y8",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:26.729Z"
+    },
+    {
+      "id": "ml77nq15v6qd4hoxnfi",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:26.537Z"
+    },
+    {
+      "id": "ml77npwd0y8f7y78of5k",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:26.365Z"
+    },
+    {
+      "id": "ml77npr53v2tag1nuu3",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:26.177Z"
+    },
+    {
+      "id": "ml77nplw62p5pfdjs9d",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:25.988Z"
+    },
+    {
+      "id": "ml77npgn1l0d1f8vgfg",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:25.799Z"
+    },
+    {
+      "id": "ml77npbepewjecuvttn",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:25.610Z"
+    },
     {
       "id": "ml77np626xkehjhy26i",
       "action": "Entrada",
@@ -554,56 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:08:33.057Z"
-    },
-    {
-      "id": "ml77mkkkkucg44zlins",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:32.804Z"
-    },
-    {
-      "id": "ml77mkflabc2aps9nyn",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:32.625Z"
-    },
-    {
-      "id": "ml77mkam4ub5mtn0oa",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:32.446Z"
-    },
-    {
-      "id": "ml77mk5vdr1ae7kvvak",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:32.275Z"
-    },
-    {
-      "id": "ml77mk162nd0ktmk2st",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:32.106Z"
-    },
-    {
-      "id": "ml77mjw5ma4nenyrps",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:31.925Z"
-    },
-    {
-      "id": "ml77mjqtlp9r7qgnfgc",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:31.733Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:09:25.420Z"
+  "lastUpdated": "2026-02-03T23:09:26.730Z"
 }
