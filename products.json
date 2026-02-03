@@ -82,7 +82,7 @@
       "id": "mjs0kkpifnd10v6n5a5",
       "name": "Club Roja",
       "location": "nevera",
-      "qty": 13
+      "qty": 11
     },
     {
       "id": "mjs0kkpi3mtr2uvq2a6",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78ox12rkj7g56yfuh",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:21.878Z"
+    },
+    {
+      "id": "ml78owmv4daif72prse",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:21.367Z"
+    },
     {
       "id": "ml78ow11op1sxds4v5a",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:34:03.086Z"
-    },
-    {
-      "id": "ml78jd6wdm3ogf40625",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:02.888Z"
-    },
-    {
-      "id": "ml78jd1kq4i5yrklnr",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:02.696Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:38:20.583Z"
+  "lastUpdated": "2026-02-03T23:38:21.885Z"
 }
