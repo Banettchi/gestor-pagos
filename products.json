@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 63
+      "qty": 68
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78iv2wzh7mjahoi7",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:39.416Z"
+    },
+    {
+      "id": "ml78iuyn5q8u2j5pnqt",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:39.263Z"
+    },
+    {
+      "id": "ml78iutjd60y43fp7tk",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:39.079Z"
+    },
+    {
+      "id": "ml78iunuzwoz27rxaq",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:38.874Z"
+    },
+    {
+      "id": "ml78iuiujzvabio2y1",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:38.694Z"
+    },
     {
       "id": "ml78iud60t31xyr2ende",
       "action": "Entrada",
@@ -568,42 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:31:38.299Z"
-    },
-    {
-      "id": "ml78g981gbvjsjdabi",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:37.777Z"
-    },
-    {
-      "id": "ml78ff5tpr7aos7pczq",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:58.817Z"
-    },
-    {
-      "id": "ml78ff0uwf57sck5fh7",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:58.638Z"
-    },
-    {
-      "id": "ml78fevw3i4cqpdrnfe",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:58.460Z"
-    },
-    {
-      "id": "ml78feqje6d8w7kd7cn",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:58.267Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:33:38.491Z"
+  "lastUpdated": "2026-02-03T23:33:39.416Z"
 }
