@@ -238,7 +238,7 @@
       "id": "mjs0kkpigojailqk54",
       "name": "Cordillera Negra",
       "location": "bodega",
-      "qty": 14
+      "qty": 15
     },
     {
       "id": "mjs0kkpirn4vqmqfuo",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77300zehd2tejudq",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T22:53:19.715Z"
+    },
     {
       "id": "ml772ile5r25uw8dfqa",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Cordillera Negra",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:12:40.759Z"
-    },
-    {
-      "id": "mk1s06f1wrlipseuvj",
-      "action": "Salida",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:12:40.573Z"
     }
   ],
-  "lastUpdated": "2026-02-03T22:52:57.122Z"
+  "lastUpdated": "2026-02-03T22:53:19.715Z"
 }
