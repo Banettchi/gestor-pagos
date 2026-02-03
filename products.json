@@ -112,7 +112,7 @@
       "id": "mjs0kkpi7binonhtsm",
       "name": "Cordillera Negra",
       "location": "nevera",
-      "qty": 10
+      "qty": 11
     },
     {
       "id": "mjs0kkpieanmlf50e5p",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78xq7spwixwfakqz",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:45:12.952Z"
+    },
     {
       "id": "ml78xovq6f023ryw8k9",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Tonica",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:34:28.410Z"
-    },
-    {
-      "id": "ml78jwreomoxnknv59",
-      "action": "Entrada",
-      "product": "Tonica",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:28.250Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:45:11.225Z"
+  "lastUpdated": "2026-02-03T23:45:12.953Z"
 }
