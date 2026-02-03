@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 93
+      "qty": 97
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77quhmfnoy0mhk64m",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:52.282Z"
+    },
+    {
+      "id": "ml77qucqktc46ivgyv",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:52.106Z"
+    },
+    {
+      "id": "ml77qu84f0dxglht9za",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:51.940Z"
+    },
+    {
+      "id": "ml77qu38qir7fx2mgs",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:51.764Z"
+    },
     {
       "id": "ml77qty7080ohxyytgbm",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:11:43.558Z"
-    },
-    {
-      "id": "ml77qnmyvsli89dbmw",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:43.402Z"
-    },
-    {
-      "id": "ml77qnhi3qdcv1m0396",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:43.206Z"
-    },
-    {
-      "id": "ml77qndc1cvl2at2fah",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:43.056Z"
-    },
-    {
-      "id": "ml77qn84n6wd3o5vbj",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:42.868Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:11:51.589Z"
+  "lastUpdated": "2026-02-03T23:11:52.288Z"
 }
