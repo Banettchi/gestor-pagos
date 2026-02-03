@@ -250,10 +250,38 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 17
+      "qty": 21
     }
   ],
   "history": [
+    {
+      "id": "ml77nrauqzrohp1gn2d",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:28.182Z"
+    },
+    {
+      "id": "ml77nr5mmhmw2kdicbd",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:27.994Z"
+    },
+    {
+      "id": "ml77nr0qh82p5fsa4qd",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:27.818Z"
+    },
+    {
+      "id": "ml77nqvpty6hie3k0w",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:27.637Z"
+    },
     {
       "id": "ml77nqqipges0i7i1z",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:08:56.894Z"
-    },
-    {
-      "id": "ml77n315971mz5sd2z5",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:56.729Z"
-    },
-    {
-      "id": "ml77n2w4mblxm76j00h",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:56.548Z"
-    },
-    {
-      "id": "ml77n2qaq5odd5qz99a",
-      "action": "Entrada",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:56.338Z"
-    },
-    {
-      "id": "ml77mvkzgjjgjew27d7",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:47.075Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:09:27.451Z"
+  "lastUpdated": "2026-02-03T23:09:28.182Z"
 }
