@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 38
+      "qty": 50
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,90 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77qo0vwn56aq04x2h",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:43.903Z"
+    },
+    {
+      "id": "ml77qnw2v0ndu5e5com",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:43.730Z"
+    },
+    {
+      "id": "ml77qnraqif4v35z7gc",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:43.558Z"
+    },
+    {
+      "id": "ml77qnmyvsli89dbmw",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:43.402Z"
+    },
+    {
+      "id": "ml77qnhi3qdcv1m0396",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:43.206Z"
+    },
+    {
+      "id": "ml77qndc1cvl2at2fah",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:43.056Z"
+    },
+    {
+      "id": "ml77qn84n6wd3o5vbj",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:42.868Z"
+    },
+    {
+      "id": "ml77qn3t79jfio1l435",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:42.713Z"
+    },
+    {
+      "id": "ml77qmyyha8co7kb9a",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:42.538Z"
+    },
+    {
+      "id": "ml77qmui6p1e3sxtdyv",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:42.378Z"
+    },
+    {
+      "id": "ml77qmq6w0opd0j4xsn",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:42.222Z"
+    },
+    {
+      "id": "ml77qmlhk40gw5a9ogr",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:42.053Z"
+    },
     {
       "id": "ml77qmhqfungrtx2tmf",
       "action": "Entrada",
@@ -519,91 +603,7 @@
       "product": "BBC Rose",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:09:26.906Z"
-    },
-    {
-      "id": "ml77nq6hnje2n4sl8y8",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:26.729Z"
-    },
-    {
-      "id": "ml77nq15v6qd4hoxnfi",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:26.537Z"
-    },
-    {
-      "id": "ml77npwd0y8f7y78of5k",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:26.365Z"
-    },
-    {
-      "id": "ml77npr53v2tag1nuu3",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:26.177Z"
-    },
-    {
-      "id": "ml77nplw62p5pfdjs9d",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:25.988Z"
-    },
-    {
-      "id": "ml77npgn1l0d1f8vgfg",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:25.799Z"
-    },
-    {
-      "id": "ml77npbepewjecuvttn",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:25.610Z"
-    },
-    {
-      "id": "ml77np626xkehjhy26i",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:25.418Z"
-    },
-    {
-      "id": "ml77np0dok3cxq48iia",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:25.213Z"
-    },
-    {
-      "id": "ml77nknhwzmjpexh2h",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:19.565Z"
-    },
-    {
-      "id": "ml77nk8iz0pvcrdff6b",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:19.026Z"
-    },
-    {
-      "id": "ml77njsbedwz2swlue8",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:18.443Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:11:41.922Z"
+  "lastUpdated": "2026-02-03T23:11:43.907Z"
 }
