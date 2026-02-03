@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 56
+      "qty": 48
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,62 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77mkflabc2aps9nyn",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:32.625Z"
+    },
+    {
+      "id": "ml77mkam4ub5mtn0oa",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:32.446Z"
+    },
+    {
+      "id": "ml77mk5vdr1ae7kvvak",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:32.275Z"
+    },
+    {
+      "id": "ml77mk162nd0ktmk2st",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:32.106Z"
+    },
+    {
+      "id": "ml77mjw5ma4nenyrps",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:31.925Z"
+    },
+    {
+      "id": "ml77mjqtlp9r7qgnfgc",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:31.733Z"
+    },
+    {
+      "id": "ml77mjm7o6p61hm8j6",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:31.567Z"
+    },
+    {
+      "id": "ml77mjh734y9thj38m2",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:31.387Z"
+    },
     {
       "id": "ml77mjb70wzls8q3c2kq",
       "action": "Salida",
@@ -547,63 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T22:52:55.683Z"
-    },
-    {
-      "id": "ml772ha42yibip5xdl",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:55.420Z"
-    },
-    {
-      "id": "ml772h51nsy0xzkny",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:55.237Z"
-    },
-    {
-      "id": "ml772h0cnuvf063a1x",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:55.068Z"
-    },
-    {
-      "id": "ml772gu1mc6fszoeei",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:54.841Z"
-    },
-    {
-      "id": "ml772gosvw3yl47r3v",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:54.652Z"
-    },
-    {
-      "id": "ml772gk0bu23ulh12sq",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:54.480Z"
-    },
-    {
-      "id": "ml772gegcr25kinfpuc",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:54.280Z"
-    },
-    {
-      "id": "ml772g5yeubk1uh9a7v",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:53.974Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:08:31.171Z"
+  "lastUpdated": "2026-02-03T23:08:32.626Z"
 }
