@@ -154,7 +154,7 @@
       "id": "mjs0kkpi5r0kvumr6ki",
       "name": "RedBull",
       "location": "bodega",
-      "qty": 1
+      "qty": 2
     },
     {
       "id": "mjs0kkpi3vdf09hd6up",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78dg20kifws6bxxom",
+      "action": "Entrada",
+      "product": "RedBull",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:26.664Z"
+    },
     {
       "id": "ml78d9s1614o3t3f9hh",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:28:42.534Z"
-    },
-    {
-      "id": "ml78chu7xlarq8m4kio",
-      "action": "Salida",
-      "product": "Aguila Light",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:42.319Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:18.530Z"
+  "lastUpdated": "2026-02-03T23:29:26.664Z"
 }
