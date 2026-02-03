@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 23
+      "qty": 24
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 36
+      "qty": 37
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77nhysa8lloupkzio",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:16.084Z"
+    },
+    {
+      "id": "ml77ncz5bkmtm4mtmmn",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:09.617Z"
+    },
     {
       "id": "ml77ncu2ipuklshdblr",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Cordillera Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:08:08.333Z"
-    },
-    {
-      "id": "ml77m1glsy5z9cnpj8",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:08.037Z"
-    },
-    {
-      "id": "ml77m1b39kytmvba13u",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:07.839Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:09:09.435Z"
+  "lastUpdated": "2026-02-03T23:09:16.085Z"
 }
