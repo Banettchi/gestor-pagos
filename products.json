@@ -82,7 +82,7 @@
       "id": "mjs0kkpifnd10v6n5a5",
       "name": "Club Roja",
       "location": "nevera",
-      "qty": 21
+      "qty": 20
     },
     {
       "id": "mjs0kkpi3mtr2uvq2a6",
@@ -94,7 +94,7 @@
       "id": "mjs0kkpiwvgjf5af9a",
       "name": "Club Dorada",
       "location": "nevera",
-      "qty": 20
+      "qty": 19
     },
     {
       "id": "mjs0kkpilpykhvn24i",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78or4nj430eni9bnb",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:14.231Z"
+    },
+    {
+      "id": "ml78oi1quumwe0au8i",
+      "action": "Salida",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:02.462Z"
+    },
     {
       "id": "ml78ogv1ek08lzxjc67",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:33:44.030Z"
-    },
-    {
-      "id": "ml78iyhf9jrkbq7gctw",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:43.827Z"
-    },
-    {
-      "id": "ml78iyc12qc1koesogr",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:43.633Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:38:00.926Z"
+  "lastUpdated": "2026-02-03T23:38:14.232Z"
 }
