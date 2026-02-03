@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 37
+      "qty": 41
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78byzzrowcd17ml9r",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:17.903Z"
+    },
+    {
+      "id": "ml78byv0ofalc9e2fvf",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:17.724Z"
+    },
+    {
+      "id": "ml78byq5t6fgpr16oii",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:17.550Z"
+    },
+    {
+      "id": "ml78bylhdjclw47npb5",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:17.381Z"
+    },
     {
       "id": "ml78bygzga9hdoiazl6",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:12:38.275Z"
-    },
-    {
-      "id": "ml77rtul8kj0y6dk03x",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:38.109Z"
-    },
-    {
-      "id": "ml77rtpif66fftfhffk",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:37.926Z"
-    },
-    {
-      "id": "ml77rtksydco18d6p6b",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:37.756Z"
-    },
-    {
-      "id": "ml77rtfq5m6rmcn6xvc",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:37.574Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:17.220Z"
+  "lastUpdated": "2026-02-03T23:28:17.903Z"
 }
