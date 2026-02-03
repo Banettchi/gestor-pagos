@@ -118,7 +118,7 @@
       "id": "mjs0kkpieanmlf50e5p",
       "name": "Cordillera Mestiza",
       "location": "nevera",
-      "qty": 7
+      "qty": 5
     },
     {
       "id": "mjs0kkpiaj6avefddsc",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78pu52gdrmmng5hiv",
+      "action": "Salida",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:39:04.790Z"
+    },
+    {
+      "id": "ml78psow4acatj4uvyt",
+      "action": "Salida",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:39:02.912Z"
+    },
     {
       "id": "ml78psbzeqrj8vc8ft9",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Tonica",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:34:28.072Z"
-    },
-    {
-      "id": "ml78jwh2hj7fzhhgtqf",
-      "action": "Entrada",
-      "product": "Tonica",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:27.878Z"
-    },
-    {
-      "id": "ml78jwcc2hg3db5pxt9",
-      "action": "Entrada",
-      "product": "Tonica",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:27.708Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:39:02.449Z"
+  "lastUpdated": "2026-02-03T23:39:04.791Z"
 }
