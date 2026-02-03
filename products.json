@@ -76,7 +76,7 @@
       "id": "mjs0kkpiaunlzvbivvk",
       "name": "Aguila Light",
       "location": "nevera",
-      "qty": 24
+      "qty": 22
     },
     {
       "id": "mjs0kkpifnd10v6n5a5",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78nenc1tfz1c4wkts",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:37:11.400Z"
+    },
+    {
+      "id": "ml78nduskbi79gjjthg",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:37:10.372Z"
+    },
     {
       "id": "ml78ndhti4sxqh8afy",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:33:42.886Z"
-    },
-    {
-      "id": "ml78ixm32l6dk21r2n4",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:42.699Z"
-    },
-    {
-      "id": "ml78ixh13s0axfyv488",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:42.517Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:37:09.906Z"
+  "lastUpdated": "2026-02-03T23:37:11.401Z"
 }
