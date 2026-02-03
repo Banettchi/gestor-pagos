@@ -136,7 +136,7 @@
       "id": "mjs0kkpicm1u2gefph",
       "name": "Sol",
       "location": "bodega",
-      "qty": 24
+      "qty": 25
     },
     {
       "id": "mjs0kkpi3dxhxr472di",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78jcqvxj9mt0bpm6r",
+      "action": "Entrada",
+      "product": "Sol",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:02.311Z"
+    },
     {
       "id": "ml78izovq980gvmjdy",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Corona 0.0",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:33:08.114Z"
-    },
-    {
-      "id": "ml78i6p2xs7ygk503or",
-      "action": "Salida",
-      "product": "Corona 0.0",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:07.814Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:33:45.392Z"
+  "lastUpdated": "2026-02-03T23:34:02.312Z"
 }
