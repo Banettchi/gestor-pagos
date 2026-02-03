@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 30
+      "qty": 33
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78bxwsokqxbxm0v6n",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:16.492Z"
+    },
+    {
+      "id": "ml78bxrgqfo6l2p3d8",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:16.300Z"
+    },
+    {
+      "id": "ml78bxm8vy6xsp91t2j",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:16.112Z"
+    },
     {
       "id": "ml78bxgvovx7ectri1",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:12:35.704Z"
-    },
-    {
-      "id": "ml77rruz29hko7vjwms",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:35.531Z"
-    },
-    {
-      "id": "ml77rrpreudvf5fj",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:35.343Z"
-    },
-    {
-      "id": "ml77rrlkmbk1ydgmd3q",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:35.192Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:15.920Z"
+  "lastUpdated": "2026-02-03T23:28:16.493Z"
 }
