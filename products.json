@@ -232,7 +232,7 @@
       "id": "mjs0kkpi5w638ghwbk6",
       "name": "Cordillera Roja",
       "location": "bodega",
-      "qty": 17
+      "qty": 14
     },
     {
       "id": "mjs0kkpigojailqk54",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77m23ts172y8zkhc",
+      "action": "Salida",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:08.873Z"
+    },
+    {
+      "id": "ml77m1x4cdgb4elner",
+      "action": "Salida",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:08.632Z"
+    },
+    {
+      "id": "ml77m1otcpkbapr0pbn",
+      "action": "Salida",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:08.333Z"
+    },
     {
       "id": "ml77m1glsy5z9cnpj8",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:13:08.528Z"
-    },
-    {
-      "id": "mk1s0ruf5jkdvlnxl7i",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:13:08.343Z"
-    },
-    {
-      "id": "mk1s0rojt1wdxomgibg",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:13:08.131Z"
-    },
-    {
-      "id": "mk1s0iet8mo7lk9dkg",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:12:56.117Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:08:08.038Z"
+  "lastUpdated": "2026-02-03T23:08:08.873Z"
 }
