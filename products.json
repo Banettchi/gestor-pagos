@@ -148,7 +148,7 @@
       "id": "mjs0kkpicoo1jni6gqs",
       "name": "Agua",
       "location": "bodega",
-      "qty": 25
+      "qty": 27
     },
     {
       "id": "mjs0kkpi5r0kvumr6ki",
@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 48
+      "qty": 50
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78e2fzgrwgdmbhenj",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:55.679Z"
+    },
+    {
+      "id": "ml78e287ncckjfvhh2o",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:55.399Z"
+    },
+    {
+      "id": "ml78dwuyd611rogneb",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:48.442Z"
+    },
+    {
+      "id": "ml78dwjcktuelcji1yf",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:48.024Z"
+    },
     {
       "id": "ml78dw99j5idjeffkq",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:15.343Z"
-    },
-    {
-      "id": "ml78d76ur9lhw56bku",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:15.174Z"
-    },
-    {
-      "id": "ml78d71uxqrxfybjfrk",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:14.994Z"
-    },
-    {
-      "id": "ml78d6wlzd36e4zyc3f",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:14.805Z"
-    },
-    {
-      "id": "ml78d6rn7zn30ft472o",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:14.627Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:47.662Z"
+  "lastUpdated": "2026-02-03T23:29:55.680Z"
 }
