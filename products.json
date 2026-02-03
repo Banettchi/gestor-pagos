@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 69
+      "qty": 72
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78c3fkb14jpxnf4eg",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:23.648Z"
+    },
+    {
+      "id": "ml78c3afbdr9o60d23b",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:23.463Z"
+    },
+    {
+      "id": "ml78c359l6ixtf8aysj",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:23.277Z"
+    },
     {
       "id": "ml78c305qydr7nu7joj",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Coca Cola",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:27:46.160Z"
-    },
-    {
-      "id": "ml78ba6g6ryl2evahod",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:45.736Z"
-    },
-    {
-      "id": "ml78ba0x32lidwa5gm",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:45.537Z"
-    },
-    {
-      "id": "ml78b9vcplvokksh4o",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:45.336Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:23.094Z"
+  "lastUpdated": "2026-02-03T23:28:23.648Z"
 }
