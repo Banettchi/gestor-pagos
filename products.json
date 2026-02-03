@@ -82,7 +82,7 @@
       "id": "mjs0kkpifnd10v6n5a5",
       "name": "Club Roja",
       "location": "nevera",
-      "qty": 20
+      "qty": 15
     },
     {
       "id": "mjs0kkpi3mtr2uvq2a6",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78ouzhio32pwv1cbl",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:19.229Z"
+    },
+    {
+      "id": "ml78ou56np7j7n40ghs",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:18.138Z"
+    },
+    {
+      "id": "ml78osyc7dipwdt6c8x",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:16.596Z"
+    },
+    {
+      "id": "ml78ost4t0dqamufebg",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:16.408Z"
+    },
+    {
+      "id": "ml78oracxjw4yj8piv",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:14.436Z"
+    },
     {
       "id": "ml78or4nj430eni9bnb",
       "action": "Salida",
@@ -568,42 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:34:02.311Z"
-    },
-    {
-      "id": "ml78izovq980gvmjdy",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:45.391Z"
-    },
-    {
-      "id": "ml78iz9g904q600nr9l",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:44.836Z"
-    },
-    {
-      "id": "ml78iz4pgx388xtg6f9",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:44.665Z"
-    },
-    {
-      "id": "ml78iz00ldesliv5qj8",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:44.496Z"
-    },
-    {
-      "id": "ml78iyn2i0v7tw1x63o",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:44.030Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:38:14.232Z"
+  "lastUpdated": "2026-02-03T23:38:19.230Z"
 }
