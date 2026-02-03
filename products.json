@@ -142,7 +142,7 @@
       "id": "mjs0kkpi3dxhxr472di",
       "name": "Coca Cola",
       "location": "bodega",
-      "qty": 1
+      "qty": 2
     },
     {
       "id": "mjs0kkpicoo1jni6gqs",
@@ -244,7 +244,7 @@
       "id": "mjs0kkpirn4vqmqfuo",
       "name": "Cordillera Mestiza",
       "location": "bodega",
-      "qty": 13
+      "qty": 14
     },
     {
       "id": "mjs0kkpiggdq9809yxm",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78b7u5docr2e8793",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:42.701Z"
+    },
+    {
+      "id": "ml77s1wurmyt0uc5gqr",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:12:48.558Z"
+    },
     {
       "id": "ml77s1qpguun29aaqm5",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:12:30.416Z"
-    },
-    {
-      "id": "ml77rnrc2rvexkgcpt6",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:30.216Z"
-    },
-    {
-      "id": "ml77rnmyf86czt8lx9c",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:30.058Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:12:48.338Z"
+  "lastUpdated": "2026-02-03T23:27:42.705Z"
 }
