@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 68
+      "qty": 71
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78ivjeexb1saivexu",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:40.010Z"
+    },
+    {
+      "id": "ml78ive1zfn4bnvh9v8",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:39.817Z"
+    },
+    {
+      "id": "ml78iv9cmha06w3okxf",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:39.648Z"
+    },
     {
       "id": "ml78iv2wzh7mjahoi7",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:31:39.466Z"
-    },
-    {
-      "id": "ml78ga77ds7g3qstq3l",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:39.043Z"
-    },
-    {
-      "id": "ml78g9wbev143d2vrow",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:38.651Z"
-    },
-    {
-      "id": "ml78g9mjzdovy4zm66",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:38.299Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:33:39.416Z"
+  "lastUpdated": "2026-02-03T23:33:40.011Z"
 }
