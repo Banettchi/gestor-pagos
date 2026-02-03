@@ -226,7 +226,7 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 48
+      "qty": 44
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77ml7vnwcmo7h76bb",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:33.643Z"
+    },
+    {
+      "id": "ml77mkybj4kgs0j7pjp",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:33.299Z"
+    },
+    {
+      "id": "ml77mkrli1toldqegej",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:33.057Z"
+    },
+    {
+      "id": "ml77mkkkkucg44zlins",
+      "action": "Salida",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:32.804Z"
+    },
     {
       "id": "ml77mkflabc2aps9nyn",
       "action": "Salida",
@@ -575,35 +603,7 @@
       "product": "Cordillera Negra",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T22:53:19.715Z"
-    },
-    {
-      "id": "ml772ile5r25uw8dfqa",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:57.122Z"
-    },
-    {
-      "id": "ml772i55du6dck0ri8",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:56.537Z"
-    },
-    {
-      "id": "ml772hu88v3jsmioa2",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:56.144Z"
-    },
-    {
-      "id": "ml772hhfmf6ap5mh0rd",
-      "action": "Salida",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:52:55.683Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:08:32.626Z"
+  "lastUpdated": "2026-02-03T23:08:33.644Z"
 }
