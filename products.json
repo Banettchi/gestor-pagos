@@ -226,13 +226,13 @@
       "id": "mjs0kkpi52ld2qi3m9p",
       "name": "Cordillera Rosada",
       "location": "bodega",
-      "qty": 42
+      "qty": 43
     },
     {
       "id": "mjs0kkpi5w638ghwbk6",
       "name": "Cordillera Roja",
       "location": "bodega",
-      "qty": 22
+      "qty": 21
     },
     {
       "id": "mjs0kkpigojailqk54",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78hkuvox8rbzjquh",
+      "action": "Entrada",
+      "product": "Cordillera Rosada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:39.511Z"
+    },
+    {
+      "id": "ml78hfsu72savqri98",
+      "action": "Salida",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:32:32.958Z"
+    },
     {
       "id": "ml78hfnzlxr1g3115kc",
       "action": "Salida",
@@ -589,21 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:30:53.480Z"
-    },
-    {
-      "id": "ml78fawkuoenh07s1k",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:53.300Z"
-    },
-    {
-      "id": "ml78fascf2mqdsnlez",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:53.148Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:32:32.784Z"
+  "lastUpdated": "2026-02-03T23:32:39.512Z"
 }
