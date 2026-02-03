@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 48
+      "qty": 49
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78isauh8rkeyqp9dg",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:35.814Z"
+    },
     {
       "id": "ml78i6xejzokatm9us",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:30:55.784Z"
-    },
-    {
-      "id": "ml78fcoptkxsecygjlm",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:55.609Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:33:08.114Z"
+  "lastUpdated": "2026-02-03T23:33:35.815Z"
 }
