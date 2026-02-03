@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 37
+      "qty": 43
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,48 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77nivjidm9ju5whnl",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:17.263Z"
+    },
+    {
+      "id": "ml77niqg6n5qpmerctf",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:17.080Z"
+    },
+    {
+      "id": "ml77niluy8z21c6atld",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:16.914Z"
+    },
+    {
+      "id": "ml77nig64vprl07onbf",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:16.710Z"
+    },
+    {
+      "id": "ml77niauwa34bvqpmm",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:16.518Z"
+    },
+    {
+      "id": "ml77ni5lt0c53tcvjhe",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:16.329Z"
+    },
     {
       "id": "ml77nhysa8lloupkzio",
       "action": "Entrada",
@@ -561,49 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:08:30.173Z"
-    },
-    {
-      "id": "ml77midmvjcgl96k2q9",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:29.962Z"
-    },
-    {
-      "id": "ml77m3j2f36r0s4j93",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:10.718Z"
-    },
-    {
-      "id": "ml77m2er3cu5gofsa1x",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:09.267Z"
-    },
-    {
-      "id": "ml77m23ts172y8zkhc",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:08.873Z"
-    },
-    {
-      "id": "ml77m1x4cdgb4elner",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:08.632Z"
-    },
-    {
-      "id": "ml77m1otcpkbapr0pbn",
-      "action": "Salida",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:08.333Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:09:16.085Z"
+  "lastUpdated": "2026-02-03T23:09:17.264Z"
 }
