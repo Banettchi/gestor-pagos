@@ -130,7 +130,7 @@
       "id": "mjs0kkpisjrzpk5ay6m",
       "name": "Corona 0.0",
       "location": "bodega",
-      "qty": 12
+      "qty": 11
     },
     {
       "id": "mjs0kkpicm1u2gefph",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78i65nkn4p7st6l3h",
+      "action": "Salida",
+      "product": "Corona 0.0",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:07.115Z"
+    },
     {
       "id": "ml78hm2fb6i3oeeph46",
       "action": "Entrada",
@@ -596,14 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:30:54.734Z"
-    },
-    {
-      "id": "ml78fbv9vke5882vc6p",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:54.549Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:32:41.079Z"
+  "lastUpdated": "2026-02-03T23:33:07.115Z"
 }
