@@ -70,7 +70,7 @@
       "id": "mjs0kkpilcq69ol8srd",
       "name": "Aguila",
       "location": "nevera",
-      "qty": 20
+      "qty": 15
     },
     {
       "id": "mjs0kkpiaunlzvbivvk",
@@ -254,6 +254,55 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78luf9gie265lgjrg",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:58.533Z"
+    },
+    {
+      "id": "ml78ltmdgxc5wu4gyoj",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:57.493Z"
+    },
+    {
+      "id": "ml78lsdzax6rrqhueui",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:55.895Z"
+    },
+    {
+      "id": "ml78ls87ybvkx82obdn",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:55.687Z"
+    },
+    {
+      "id": "ml78ls2yc7iiv4jvop4",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:55.498Z"
+    },
+    {
+      "id": "ml78lrxgeyelg017d2d",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:55.300Z"
+    },
+    {
+      "id": "ml78lrrqvo7mz0azkgl",
+      "action": "Salida",
+      "product": "Aguila",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:35:55.094Z"
+    },
     {
       "id": "ml78lrma6a2edsszukj",
       "action": "Salida",
@@ -554,56 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:33:40.375Z"
-    },
-    {
-      "id": "ml78ivomp10hl8wnmu8",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:40.198Z"
-    },
-    {
-      "id": "ml78ivjeexb1saivexu",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:40.010Z"
-    },
-    {
-      "id": "ml78ive1zfn4bnvh9v8",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:39.817Z"
-    },
-    {
-      "id": "ml78iv9cmha06w3okxf",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:39.648Z"
-    },
-    {
-      "id": "ml78iv2wzh7mjahoi7",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:39.416Z"
-    },
-    {
-      "id": "ml78iuyn5q8u2j5pnqt",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:39.263Z"
-    },
-    {
-      "id": "ml78iutjd60y43fp7tk",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:39.079Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:35:54.900Z"
+  "lastUpdated": "2026-02-03T23:35:58.535Z"
 }
