@@ -88,7 +88,7 @@
       "id": "mjs0kkpi3mtr2uvq2a6",
       "name": "Club Trigo",
       "location": "nevera",
-      "qty": 16
+      "qty": 18
     },
     {
       "id": "mjs0kkpiwvgjf5af9a",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78pd4a54w2465mc8j",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:42.730Z"
+    },
+    {
+      "id": "ml78pb3jrd42brju7of",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:40.111Z"
+    },
     {
       "id": "ml78paueu377ii0d56",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Tonica",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:34:27.334Z"
-    },
-    {
-      "id": "ml78ji66r30yfoct5rn",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:09.342Z"
-    },
-    {
-      "id": "ml78jdt9ylo4kw9zu4i",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:03.693Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:38:39.783Z"
+  "lastUpdated": "2026-02-03T23:38:42.732Z"
 }
