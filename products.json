@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 40
+      "qty": 43
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78d8dvo13ajk3aros",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:16.723Z"
+    },
+    {
+      "id": "ml78d88hbacf10y0s5l",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:16.529Z"
+    },
+    {
+      "id": "ml78d7x1oq5epf63aj",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:16.117Z"
+    },
     {
       "id": "ml78d7rhfp1b0ca9w7",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:28:27.455Z"
-    },
-    {
-      "id": "ml78c67pcr2u1cqcups",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:27.253Z"
-    },
-    {
-      "id": "ml78c62prepy5weyz7",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:27.073Z"
-    },
-    {
-      "id": "ml78c5xfgkruvmrwjc",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:26.883Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:15.917Z"
+  "lastUpdated": "2026-02-03T23:29:16.723Z"
 }
