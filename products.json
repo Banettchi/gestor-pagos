@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 178
+      "qty": 183
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78f6q6a0imzxje93t",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:47.886Z"
+    },
+    {
+      "id": "ml78f6l6fnapdpxqaz9",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:47.706Z"
+    },
+    {
+      "id": "ml78f6g96jw7fmenqps",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:47.529Z"
+    },
+    {
+      "id": "ml78f6bsngtjns4cjme",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:47.368Z"
+    },
+    {
+      "id": "ml78f66hjf1sy5dnskd",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:47.177Z"
+    },
     {
       "id": "ml78f61h78pld2wt1dl",
       "action": "Entrada",
@@ -568,42 +603,7 @@
       "product": "Agua",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:48.442Z"
-    },
-    {
-      "id": "ml78dwjcktuelcji1yf",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:48.024Z"
-    },
-    {
-      "id": "ml78dw99j5idjeffkq",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:47.661Z"
-    },
-    {
-      "id": "ml78dnmfef08z39003v",
-      "action": "Salida",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:36.471Z"
-    },
-    {
-      "id": "ml78dn3h249rwgh1p8b",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:35.790Z"
-    },
-    {
-      "id": "ml78dmyjdyvq3san95p",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:35.611Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:30:46.998Z"
+  "lastUpdated": "2026-02-03T23:30:47.887Z"
 }
