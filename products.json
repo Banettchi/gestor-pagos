@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 214
+      "qty": 218
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78fc5em51fbx62lnd",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:54.914Z"
+    },
+    {
+      "id": "ml78fc0e43bychorl0k",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:54.734Z"
+    },
+    {
+      "id": "ml78fbv9vke5882vc6p",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:54.549Z"
+    },
+    {
+      "id": "ml78fbs3tpk6l5amzdf",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:54.435Z"
+    },
     {
       "id": "ml78fbmyo1up2n8f8m",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:30:45.281Z"
-    },
-    {
-      "id": "ml78er0devj9kq4r8vv",
-      "action": "Salida",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:27.517Z"
-    },
-    {
-      "id": "ml78eqlyibwy5qimric",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:26.998Z"
-    },
-    {
-      "id": "ml78eqdz92wsacz4ujq",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:26.711Z"
-    },
-    {
-      "id": "ml78eq96j8w7arlqif",
-      "action": "Entrada",
-      "product": "BBC Rose",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:26.538Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:30:54.251Z"
+  "lastUpdated": "2026-02-03T23:30:54.915Z"
 }
