@@ -202,7 +202,7 @@
       "id": "mjs0kkpidtu8m30s7ye",
       "name": "Aguila Light",
       "location": "bodega",
-      "qty": 1
+      "qty": 2
     },
     {
       "id": "mjs0kkpi9mxq8dzomnu",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77n65c6gn86fbftfv",
+      "action": "Entrada",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:00.768Z"
+    },
     {
       "id": "ml77n3s4qyg0bqbuqv9",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Cordillera Negra",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T22:53:21.367Z"
-    },
-    {
-      "id": "ml773159panwp91x5b",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T22:53:21.165Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:08:57.700Z"
+  "lastUpdated": "2026-02-03T23:09:00.769Z"
 }
