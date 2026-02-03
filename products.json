@@ -244,7 +244,7 @@
       "id": "mjs0kkpirn4vqmqfuo",
       "name": "Cordillera Mestiza",
       "location": "bodega",
-      "qty": 15
+      "qty": 18
     },
     {
       "id": "mjs0kkpiggdq9809yxm",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78ga77ds7g3qstq3l",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:31:39.043Z"
+    },
+    {
+      "id": "ml78g9wbev143d2vrow",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:31:38.651Z"
+    },
+    {
+      "id": "ml78g9mjzdovy4zm66",
+      "action": "Entrada",
+      "product": "Cordillera Mestiza",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:31:38.299Z"
+    },
     {
       "id": "ml78g981gbvjsjdabi",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:30:50.228Z"
-    },
-    {
-      "id": "ml78f8dwipyn17593o",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:50.036Z"
-    },
-    {
-      "id": "ml78f898o566r1rxnu",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:49.868Z"
-    },
-    {
-      "id": "ml78f844g778rfyp0ow",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:30:49.684Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:31:37.778Z"
+  "lastUpdated": "2026-02-03T23:31:39.043Z"
 }
