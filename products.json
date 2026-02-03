@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 68
+      "qty": 71
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78e819vig3yhrtdlq",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:02.925Z"
+    },
+    {
+      "id": "ml78e7qfgcpc069unq",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:02.535Z"
+    },
+    {
+      "id": "ml78e7e15r6z1mt0g85",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:02.089Z"
+    },
     {
       "id": "ml78e7359b933ydmdsg",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Stella",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:31.606Z"
-    },
-    {
-      "id": "ml78djqqpz6u533kf",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:31.442Z"
-    },
-    {
-      "id": "ml78djlldowbpj8m2me",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:31.257Z"
-    },
-    {
-      "id": "ml78dh0765bz78p7i2v",
-      "action": "Salida",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:27.895Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:30:01.698Z"
+  "lastUpdated": "2026-02-03T23:30:02.927Z"
 }
