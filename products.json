@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 49
+      "qty": 53
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78c0owiwdgfzths8",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:20.096Z"
+    },
+    {
+      "id": "ml78c0iq11x0nfr6jru",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:19.874Z"
+    },
+    {
+      "id": "ml78c0d6wd5sv61ojud",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:19.674Z"
+    },
+    {
+      "id": "ml78c086zsedcqv7gib",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:19.494Z"
+    },
     {
       "id": "ml78c02bjk21kv2n5r9",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Cordillera Mestiza",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:12:48.337Z"
-    },
-    {
-      "id": "ml77s1cfianptnmeklr",
-      "action": "Salida",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:47.823Z"
-    },
-    {
-      "id": "ml77s0saywfz4r0px8e",
-      "action": "Entrada",
-      "product": "Cordillera Negra",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:47.098Z"
-    },
-    {
-      "id": "ml77rvmbb284n4s0fs8",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:40.403Z"
-    },
-    {
-      "id": "ml77rvh32r1hff0vi25",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:40.215Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:19.283Z"
+  "lastUpdated": "2026-02-03T23:28:20.097Z"
 }
