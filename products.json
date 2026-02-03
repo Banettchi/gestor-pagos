@@ -232,13 +232,13 @@
       "id": "mjs0kkpi5w638ghwbk6",
       "name": "Cordillera Roja",
       "location": "bodega",
-      "qty": 32
+      "qty": 31
     },
     {
       "id": "mjs0kkpigojailqk54",
       "name": "Cordillera Negra",
       "location": "bodega",
-      "qty": 23
+      "qty": 24
     },
     {
       "id": "mjs0kkpirn4vqmqfuo",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77lz18l53bi0jgxzr",
+      "action": "Salida",
+      "product": "Cordillera Roja",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:08:04.892Z"
+    },
+    {
+      "id": "ml7731rcpmo2fg6014",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T22:53:21.960Z"
+    },
     {
       "id": "ml7731av3wqx9jr2ly7",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "Cordillera Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-01-05T23:12:52.523Z"
-    },
-    {
-      "id": "mk1s0fhi6nm3gj7ssyw",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:12:52.326Z"
-    },
-    {
-      "id": "mk1s0fcstluir2yhjfo",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-01-05T23:12:52.156Z"
     }
   ],
-  "lastUpdated": "2026-02-03T22:53:21.368Z"
+  "lastUpdated": "2026-02-03T23:08:04.894Z"
 }
