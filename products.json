@@ -112,7 +112,7 @@
       "id": "mjs0kkpi7binonhtsm",
       "name": "Cordillera Negra",
       "location": "nevera",
-      "qty": 11
+      "qty": 12
     },
     {
       "id": "mjs0kkpieanmlf50e5p",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78y5p9nps97p9vk4",
+      "action": "Entrada",
+      "product": "Cordillera Negra",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:45:33.021Z"
+    },
     {
       "id": "ml78y19gjtlqug3d9c9",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-02-03T23:35:55.300Z"
-    },
-    {
-      "id": "ml78lrrqvo7mz0azkgl",
-      "action": "Salida",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-02-03T23:35:55.094Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:45:27.270Z"
+  "lastUpdated": "2026-02-03T23:45:33.022Z"
 }
