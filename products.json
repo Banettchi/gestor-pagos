@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 65
+      "qty": 69
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78c305qydr7nu7joj",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:23.093Z"
+    },
+    {
+      "id": "ml78c2v63q9zzgnxgsx",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:22.914Z"
+    },
+    {
+      "id": "ml78c2q18rdu4c9lceq",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:22.729Z"
+    },
+    {
+      "id": "ml78c2lpl4ddo9i6hn",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:22.573Z"
+    },
     {
       "id": "ml78c2gotkbf3u7333",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Coca Cola",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:27:45.336Z"
-    },
-    {
-      "id": "ml78b9pl9imm320afs",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:45.129Z"
-    },
-    {
-      "id": "ml78b9kkw0v3i418n",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:44.948Z"
-    },
-    {
-      "id": "ml78b9f4vouxgk00r4",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:44.752Z"
-    },
-    {
-      "id": "ml78b9anmos0ecnnjpa",
-      "action": "Entrada",
-      "product": "Coca Cola",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:27:44.591Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:22.393Z"
+  "lastUpdated": "2026-02-03T23:28:23.094Z"
 }
