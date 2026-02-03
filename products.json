@@ -178,7 +178,7 @@
       "id": "mjs0kkpibprzzkgtwti",
       "name": "Tonica",
       "location": "bodega",
-      "qty": 15
+      "qty": 21
     },
     {
       "id": "mjs0kkpi2rftjmk6msr",
@@ -254,6 +254,48 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78jwvuu2zswbmj36n",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:28.410Z"
+    },
+    {
+      "id": "ml78jwreomoxnknv59",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:28.250Z"
+    },
+    {
+      "id": "ml78jwmgu04pjg9vd4n",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:28.072Z"
+    },
+    {
+      "id": "ml78jwh2hj7fzhhgtqf",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:27.878Z"
+    },
+    {
+      "id": "ml78jwcc2hg3db5pxt9",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:27.708Z"
+    },
+    {
+      "id": "ml78jw85t35wmmme459",
+      "action": "Entrada",
+      "product": "Tonica",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:34:27.557Z"
+    },
     {
       "id": "ml78jw1ywoifbf5y95",
       "action": "Entrada",
@@ -561,49 +603,7 @@
       "product": "Poker",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:33:38.490Z"
-    },
-    {
-      "id": "ml78iu7m6ghllah146v",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:38.290Z"
-    },
-    {
-      "id": "ml78iu24t2p3r8nw9pm",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:38.092Z"
-    },
-    {
-      "id": "ml78ity5eofnv5sy3re",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:37.949Z"
-    },
-    {
-      "id": "ml78itsf02es97rmbezq",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:37.743Z"
-    },
-    {
-      "id": "ml78itnbekzu3zxlx2w",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:37.559Z"
-    },
-    {
-      "id": "ml78itis216wk2pjifn",
-      "action": "Entrada",
-      "product": "Poker",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:33:37.396Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:34:27.335Z"
+  "lastUpdated": "2026-02-03T23:34:28.410Z"
 }
