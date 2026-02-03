@@ -196,7 +196,7 @@
       "id": "mjs0kkpimrbj7vl4x0o",
       "name": "Aguila",
       "location": "bodega",
-      "qty": 66
+      "qty": 68
     },
     {
       "id": "mjs0kkpidtu8m30s7ye",
@@ -254,6 +254,20 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78e7359b933ydmdsg",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:01.697Z"
+    },
+    {
+      "id": "ml78e6tg6ciwc5y3wvr",
+      "action": "Entrada",
+      "product": "Aguila",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:01.348Z"
+    },
     {
       "id": "ml78e6k686igfnnlk3c",
       "action": "Entrada",
@@ -589,21 +603,7 @@
       "product": "RedBull",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:27.895Z"
-    },
-    {
-      "id": "ml78dgitoro1qnwxtx",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:27.269Z"
-    },
-    {
-      "id": "ml78dgdgnh330dtxy9",
-      "action": "Entrada",
-      "product": "RedBull",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:27.076Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:30:01.015Z"
+  "lastUpdated": "2026-02-03T23:30:01.698Z"
 }
