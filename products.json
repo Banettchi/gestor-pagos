@@ -250,10 +250,38 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 13
+      "qty": 17
     }
   ],
   "history": [
+    {
+      "id": "ml77nqqipges0i7i1z",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:27.450Z"
+    },
+    {
+      "id": "ml77nqlfef4y7agz0uo",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:27.267Z"
+    },
+    {
+      "id": "ml77nqgbww2g7grakyg",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:27.083Z"
+    },
+    {
+      "id": "ml77nqbe7f8k998pbfd",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:09:26.906Z"
+    },
     {
       "id": "ml77nq6hnje2n4sl8y8",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:08:47.075Z"
-    },
-    {
-      "id": "ml77mlk1qqkwniua4k",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:34.081Z"
-    },
-    {
-      "id": "ml77ml7vnwcmo7h76bb",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:33.643Z"
-    },
-    {
-      "id": "ml77mkybj4kgs0j7pjp",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:33.299Z"
-    },
-    {
-      "id": "ml77mkrli1toldqegej",
-      "action": "Salida",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:08:33.057Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:09:26.730Z"
+  "lastUpdated": "2026-02-03T23:09:27.451Z"
 }
