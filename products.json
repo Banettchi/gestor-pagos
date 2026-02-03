@@ -142,7 +142,7 @@
       "id": "mjs0kkpi3dxhxr472di",
       "name": "Coca Cola",
       "location": "bodega",
-      "qty": 2
+      "qty": 11
     },
     {
       "id": "mjs0kkpicoo1jni6gqs",
@@ -254,6 +254,69 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78b95ylrgl9cfeg9s",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:44.422Z"
+    },
+    {
+      "id": "ml78b90tfejf17qdxj",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:44.237Z"
+    },
+    {
+      "id": "ml78b8vyl41br9xfovk",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:44.062Z"
+    },
+    {
+      "id": "ml78b8rbekxqyppenb9",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:43.895Z"
+    },
+    {
+      "id": "ml78b8lrt3t0prp6r6j",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:43.695Z"
+    },
+    {
+      "id": "ml78b8gioep3kat1ods",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:43.506Z"
+    },
+    {
+      "id": "ml78b8bh9njzsumnjxl",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:43.325Z"
+    },
+    {
+      "id": "ml78b86ze0386lmfqxu",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:43.163Z"
+    },
+    {
+      "id": "ml78b80oj7c1ib67in",
+      "action": "Entrada",
+      "product": "Coca Cola",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:27:42.936Z"
+    },
     {
       "id": "ml78b7u5docr2e8793",
       "action": "Entrada",
@@ -540,70 +603,7 @@
       "product": "Club Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:12:32.256Z"
-    },
-    {
-      "id": "ml77rp7mz406r1anked",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:32.098Z"
-    },
-    {
-      "id": "ml77rp2ix9yug5ue1w",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:31.914Z"
-    },
-    {
-      "id": "ml77rowphanr6ez00wl",
-      "action": "Entrada",
-      "product": "Club Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:31.705Z"
-    },
-    {
-      "id": "ml77rojcsra9fedrexl",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:31.224Z"
-    },
-    {
-      "id": "ml77roev7yw12qat6o7",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:31.063Z"
-    },
-    {
-      "id": "ml77roauzolejd2of5j",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:30.918Z"
-    },
-    {
-      "id": "ml77ro5z5wee4ztewn5",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:30.743Z"
-    },
-    {
-      "id": "ml77ro12a41sn1a1ab9",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:30.566Z"
-    },
-    {
-      "id": "ml77rnww9yzxomi10yj",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:30.416Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:27:42.705Z"
+  "lastUpdated": "2026-02-03T23:27:44.423Z"
 }
