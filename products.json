@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 71
+      "qty": 76
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78iw8pt4cv7aymbs",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:40.921Z"
+    },
+    {
+      "id": "ml78iw3cvbrfp1o4n4",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:40.728Z"
+    },
+    {
+      "id": "ml78ivyc45xs8nhe5p9",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:40.548Z"
+    },
+    {
+      "id": "ml78ivtjfdv6fztpd5m",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:40.375Z"
+    },
+    {
+      "id": "ml78ivomp10hl8wnmu8",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:40.198Z"
+    },
     {
       "id": "ml78ivjeexb1saivexu",
       "action": "Entrada",
@@ -568,42 +603,7 @@
       "product": "Cordillera Roja",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:32:31.014Z"
-    },
-    {
-      "id": "ml78he5de58pd178bj",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:32:30.817Z"
-    },
-    {
-      "id": "ml78hdwxfvv93kuvwh",
-      "action": "Entrada",
-      "product": "Cordillera Roja",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:32:30.513Z"
-    },
-    {
-      "id": "ml78gb6n40mdui44snh",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:40.319Z"
-    },
-    {
-      "id": "ml78gaushsl849s9cuc",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:39.892Z"
-    },
-    {
-      "id": "ml78gaiy4p7dnhw3368",
-      "action": "Entrada",
-      "product": "Cordillera Mestiza",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:31:39.466Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:33:40.011Z"
+  "lastUpdated": "2026-02-03T23:33:40.922Z"
 }
