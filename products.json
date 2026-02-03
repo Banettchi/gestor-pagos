@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 88
+      "qty": 91
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78iyhf9jrkbq7gctw",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:43.827Z"
+    },
+    {
+      "id": "ml78iyc12qc1koesogr",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:43.633Z"
+    },
+    {
+      "id": "ml78iy75uyn1wzkngo",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:33:43.457Z"
+    },
     {
       "id": "ml78iy1dbnxdty5i6an",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Cordillera Rosada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:32:41.079Z"
-    },
-    {
-      "id": "ml78hlikk34o54yba3",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:32:40.364Z"
-    },
-    {
-      "id": "ml78hlefm5y354q2n2",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:32:40.215Z"
-    },
-    {
-      "id": "ml78hl9j6amx3p2fkkj",
-      "action": "Entrada",
-      "product": "Cordillera Rosada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:32:40.039Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:33:43.249Z"
+  "lastUpdated": "2026-02-03T23:33:43.827Z"
 }
