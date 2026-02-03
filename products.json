@@ -202,7 +202,7 @@
       "id": "mjs0kkpidtu8m30s7ye",
       "name": "Aguila Light",
       "location": "bodega",
-      "qty": 11
+      "qty": 6
     },
     {
       "id": "mjs0kkpi9mxq8dzomnu",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78cint9t2jxwiu81k",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:43.385Z"
+    },
+    {
+      "id": "ml78cif4mnaoow19mzb",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:43.072Z"
+    },
+    {
+      "id": "ml78cia03xx7a21rgkk",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:42.888Z"
+    },
+    {
+      "id": "ml78ci53pdx1622zmqd",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:42.711Z"
+    },
+    {
+      "id": "ml78ci06zbztmmzw9qb",
+      "action": "Salida",
+      "product": "Aguila Light",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:42.534Z"
+    },
     {
       "id": "ml78chu7xlarq8m4kio",
       "action": "Salida",
@@ -568,42 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:28:20.459Z"
-    },
-    {
-      "id": "ml78c0u4rcwmetzloud",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:20.284Z"
-    },
-    {
-      "id": "ml78c0owiwdgfzths8",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:20.096Z"
-    },
-    {
-      "id": "ml78c0iq11x0nfr6jru",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:19.874Z"
-    },
-    {
-      "id": "ml78c0d6wd5sv61ojud",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:19.674Z"
-    },
-    {
-      "id": "ml78c086zsedcqv7gib",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:19.494Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:42.320Z"
+  "lastUpdated": "2026-02-03T23:28:43.386Z"
 }
