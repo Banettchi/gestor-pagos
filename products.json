@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 31
+      "qty": 38
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,55 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77qmhqfungrtx2tmf",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:41.918Z"
+    },
+    {
+      "id": "ml77qmagu98s3q6r9i9",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:41.656Z"
+    },
+    {
+      "id": "ml77qlcg2ukgdo141yv",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:40.432Z"
+    },
+    {
+      "id": "ml77ql7kv7127y7ykz",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:40.256Z"
+    },
+    {
+      "id": "ml77ql2ziqt5siv998f",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:40.091Z"
+    },
+    {
+      "id": "ml77qky482c2ol3hjyw",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:39.916Z"
+    },
+    {
+      "id": "ml77qktqlfbebdja4db",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:11:39.758Z"
+    },
     {
       "id": "ml77qkorunwso5pdxa9",
       "action": "Entrada",
@@ -554,56 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:09:18.443Z"
-    },
-    {
-      "id": "ml77njkk233blukj1xq",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:18.164Z"
-    },
-    {
-      "id": "ml77njbfjenogiznsu",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:17.835Z"
-    },
-    {
-      "id": "ml77nj6l8083qjl6g4q",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:17.661Z"
-    },
-    {
-      "id": "ml77nj1l552ik3cbjan",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:17.481Z"
-    },
-    {
-      "id": "ml77nivjidm9ju5whnl",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:17.263Z"
-    },
-    {
-      "id": "ml77niqg6n5qpmerctf",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:17.080Z"
-    },
-    {
-      "id": "ml77niluy8z21c6atld",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:09:16.914Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:11:39.588Z"
+  "lastUpdated": "2026-02-03T23:11:41.922Z"
 }
