@@ -250,10 +250,31 @@
       "id": "mjs0kkpiggdq9809yxm",
       "name": "BBC Rose",
       "location": "bodega",
-      "qty": 31
+      "qty": 32
     }
   ],
   "history": [
+    {
+      "id": "ml78er0devj9kq4r8vv",
+      "action": "Salida",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:27.517Z"
+    },
+    {
+      "id": "ml78eqlyibwy5qimric",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:26.998Z"
+    },
+    {
+      "id": "ml78eqdz92wsacz4ujq",
+      "action": "Entrada",
+      "product": "BBC Rose",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:26.711Z"
+    },
     {
       "id": "ml78eq96j8w7arlqif",
       "action": "Entrada",
@@ -582,28 +603,7 @@
       "product": "Stella",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:33.481Z"
-    },
-    {
-      "id": "ml78dl6k7el7q450hp",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:33.308Z"
-    },
-    {
-      "id": "ml78dl1rolpprcrdxke",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:33.135Z"
-    },
-    {
-      "id": "ml78dkwmmp9voxpz39",
-      "action": "Entrada",
-      "product": "Stella",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:32.950Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:30:26.539Z"
+  "lastUpdated": "2026-02-03T23:30:27.518Z"
 }
