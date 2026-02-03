@@ -190,7 +190,7 @@
       "id": "mjs0kkpiaoj4w0iclq",
       "name": "Poker",
       "location": "bodega",
-      "qty": 36
+      "qty": 40
     },
     {
       "id": "mjs0kkpimrbj7vl4x0o",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78d7rhfp1b0ca9w7",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:15.917Z"
+    },
+    {
+      "id": "ml78d7mf0s71b1vc2zk",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:15.735Z"
+    },
+    {
+      "id": "ml78d7gp5py56of6prf",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:15.529Z"
+    },
+    {
+      "id": "ml78d7bjlxje8ags42n",
+      "action": "Entrada",
+      "product": "Poker",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:29:15.343Z"
+    },
     {
       "id": "ml78d76ur9lhw56bku",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Corona",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:28:26.883Z"
-    },
-    {
-      "id": "ml78c5spjooz5olseo",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:26.713Z"
-    },
-    {
-      "id": "ml78c5noarx38ekrtyt",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:26.532Z"
-    },
-    {
-      "id": "ml78c5ip4z6m2cjrbsy",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:26.353Z"
-    },
-    {
-      "id": "ml78c5dhu4fp3av715b",
-      "action": "Entrada",
-      "product": "Corona",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:28:26.165Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:29:15.177Z"
+  "lastUpdated": "2026-02-03T23:29:15.917Z"
 }
