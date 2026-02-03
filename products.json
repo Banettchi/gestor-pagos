@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 183
+      "qty": 188
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78f7f4ealioh0k9xq",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:48.784Z"
+    },
+    {
+      "id": "ml78f7a47mk6xw40dro",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:48.604Z"
+    },
+    {
+      "id": "ml78f74oxcr33io4zkc",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:48.408Z"
+    },
+    {
+      "id": "ml78f6zojbjxhqbjej",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:48.228Z"
+    },
+    {
+      "id": "ml78f6uv83orwk2w3ml",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:30:48.055Z"
+    },
     {
       "id": "ml78f6q6a0imzxje93t",
       "action": "Entrada",
@@ -568,42 +603,7 @@
       "product": "Aguila",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:29:56.576Z"
-    },
-    {
-      "id": "ml78e2wlwjuf2vglt6",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:56.277Z"
-    },
-    {
-      "id": "ml78e2n32brishbfjni",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:55.935Z"
-    },
-    {
-      "id": "ml78e2fzgrwgdmbhenj",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:55.679Z"
-    },
-    {
-      "id": "ml78e287ncckjfvhh2o",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:55.399Z"
-    },
-    {
-      "id": "ml78dwuyd611rogneb",
-      "action": "Entrada",
-      "product": "Agua",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:29:48.442Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:30:47.887Z"
+  "lastUpdated": "2026-02-03T23:30:48.786Z"
 }
