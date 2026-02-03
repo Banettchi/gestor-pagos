@@ -184,7 +184,7 @@
       "id": "mjs0kkpi2rftjmk6msr",
       "name": "Corona",
       "location": "bodega",
-      "qty": 45
+      "qty": 49
     },
     {
       "id": "mjs0kkpiaoj4w0iclq",
@@ -254,6 +254,34 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78c02bjk21kv2n5r9",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:19.283Z"
+    },
+    {
+      "id": "ml78bzx953dc9git4r",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:19.101Z"
+    },
+    {
+      "id": "ml78bzsvxgya28uag7k",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:18.943Z"
+    },
+    {
+      "id": "ml78bzo8ecmtvyhb7c8",
+      "action": "Entrada",
+      "product": "Corona",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:28:18.776Z"
+    },
     {
       "id": "ml78bzjbqctlh91xmri",
       "action": "Entrada",
@@ -575,35 +603,7 @@
       "product": "Club Trigo",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:12:40.215Z"
-    },
-    {
-      "id": "ml77rv85zpkxj9gcae",
-      "action": "Entrada",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:39.893Z"
-    },
-    {
-      "id": "ml77rut4m6bv98g70x",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:39.352Z"
-    },
-    {
-      "id": "ml77ruo8m18ntjdzo1",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:39.176Z"
-    },
-    {
-      "id": "ml77ruj4dzfzkqci6il",
-      "action": "Salida",
-      "product": "Club Trigo",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:12:38.992Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:28:18.600Z"
+  "lastUpdated": "2026-02-03T23:28:19.283Z"
 }
