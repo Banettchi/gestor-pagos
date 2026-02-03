@@ -220,7 +220,7 @@
       "id": "mjs0kkpijqqkus0dtm",
       "name": "Club Dorada",
       "location": "bodega",
-      "qty": 152
+      "qty": 157
     },
     {
       "id": "mjs0kkpi52ld2qi3m9p",
@@ -254,6 +254,41 @@
     }
   ],
   "history": [
+    {
+      "id": "ml77r32ititfaxx52o",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:12:03.402Z"
+    },
+    {
+      "id": "ml77r2xhoti6jfhbdf",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:12:03.221Z"
+    },
+    {
+      "id": "ml77r2s9ln5g4h55zl",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:12:03.033Z"
+    },
+    {
+      "id": "ml77r2nx9qgnivnpoxt",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:12:02.877Z"
+    },
+    {
+      "id": "ml77r2jbiu5cb2yn2",
+      "action": "Entrada",
+      "product": "Club Dorada",
+      "details": "1 unidad(es) en bodega",
+      "timestamp": "2026-02-03T23:12:02.711Z"
+    },
     {
       "id": "ml77r2enz2g1ktb5nl",
       "action": "Entrada",
@@ -568,42 +603,7 @@
       "product": "Club Dorada",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:11:54.220Z"
-    },
-    {
-      "id": "ml77qvuh00kxk5zz4fveh",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:54.041Z"
-    },
-    {
-      "id": "ml77qvq4qwe96bivw9b",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:53.884Z"
-    },
-    {
-      "id": "ml77qvlj792rmuk5hkm",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:53.719Z"
-    },
-    {
-      "id": "ml77qvgssq1ewdavgxm",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:53.548Z"
-    },
-    {
-      "id": "ml77qvbrx0ukc5dk2me",
-      "action": "Entrada",
-      "product": "Club Dorada",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:11:53.367Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:12:02.544Z"
+  "lastUpdated": "2026-02-03T23:12:03.403Z"
 }
