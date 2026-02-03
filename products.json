@@ -82,13 +82,13 @@
       "id": "mjs0kkpifnd10v6n5a5",
       "name": "Club Roja",
       "location": "nevera",
-      "qty": 11
+      "qty": 9
     },
     {
       "id": "mjs0kkpi3mtr2uvq2a6",
       "name": "Club Trigo",
       "location": "nevera",
-      "qty": 15
+      "qty": 16
     },
     {
       "id": "mjs0kkpiwvgjf5af9a",
@@ -254,6 +254,27 @@
     }
   ],
   "history": [
+    {
+      "id": "ml78paueu377ii0d56",
+      "action": "Entrada",
+      "product": "Club Trigo",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:39.782Z"
+    },
+    {
+      "id": "ml78oyqmvelxkzutps",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:24.094Z"
+    },
+    {
+      "id": "ml78oxk6xzjs4xka77",
+      "action": "Salida",
+      "product": "Club Roja",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-02-03T23:38:22.566Z"
+    },
     {
       "id": "ml78ox12rkj7g56yfuh",
       "action": "Salida",
@@ -582,28 +603,7 @@
       "product": "Sol",
       "details": "1 unidad(es) en bodega",
       "timestamp": "2026-02-03T23:34:03.693Z"
-    },
-    {
-      "id": "ml78jdly5cqbgnzcy0h",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:03.430Z"
-    },
-    {
-      "id": "ml78jdhkfuhi2jjkev",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:03.272Z"
-    },
-    {
-      "id": "ml78jdcexzu9kguisw",
-      "action": "Entrada",
-      "product": "Sol",
-      "details": "1 unidad(es) en bodega",
-      "timestamp": "2026-02-03T23:34:03.086Z"
     }
   ],
-  "lastUpdated": "2026-02-03T23:38:21.885Z"
+  "lastUpdated": "2026-02-03T23:38:39.783Z"
 }
