@@ -22,7 +22,7 @@
       "id": "mjs0kkpiif5bdt7dxjk",
       "name": "Agua",
       "location": "nevera",
-      "qty": 0
+      "qty": 1
     },
     {
       "id": "mjs0kkpi0hpx1vsi8q1g",
@@ -254,6 +254,13 @@
     }
   ],
   "history": [
+    {
+      "id": "mmtqmy2mulfcxeygn2o",
+      "action": "Entrada",
+      "product": "Agua",
+      "details": "1 unidad(es) en nevera",
+      "timestamp": "2026-03-16T22:11:21.214Z"
+    },
     {
       "id": "mmtqdck6ysmyojptpn",
       "action": "Salida",
@@ -596,14 +603,7 @@
       "product": "Aguila Light",
       "details": "1 unidad(es) en nevera",
       "timestamp": "2026-02-03T23:37:03.938Z"
-    },
-    {
-      "id": "ml78lvm7flwi7mzm5ki",
-      "action": "Entrada",
-      "product": "Aguila",
-      "details": "1 unidad(es) en nevera",
-      "timestamp": "2026-02-03T23:36:00.079Z"
     }
   ],
-  "lastUpdated": "2026-03-16T22:03:53.440Z"
+  "lastUpdated": "2026-03-16T22:11:21.231Z"
 }
