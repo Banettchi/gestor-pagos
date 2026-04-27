@@ -72,8 +72,8 @@
       "amount": 209000,
       "dueDay": 26,
       "periodMonths": 1,
-      "paid": true,
-      "paidDate": "2026-04-27T12:27:16.045Z",
+      "paid": false,
+      "paidDate": null,
       "customName": "",
       "customEmoji": "",
       "paidAmount": 209000
@@ -83,13 +83,13 @@
       "type": "etb",
       "amount": 131000,
       "dueDay": 26,
-      "paid": true,
-      "paidDate": "2026-04-27T12:27:22.797Z",
+      "paid": false,
+      "paidDate": null,
       "customName": "",
       "customEmoji": "",
       "createdAt": "2025-12-26T16:02:53.639Z",
       "paidAmount": 131000
     }
   ],
-  "lastUpdated": "2026-04-27T12:27:40.698Z"
+  "lastUpdated": "2026-04-27T12:27:42.034Z"
 }
