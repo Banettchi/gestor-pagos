@@ -46,10 +46,11 @@
       "amount": 480000,
       "dueDay": 25,
       "periodMonths": 2,
-      "paid": false,
-      "paidDate": null,
+      "paid": true,
+      "paidDate": "2026-04-27T12:27:20.521Z",
       "customName": "",
-      "customEmoji": ""
+      "customEmoji": "",
+      "paidAmount": 480000
     },
     {
       "id": "luz-001",
@@ -90,5 +91,5 @@
       "paidAmount": 131000
     }
   ],
-  "lastUpdated": "2026-04-27T12:27:16.046Z"
+  "lastUpdated": "2026-04-27T12:27:20.521Z"
 }
