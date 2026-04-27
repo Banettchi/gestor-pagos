@@ -83,13 +83,13 @@
       "type": "etb",
       "amount": 131000,
       "dueDay": 26,
-      "paid": false,
-      "paidDate": null,
+      "paid": true,
+      "paidDate": "2026-04-27T12:27:22.797Z",
       "customName": "",
       "customEmoji": "",
       "createdAt": "2025-12-26T16:02:53.639Z",
       "paidAmount": 131000
     }
   ],
-  "lastUpdated": "2026-04-27T12:27:20.521Z"
+  "lastUpdated": "2026-04-27T12:27:22.797Z"
 }
