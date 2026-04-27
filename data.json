@@ -7,8 +7,8 @@
       "amount": 180000,
       "dueDay": 1,
       "periodMonths": 1,
-      "paid": true,
-      "paidDate": "2026-04-08T15:06:26.172Z",
+      "paid": false,
+      "paidDate": null,
       "customName": "",
       "customEmoji": "",
       "paidAmount": 180000
@@ -91,5 +91,5 @@
       "paidAmount": 131000
     }
   ],
-  "lastUpdated": "2026-04-27T12:27:25.309Z"
+  "lastUpdated": "2026-04-27T12:27:37.815Z"
 }
